@@ -26,7 +26,7 @@ header .logo {
     position: relative;
     color: #fff;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     letter-spacing: 2px;
     transition: 1.5s;
     text-decoration: none;
@@ -57,6 +57,7 @@ header ul li a {
     color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
+    font-size: 1.5em;
     transition: 0.9s;
 }
 
@@ -69,8 +70,8 @@ header.abajo ul li a {
 /*********Portada***********/
 
 .portada {
-    max-width: 100%;
-    height: auto;
+    width: 100vW;
+    height: 100vH;
 }
 
 h1 {
@@ -158,6 +159,11 @@ body {
     text-shadow: black 0.3em 0.3em 0.5em;
 }
 
+.carrusel-full {
+    width: 100vW;
+    height: 100vH;
+}
+
 
 /*****tarjetas****************/
 
@@ -169,16 +175,29 @@ body {
     text-align: center;
 }
 
+.alto-completo {
+    height: 100vh;
+}
+
+.centrador {
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenedor-tarjeta {
     display: inline-block;
     position: relative;
     max-width: 100%;
-    width: 350px;
-    height: 350px;
+    width: 375px;
+    height: 375px;
     overflow: hidden;
     border-radius: 50%;
-    margin-left: 5em;
-    margin-right: 5em;
+}
+
+.col-md {
+    align-items: center;
 }
 
 .contenedor-tarjeta img {
