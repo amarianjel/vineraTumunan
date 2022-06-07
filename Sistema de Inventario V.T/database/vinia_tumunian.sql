@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-05-2022 a las 06:14:32
+-- Tiempo de generación: 07-06-2022 a las 05:48:06
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.1
 
@@ -50,7 +50,31 @@ INSERT INTO `productos` (`productId`, `productName`, `productCode`, `stock`, `pr
 (7, 'Miel', 'M-01', 4, 10, 'Miel de la viña tumuñan', '', 'activo'),
 (8, 'Vino especial', 'VN-04', 12, 40000, 'Vino especial reserva 2016', '', 'activo'),
 (9, 'Vino reserva 2013', 'VN-05', 21, 23133, 'vino de reserva del año 2013', '', 'activo'),
+(10, 'hjklh', 'hjklh', 34, 8786, 'hjhgjkg', '', 'desactivado'),
+(11, 'fghjfhj', 'fghjfghj', 0, 0, 'fhjfghj', '', 'desactivado'),
+(12, 'jlkjkl', 'jkljlk', 4, 213, 'ghjfhgjfhgjfhj', '', 'desactivado'),
+(13, 'jlkjkl', 'jkljlk', 20, 10000, 'muy rico', '', 'desactivado');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `email` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  `name` varchar(100) COLLATE utf8_spanish_ci NOT NULL,
+  `rol` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  `pass` varchar(255) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `email`, `name`, `rol`, `pass`) VALUES
+(1, 'viniaTumunian@gmail.com', 'Pablo Chavez A.', 'admin', '$2a$08$x5GKu4apiy1f..nX6Mi4UO91XDuqij.0b7DIkVgoNVONFDe/eSI5G');
 
 --
 -- Índices para tablas volcadas
@@ -63,6 +87,12 @@ ALTER TABLE `productos`
   ADD PRIMARY KEY (`productId`);
 
 --
+-- Indices de la tabla `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -71,6 +101,12 @@ ALTER TABLE `productos`
 --
 ALTER TABLE `productos`
   MODIFY `productId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
+-- AUTO_INCREMENT de la tabla `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
