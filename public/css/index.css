@@ -1,41 +1,14 @@
 /*********Portada***********/
 
 .portada-vina {
-    width: 100vW;
     height: 100vH;
+    width: 100vW;
+    filter: brightness(75%);
 }
 
 h1 {
     font-family: "Didot", Times, serif;
 }
-
-
-/**************Imagen de Fondo Fullscreem*****************/
-
-
-/*html,
-body {
-    height: 100%;
-}
-
-body {
-    background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
-}
-
-div,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: exo, sans-serif;
-}
-
-
-*/
 
 body {
     overflow-x: hidden;
@@ -71,10 +44,9 @@ body {
 }
 
 #wraper-titulo {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #fff;
-    box-shadow: -20px -20px 10px, 20px 20px 10px #0f0;
-    border-radius: 20px;
+    text-shadow: 0 0 30px #fff;
 }
 
 #wraper-parrafo {
