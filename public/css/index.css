@@ -1,0 +1,298 @@
+/*********Portada***********/
+
+.portada-vina {
+    width: 100vW;
+    height: 100vH;
+}
+
+h1 {
+    font-family: "Didot", Times, serif;
+}
+
+
+/**************Imagen de Fondo Fullscreem*****************/
+
+
+/*html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+div,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: exo, sans-serif;
+}
+
+
+*/
+
+body {
+    overflow-x: hidden;
+}
+
+
+/***************Principio Portada**************/
+
+.overflow {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.message {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100vW;
+    height: 18vH;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    text-shadow: 0 3px 0 rgb(0, 0, 0);
+}
+
+#wraper-titulo {
+    font-size: 2.5em;
+    color: #fff;
+    box-shadow: -20px -20px 10px, 20px 20px 10px #0f0;
+    border-radius: 20px;
+}
+
+#wraper-parrafo {
+    font-size: 1.5em;
+    text-shadow: 0 3px 0 rgb(0, 0, 0);
+}
+
+
+/*****Carrusel****************/
+
+.carruselTitulo {
+    font-family: "Didot", Times, serif;
+    font-size: 4.5em;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.5em;
+}
+
+.carruselParrafo {
+    font-size: 2em;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.5em;
+}
+
+.carrusel-full {
+    width: 100vW;
+    height: 100vH;
+}
+
+
+/*****tarjetas****************/
+
+.titulo-circulos {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 6em;
+    color: black;
+    text-align: center;
+    text-shadow: rgb(124, 124, 124) 0.3em 0.3em 0.5em;
+}
+
+.alto-completo {
+    height: 100vh;
+}
+
+.centrador {
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tarjeta {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    width: 375px;
+    height: 375px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.col-md {
+    align-items: center;
+}
+
+.contenedor-tarjeta img {
+    width: 100%;
+}
+
+p {
+    font-family: "Didot", Times, serif;
+    font-size: x-large;
+}
+
+.servicios {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    text-shadow: black 0.3em 0.3em 0.5em;
+}
+
+.enunciado-tarjeta {
+    text-align: center;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+
+/*.contenedor-tarjeta {
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+}*/
+
+
+/*.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}*/
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
+}
+
+.contenedor-tarjeta:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.centro {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*Boton */
+
+.www {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    min-width: 200px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+.button::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(200px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button:hover,
+.button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+.button:hover::before,
+.button:focus::before {
+    opacity: 1;
+}
+
+.button::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+.button:hover::after,
+.button:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    100% {
+        width: 200px;
+        height: 300px;
+        opacity: 0;
+    }
+}
