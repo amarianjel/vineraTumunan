@@ -1,41 +1,15 @@
 /*********Portada***********/
 
 .portada-vina {
-    width: 100vW;
+    display: inline-block;
     height: 100vH;
+    width: 100vW;
+    filter: brightness(75%);
 }
 
 h1 {
     font-family: "Didot", Times, serif;
 }
-
-
-/**************Imagen de Fondo Fullscreem*****************/
-
-
-/*html,
-body {
-    height: 100%;
-}
-
-body {
-    background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
-}
-
-div,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: exo, sans-serif;
-}
-
-
-*/
 
 body {
     overflow-x: hidden;
@@ -71,10 +45,9 @@ body {
 }
 
 #wraper-titulo {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #fff;
-    box-shadow: -20px -20px 10px, 20px 20px 10px #0f0;
-    border-radius: 20px;
+    text-shadow: 0 0 30px #fff;
 }
 
 #wraper-parrafo {
@@ -86,16 +59,34 @@ body {
 /*****Carrusel****************/
 
 .carruselTitulo {
-    font-family: "Didot", Times, serif;
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #e4e1f1 0%, #f1ecf7 29%, #ebc5d1 67%, #ece9ba 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
     font-size: 4.5em;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.5em;
+    text-shadow: black 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-style: italic
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .carruselParrafo {
-    font-size: 2em;
+    font-family: "Didot", Times, serif;
+    font-size: 1.5em;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.5em;
+    text-shadow: 0px 0px 10px #df0d0d;
 }
 
 .carrusel-full {
