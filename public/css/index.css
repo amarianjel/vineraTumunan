@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-family: "Didot", Times, serif;
+    font-family: "arial", serif;
 }
 
 body {
@@ -32,6 +32,7 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font: oblique bold 120% cursive;
     width: 100vW;
     height: 18vH;
     bottom: 0;
@@ -51,7 +52,7 @@ body {
 }
 
 #wraper-parrafo {
-    font-size: 1.5em;
+    font-size: x-large;
     text-shadow: 0 3px 0 rgb(0, 0, 0);
 }
 
@@ -70,10 +71,10 @@ body {
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    font-family: sans-serif;
     font-size: 4.5em;
-    text-shadow: black 10px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-    font-style: italic
+    font-style: normal;
 }
 
 @keyframes textclip {
@@ -85,6 +86,7 @@ body {
 .carruselParrafo {
     font-family: "Didot", Times, serif;
     font-size: 1.5em;
+    font-style: italic;
     color: white;
     text-shadow: 0px 0px 10px #df0d0d;
 }
@@ -92,6 +94,7 @@ body {
 .carrusel-full {
     width: 100vW;
     height: 100vH;
+    filter: brightness(95%);
 }
 
 
@@ -108,6 +111,10 @@ body {
 
 .alto-completo {
     height: 100vh;
+}
+
+.image:hover {
+    filter: blur(5px);
 }
 
 .centrador {
@@ -153,28 +160,13 @@ p {
     color: #fff;
 }
 
-
-/*.contenedor-tarjeta {
-    position: relative;
-    height: auto;
-    max-width: 100%;
-    max-height: 400px;
-}*/
-
-
-/*.image {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-}*/
-
 .overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     overflow: hidden;
     width: 100%;
     height: 0;
