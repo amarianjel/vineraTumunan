@@ -23,6 +23,7 @@ router.get('/', (req, res) => {
     res.render('index');
 })
 
+
 router.get('/catalogo', (req, res) => {
     conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
         if (error) {
@@ -33,7 +34,9 @@ router.get('/catalogo', (req, res) => {
     })
 
 })
-
+router.get('/galeria', (req, res) => {
+    res.render('galeria');
+})
 
 //
 router.get('/data', (req, res) => {

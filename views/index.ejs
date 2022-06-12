@@ -14,27 +14,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Tumuñan</title>
 
-
 </head>
 
 <body>
-    <header>
+    <header class="alto-completo">
         <div class="text-obscuro">
             <%- include("nav-footer/nav") %>
+                <img class="portada-vina" src="resources/images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg">
+        </div>
+        <div class="wrapper">
+            <div class="message">
+                <a class="navbar-brand" id="wraper-titulo" href="/">Viña <span>Tumuñan</span></a>
+                <p id="wraper-parrafo">Ven y disfruta de las maravillas de nuestra tierra</p>
+            </div>
         </div>
 
     </header>
     <main>
-        <section>
-            <img class="portada-vina" src="resources/images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg">
-            <div class="wrapper">
-                <div class="message">
-                    <a class="navbar-brand" id="wraper-titulo" href="/">Viña <span>Tumuñan</span></a>
-                    <p id="wraper-parrafo">Ven y disfruta de las maravillas de nuestra tierra</p>
-                </div>
-            </div>
-        </section>
-
         <!--Carrusel-->
         <section>
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -100,101 +96,87 @@
         </section>
 
         <!--Tarjetas-->
-        <section>
-            <div class="container-tarjetas">
-                <div class="row g-2">
-                    <div class="col">
-                        <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
+        <section class="tarjetas">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
+                </div>
+                <div class="col-xl-4">
+                    <div style="text-align:center;padding-top:0.5em;">
+                        <img src="/resources/images/logo-svg.svg" style="width:15vW;">
+                    </div>
+                    <br>
+                    <div>
+                        <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
                     </div>
                 </div>
-                <div class="row g-2">
-                    <div class="col-md p-3">
-                        <div style="text-align:center;">
-                            <img src="/resources/images/logo-svg.svg" style="width:15vW;">
-                        </div>
-                        <br>
-                        <div>
-                            <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
-                        </div>
-                    </div>
-                    <div class="col-md p-3 centrador">
-                        <div class="contenedor-tarjeta">
-                            <img src="resources/images/bed/Chalet/Website Only/King Suite 4.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="centro">
-                                    <div>
-                                        <i class="fa-solid fa-bed"></i>
-                                    </div>
-                                    <h4 class="enunciado-tarjeta">Alojamientos</h4><br>
-                                    <div class="www">
-                                        <button class="button">Ver Más</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md p-3 centrador">
-                        <div class="contenedor-tarjeta">
-                            <img src="resources/images/activities/Wine Tours/wine tasting.png" class="image ">
-                            <div class="overlay ">
-                                <div class="centro ">
-                                    <div>
-                                        <i class="bi bi-chat-left-heart "></i>
-                                    </div>
-                                    <h4 class="enunciado-tarjeta ">Eventos</h4><br>
-                                    <div class="www ">
-                                        <button class="button ">Ver Más</button>
-                                    </div>
+                <div class="col-xl-4 text-center">
+                    <div class="contenedor-tarjeta">
+                        <img src="resources/images/bed/Chalet/Website Only/King Suite 4.jpg" style="width: 100%; height:100%;" class="image ">
+                        <div class="overlay">
+                            <div class="centro-circulo">
+                                <i class="bi bi-chat-left-heart "></i>
+                                <h4 class="enunciado-tarjeta ">Alojamiento</h4><br>
+                                <div class="www ">
+                                    <button class="button ">Ver Más</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-2 ">
-                    <div class="col-md p-3 centrador ">
-                        <div class="contenedor-tarjeta ">
-                            <img src="resources/images/food_Wine/TLwinelabel.jpg" style="transform: scale(1.5); " alt="Avatar " class="image ">
-                            <div class="overlay ">
-                                <div class="centro ">
-                                    <div>
-                                        <i class="fa-solid fa-champagne-glasses "></i>
-                                    </div>
-                                    <h4 class="enunciado-tarjeta ">Vinos</h4><br>
-                                    <div class="www ">
-                                        <a class="button " href="/catalogo ">Ver Más</a>
-                                    </div>
+                <div class="col-xl-4 text-center">
+                    <div class="contenedor-tarjeta">
+                        <img src="resources/images/activities/Wine Tours/wine tasting.png" class="image ">
+                        <div class="overlay">
+                            <div class="centro-circulo">
+                                <i class="bi bi-chat-left-heart "></i>
+                                <h4 class="enunciado-tarjeta ">Eventos</h4><br>
+                                <div class="www ">
+                                    <button class="button ">Ver Más</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md p-3 centrador ">
-                        <div class="contenedor-tarjeta ">
-                            <img src="resources/images/activities/Hiking/ridingview.jpg " style="transform: scale(2); " class="image ">
-                            <div class="overlay ">
-                                <div class="centro ">
-                                    <div>
-                                        <i class="fa-solid fa-mountain "></i>
-                                    </div>
-                                    <h4 class="enunciado-tarjeta ">Excursiones</h4><br>
-                                    <div class="www ">
-                                        <button class="button ">Ver Más</button>
-                                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 text-center">
+                    <div class="contenedor-tarjeta ">
+                        <img src="resources/images/food_Wine/TLwinelabel.jpg" style="transform: scale(1.5); " alt="Avatar " class="image ">
+                        <div class="overlay ">
+                            <div class="centro-circulo">
+                                <i class="fa-solid fa-champagne-glasses "></i>
+                                <h4 class="enunciado-tarjeta ">Vinos</h4><br>
+                                <div class="www ">
+                                    <a class="button " href="/catalogo ">Ver Más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md p-3 centrador ">
-                        <div class="contenedor-tarjeta ">
-                            <img src="resources/images/bed/IMG_5637.jpg " style="transform: scale(2); " alt="Avatar " class="image ">
-                            <div class="overlay ">
-                                <div class="centro ">
-                                    <div>
-                                        <i class="fa-solid fa-gift "></i>
-                                    </div>
-                                    <h4 class="enunciado-tarjeta ">Promociones</h4><br>
-                                    <div class="www ">
-                                        <button class="button ">Ver Más</button>
-                                    </div>
+                </div>
+                <div class="col-xl-4 text-center">
+                    <div class="contenedor-tarjeta ">
+                        <img src="resources/images/activities/Hiking/ridingview.jpg " style="transform: scale(2); " class="image ">
+                        <div class="overlay ">
+                            <div class="centro-circulo">
+                                <i class="fa-solid fa-mountain "></i>
+                                <h4 class="enunciado-tarjeta ">Excursiones</h4><br>
+                                <div class="www ">
+                                    <button class="button ">Ver Más</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 text-center">
+                    <div class="contenedor-tarjeta ">
+                        <img src="resources/images/bed/IMG_5637.jpg " style="transform: scale(2); " alt="Avatar " class="image ">
+                        <div class="overlay ">
+                            <div class="centro-circulo">
+                                <i class="fa-solid fa-gift "></i>
+                                <h4 class="enunciado-tarjeta ">Promociones</h4><br>
+                                <div class="www ">
+                                    <button class="button ">Ver Más</button>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +184,6 @@
                 </div>
             </div>
         </section>
-
         <!--Video-->
         <section>
             <div class="ratio ratio-21x9 alto-completo ">
