@@ -37,8 +37,10 @@ router.get('/catalogo', (req, res) => {
 router.get('/galeria', (req, res) => {
     res.render('galeria');
 })
-
-//
+router.get('/alojamientos', (req, res) => {
+        res.render('alojamientos');
+    })
+    //
 router.get('/data', (req, res) => {
     conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
         if (error) {
