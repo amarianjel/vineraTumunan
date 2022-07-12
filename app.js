@@ -21,6 +21,13 @@ app.set('view engine', 'ejs');
 
 app.use('/', require('./router'));
 
-app.listen(4000, () => {
-    console.log('SERVER corriendo en http://localhost:4000 ');
+// app.listen(4000, () => {
+//     console.log('SERVER corriendo en http://localhost:4000 ');
+// });
+
+// TODO: Configuración del puerto para Heroku
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+    console.log('SERVER corriendo en', PORT);
 });
