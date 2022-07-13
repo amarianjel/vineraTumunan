@@ -32,13 +32,26 @@ router.get('/catalogo', (req, res) => {
             res.render('catalogoProductos', { results: results });
         }
     })
-
 })
 router.get('/galeria', (req, res) => {
     res.render('galeria');
 })
+router.get('/alojamientos', (req, res) => {
+        res.render('alojamientos');
+    })
+    /***********************************Rutas en Ingles ****************/
+router.get('/en', (req, res) => {
+    res.render('en/index');
+})
 
-//
+/**************** */
+
+/***********************************Rutas en Portugues ****************/
+router.get('/po', (req, res) => {
+    res.render('po/index');
+})
+
+/**************** */
 router.get('/data', (req, res) => {
     conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
         if (error) {
@@ -50,11 +63,5 @@ router.get('/data', (req, res) => {
     })
 })
 
-router.get('/shop', (req, res) => {
-    res.render('shop');
-})
-router.get('/test', (req, res) =>{
-    res.render('shop.js');
-})
 
 module.exports = router;
