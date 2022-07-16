@@ -33,6 +33,15 @@ router.get('/catalogo', (req, res) => {
         }
     })
 })
+router.get('/shop', (req, res) =>{
+    conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
+        if (error) {
+            throw error;
+        } else {
+            res.render('shop', { results: results });
+        }
+    })
+})
 router.get('/galeria', (req, res) => {
     res.render('galeria');
 })
