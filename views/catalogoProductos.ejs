@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    holi
+    
     <%- include("nav-footer/nav") %>
 
     <!--Portada-->
@@ -48,7 +48,7 @@
                                 <h4 class="product-select">Seleccione sus Productos</h4>
                                 <select class="selectpicker" multiple>
                                     <% results.forEach((product)=> { %>
-                                    <option name="productName"><%= product.productName %></option>
+                                    <option name="name"><%= product.name %></option>
                                     <% }) %>
                                 </select>
                             </div>
@@ -67,26 +67,26 @@
                                                     class="d-flex align-items-center justify-content-center"><span
                                                         class="flaticon-shopping-bag"></span></a>
                                                 <a href="#" class="d-flex align-items-center justify-content-center"
-                                                    data-toggle="modal" data-target="#<%= product.productName%>"><span
+                                                    data-toggle="modal" data-target="#<%= product.name%>"><span
                                                         class="flaticon-visibility"></span></a>
                                             </p>
                                         </div>
                                     </div>
                                     <div class="text text-center">
                                         <span class="category">Tipo Vino</span>
-                                        <h2 name="productName">
-                                            <%= product.productName %>
+                                        <h2 name="name">
+                                            <%= product.name %>
                                         </h2>
-                                        <span class="price" name="price"><%= product.price %></span>
+                                        <span class="price" name="sale_price"><%= product.sale_price %></span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="modal" id="<%= product.productName %>" tabindex="-1" role="dialog">
+                            <div class="modal" id="<%= product.name %>" tabindex="-1" role="dialog">
                                 <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title"><%= product.productName%></h5>
+                                            <h5 class="modal-title"><%= product.name%></h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -95,11 +95,11 @@
                                             <div class="container">
                                                 <div class="row">
                                                     <div class="col-lg-6 mb-5 ftco-animate" style="align-self: center;">
-                                                        <img src="<%= product.imageUrl%>" alt="" width="100%">
+                                                        <img src="" alt="" width="100%">
                                                     </div>
                                                     <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                                                        <h3><%= product.productName%></h3>
-                                                        <p class="price"><span><%= product.price%></span></p>
+                                                        <h3><%= product.name%></h3>
+                                                        <p class="price"><span><%= product.sale_price%></span></p>
                                                         <p><%= product.description%></p>
                                                         <div class="row mt-4">
                                                             <div class="input-group col-md-6 d-flex mb-3">
@@ -123,7 +123,7 @@
                                                             </div>
                                                             <div class="w-100"></div>
                                                             <div class="col-md-12">
-                                                                <p style="color: #000;"><%= product.stock%> productos
+                                                                <p style="color: #000;"><%= product.quantity%> productos
                                                                     disponibles</p>
                                                             </div>
                                                         </div>

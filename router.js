@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 
 
 router.get('/catalogo', (req, res) => {
-    conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
+    conexion.query('SELECT * FROM products', (error, results) => {
         if (error) {
             throw error;
         } else {
@@ -33,6 +33,12 @@ router.get('/catalogo', (req, res) => {
         }
     })
 })
+
+
+router.get('/formularioCompra', (req, res) => {
+    res.render('formularioCompra');
+})
+
 router.get('/galeria', (req, res) => {
     res.render('galeria');
 })
@@ -53,7 +59,7 @@ router.get('/po', (req, res) => {
 
 /**************** */
 router.get('/data', (req, res) => {
-    conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
+    conexion.query('SELECT * FROM products', (error, results) => {
         if (error) {
             throw error;
         } else {
