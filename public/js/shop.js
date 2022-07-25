@@ -5,8 +5,9 @@ let i = 0;
 
 products.addEventListener('click', e =>{
     if(e.target.classList.contains('flaticon-shopping-bag')){
-        let name = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.children[1].children[1].textContent.trim();
-        cant[i] = name;
+        console.log(e.target.parentElement.id);
+        let id = e.target.parentElement.id;
+        cant[i] = id;
         
         i++;
     }

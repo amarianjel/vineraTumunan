@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Compra</title>
     <link rel="stylesheet" href="resources/css/cart.css" class="style">
 </head>
 <body>
@@ -15,6 +15,7 @@
     <div class="title">Compra</div>
 
     <div class="container">
+        <% let total = 0 %>
         <div class="data">
             <div class="table-row">
                 <table class="items-table">
@@ -28,9 +29,9 @@
                     </thead>
                     <tbody id="testBody"></tbody>
                     <% results.forEach((product)=> { %>
-                        <tr>
-                            <td id="<%= product.productId %>"><%= product.productName %></td>
-                            <td><input type="number" placeholder="1"></td>
+                        <tr id="<%= product.productId %>">
+                            <td><%= product.productName %></td>
+                            <td><input type="number" min="1" placeholder="1"></td>
                             <td id="price"><%= product.price%></td>
                             <td>
                                 <button class='btn-less'>-</button>
@@ -38,7 +39,7 @@
                                 <button class='btn-dark'>X</button>
                             </td>
                         </tr>
-                    <% }) %>
+                    <% total = total + parseInt(product.price)}) %>
                 </table>
             </div>
         </div>
@@ -46,7 +47,8 @@
             <div class="total" id="final-check">
                 <h5>Total:</h5>
                 <div class="total_price">
-                    <h2 id="total_buy"></h2>
+            <!-- Añadir metodo. Al presionar el input de cantidad se debe actulizar el precio-->
+                    <h2 id="total_buy"><%= total%></h2>
                     &nbsp
                     <h2>CLP$</h2>
                 </div>
