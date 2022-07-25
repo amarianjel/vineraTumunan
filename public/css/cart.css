@@ -6,9 +6,9 @@ body{
     background-color: #ededed;
 }
 .nav-bar{
-    height: 150px;
-    background-color: #1a1a1a;
-    background-image: src("resources/images/bg_guy.jpg");
+    height: 250px;
+    background-image: url(resources/images/bg_buy.jpg);
+    background-position: 100% 0%;
 }
 .container{
     width: 100%;
