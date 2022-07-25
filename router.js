@@ -34,7 +34,7 @@ router.get('/catalogo', (req, res) => {
     })
 })
 router.get('/shop', (req, res) =>{
-    conexion.query('SELECT * FROM productos WHERE estado="activo"', (error, results) => {
+    conexion.query('SELECT * FROM productos', (error, results) => {
         if (error) {
             throw error;
         } else {
