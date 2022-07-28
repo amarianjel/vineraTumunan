@@ -57,10 +57,10 @@
 					<div class="social-icons">
 						<ul>
 							<li><a href="https://www.facebook.com/tumunan.lodge/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="www.google.cl" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li> (En blanco, por mientras)-->
 							<li><a href="https://www.instagram.com/vina_tumunan/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<!--<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> (En blanco, por mientras)-->
+							<!-- <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li> (En blanco, por mientras)-->
 						</ul>
 					</div>
 				</div>
