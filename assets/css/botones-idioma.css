@@ -1,0 +1,12 @@
+.imgIdioma {
+    width: 2em;
+    height: auto;
+    margin: 5px 2px 5px 2px;
+}
+
+.titulo-idioma {
+    display: inline-block;
+    color: rgb(233, 232, 232);
+    font-family: 'Times New Roman', Times, serif;
+    font: size 12px;
+}
