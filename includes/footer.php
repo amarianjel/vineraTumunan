@@ -20,14 +20,14 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box pages">
-						<h2 class="widget-title">Indice</h2>
+						<h2 class="widget-title">Indice.</h2>
 						<ul>
-							<li><a href="index.html">Inicio</a></li>
-							<li><a href="about.html">Sobre Nosotros</a></li>
-							<li><a href="services.html">Reservas</a></li>
-							<li><a href="news.html">Noticias</a></li>
-							<li><a href="contact.html">Contacto</a></li>
-							<li><a href="tienda.html">Tienda</a></li>
+							<li><a href="index.php">Inicio.</a></li>
+							<li><a href="about.html">Sobre Nosotros.</a></li>
+							<li><a href="services.html">Reservas.</a></li>
+							<li><a href="news.html">Noticias.</a></li>
+							<li><a href="contact.html">Contacto.</a></li>
+							<li><a href="tienda.php">Tienda.</a></li>
 						</ul>
 					</div>
 				</div>
