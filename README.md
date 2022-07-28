@@ -6,4 +6,4 @@ INSTALACIÓN
 
 3.-Crear una bd en PhpMyAdmin con el nombre de tienda_online y copiar el contenido de tienda_online.sql que se encuentra en la carpeta config
 
-4-Abri la siguiente direccion http://localhost/vineratumunan/
+4-Abrir la siguiente direccion http://localhost/vineratumunan/
