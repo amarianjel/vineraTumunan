@@ -24,7 +24,7 @@
 						<ul>
 							<li><a href="index.php">Inicio.</a></li>
 							<li><a href="about.html">Sobre Nosotros.</a></li>
-							<li><a href="services.html">Reservas.</a></li>
+							<li><a href="services.html">Reserva.</a></li>
 							<li><a href="news.html">Noticias.</a></li>
 							<li><a href="contact.html">Contacto.</a></li>
 							<li><a href="tienda.php">Tienda.</a></li>
