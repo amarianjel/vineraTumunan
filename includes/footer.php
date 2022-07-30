@@ -23,10 +23,10 @@
 						<h2 class="widget-title">Indice.</h2>
 						<ul>
 							<li><a href="index.php">Inicio.</a></li>
-							<li><a href="about.html">Sobre Nosotros.</a></li>
-							<li><a href="services.html">Reserva.</a></li>
-							<li><a href="news.html">Noticias.</a></li>
-							<li><a href="contact.html">Contacto.</a></li>
+							<li><a href="about.php">Sobre Nosotros.</a></li>
+							<li><a href="services.php">Reserva.</a></li>
+							<li><a href="news.php">Noticias.</a></li>
+							<li><a href="contact.php">Contacto.</a></li>
 							<li><a href="tienda.php">Tienda.</a></li>
 						</ul>
 					</div>
