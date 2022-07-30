@@ -13,21 +13,21 @@ $mail = new PHPMailer(true);
 
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_OFF;                //Enable verbose debug output
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                //Enable verbose debug output
     $mail->isSMTP();
     $mail->Host       = MAIL_HOST;                     //Configure el servidor SMTP para enviar
     $mail->SMTPAuth   = true;                          // Habilita la autenticación SMTP
     $mail->Username   = MAIL_USER;                     //Usuario SMTP
     $mail->Password   = MAIL_PASS;                     //Contraseña SMTP                             
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   //Habilitar el cifrado TLS
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   //Habilitar el cifrado TLS   SMTPS
     $mail->Port       = MAIL_PORT;                     //Puerto TCP al que conectarse, si usa 587 agregar `SMTPSecure = PHPMailer :: ENCRYPTION_STARTTLS`
 
     //Correo emisor y nombre
-    $mail->setFrom(MAIL_USER, 'CDP');
+    $mail->setFrom(MAIL_USER, 'ViñaTumuñanLodge');
     //Correo receptor y nombre
-    $mail->addAddress('contacto@codigosdeprogramacion.com', 'Contacto CDP');
+    $mail->addAddress('email@correo.com', 'usuario');
     //Enviar copia correo
-    $mail->addReplyTo('contacto@codigosdeprogramacion.com');
+    /* $mail->addReplyTo('maquinixrifa2@gmail.com'); */
 
     //Contenido
     $mail->isHTML(true);   //Establecer el formato de correo electrónico en HTML

@@ -6,8 +6,8 @@ define("KEY_TOKEN", "TU_TOKEN");
 define("MONEDA", "$");
 
 //Configuración para Paypal
-define("CLIENT_ID", "TU_CLIENT_ID_PAYPAL");
-define("CURRENCY", "CLP");
+define("CLIENT_ID", "AWhQMptfFe9I3ZltfYbhTfozJ-1TjA5MrwN0pFLmCfsSPxx2U_O0Dlyr8xpDmcP5NI64bo4Bku3hAhjn");
+define("CURRENCY", "USD");
 
 //Configuración para Mercado Pago
 define("TOKEN_MP", "TEST-XXXXXXXXX");
@@ -16,10 +16,10 @@ define("LOCALE_MP", "es-MX");
 
 
 //Datos para envio de correo electronico
-define("MAIL_HOST", "mail.dominio.com");
-define("MAIL_USER", "tu_correo@dominio.com");
-define("MAIL_PASS", "tu_password");
-define("MAIL_PORT", "tu_puerto");
+define("MAIL_HOST", "host");
+define("MAIL_USER", "email");
+define("MAIL_PASS", "clave");
+define("MAIL_PORT", "puerto");
 
 session_start();
 

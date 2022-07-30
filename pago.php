@@ -141,8 +141,8 @@ if ($productos != null) {
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Añade tus productos favoritos al carrito</i></p>
-						<h1>Carrito de compras</h1>
+						<p>Realiza tus pagos de una forma segura con nuestros medios de pago</i></p>
+						<h1>Detalles de pago</h1>
 					</div>
 				</div>
 			</div>
@@ -150,80 +150,177 @@ if ($productos != null) {
 	</div>
 	<!-- end breadcrumb section -->
 
+    <!-- check out section -->
     <main>
-        <div class="container">
+        <div class="checkout-section mt-150 mb-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="checkout-accordion-wrap">
+                            <div class="accordion" id="accordionExample">
+                            <div class="card single-accordion">
+                                <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Datos Básicos
+                                    </button>
+                                </h5>
+                                </div>
 
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-12">
-                    <h4>Detalles de pago</h4>
-                    <div lcass="row">
-                        <div class="col-10">
-                            <div id="paypal-button-container"></div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="billing-address-form">
+                                        <form action="index.html">
+                                            <p><input type="text" placeholder="Nombre"></p>
+                                            <p><input type="text" placeholder="Apellido"></p>
+                                            <p><input type="text" placeholder="Rut"></p>
+                                            <p><input type="email" placeholder="Email"></p>
+                                            <p><input type="tel" placeholder="Numero de telefono"></p>
+                                        </form>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card single-accordion">
+                                <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Datos de envío
+                                    </button>
+                                </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="billing-address-form">
+                                        <form action="index.html">
+                                                <p><select class="billing-address-form" style="width:100%;">
+                                                        <option>I de Tarapacá</option>
+                                                        <option>I de Antofagasta</option>
+                                                        <option>III de Atacama</option>
+                                                        <option>V de Coquimbo</option>
+                                                        <option>V de Valparaíso</option>
+                                                        <option>VI del Libertador General Bernardo O'Higgins</option>
+                                                        <option>VII del Maule</option>
+                                                        <option>XVI de Ñuble</option>
+                                                        <option>VIII del Bío Bío</option>
+                                                        <option>IX de la Araucanía</option>
+                                                        <option>XIV de los Ríos</option>
+                                                        <option>X de los Lagos</option>
+                                                        <option>XI Aysén del General Carlos Ibáñez del Campo</option>
+                                                        <option>XII de Magallanes y Antártica Chilena</option>
+                                                        <option>Metropolitana de Santiago</option>
+                                                        <option>XV de Arica y Parinacota</option>
+                                                    </select></p>
+                                                <p><input type="text" placeholder="Ciudad"></p>
+                                                <p><input type="email" placeholder="Calle"></p>
+                                                <p><input type="tel" placeholder="Número"></p>
+                                        </form>   
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- <div class="card single-accordion">
+                                <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Medios de pago
+                                    </button>
+                                </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    
+                                </div>
+                                </div>
+                            </div> -->
+                            </div>
+
                         </div>
                     </div>
 
-                    <div lcass="row">
-                        <div class="col-10 text-center">
-                            <div class="checkout-btn"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7 col-md-7 col-sm-12">
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Producto</th>
-                                    <th>Subtotal</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php
-                                if ($lista_carrito == null) {
-                                    echo '<tr><td colspan="5" class="text-center"><b>Lista vacia</b></td></tr>';
-                                } else {
-                                    $total = 0;
-                                    foreach ($lista_carrito as $producto) {
-                                        $descuento = $producto['descuento'];
-                                        $precio = $producto['precio'];
-                                        $cantidad = $producto['cantidad'];
-                                        $precio_desc = $precio - (($precio * $descuento) / 100);
-                                        $subtotal = $cantidad * $precio_desc;
-                                        $total += $subtotal;
-
-                                        $item = new MercadoPago\Item();
-                                        $item->id = $producto['id'];
-                                        $item->title = $producto['nombre'];
-                                        $item->quantity = $cantidad;
-                                        $item->unit_price = $precio_desc;
-                                        $item->currency_id = CURRENCY;
-
-                                        array_push($productos_mp, $item);
-                                        unset($item);
-                                ?>
-                                        <tr>
-                                            <td><?php echo $producto['nombre']; ?></td>
-                                            <td><?php echo $cantidad . ' x ' . MONEDA . '<b>' . number_format($subtotal, 2, '.', ',') . '</b>'; ?></td>
-                                        </tr>
-                                    <?php } ?>
-
+                    <div class="col-lg-4">
+                        <div class="order-details-wrap">
+                            <table class="order-details">
+                                <thead>
                                     <tr>
-                                        <td colspan="2">
-                                            <p class="h3 text-end" id="total"><?php echo MONEDA . number_format($total, 2, '.', ','); ?></p>
-                                        </td>
+                                        <th>Detalles de su compra</th>
+                                        <th>Precio</th>
                                     </tr>
+                                </thead>
+                                <tbody class="order-details-body">
+                                    <tr>
+                                        <?php
+                                            if ($lista_carrito == null) {
+                                                echo '<tr><td colspan="5" class="text-center"><b>Lista vacia</b></td></tr>';
+                                            } else {
+                                                $total = 0;
+                                                foreach ($lista_carrito as $producto) {
+                                                    $descuento = $producto['descuento'];
+                                                    $precio = $producto['precio'];
+                                                    $cantidad = $producto['cantidad'];
+                                                    $precio_desc = $precio - (($precio * $descuento) / 100);
+                                                    $subtotal = $cantidad * $precio_desc;
+                                                    $total += $subtotal;
 
-                                <?php } ?>
+                                                    $item = new MercadoPago\Item();
+                                                    $item->id = $producto['id'];
+                                                    $item->title = $producto['nombre'];
+                                                    $item->quantity = $cantidad;
+                                                    $item->unit_price = $precio_desc;
+                                                    $item->currency_id = CURRENCY;
 
-                            </tbody>
-                        </table>
+                                                    array_push($productos_mp, $item);
+                                                    unset($item);
+                                        ?>
+                                            <tr>
+                                                <td><?php echo $producto['nombre']; ?></td>
+                                                <td><?php echo $cantidad . ' x ' . MONEDA . number_format($subtotal, 0, ',', '.') ; ?></td>
+                                            </tr>
+                                        <?php } ?>
+                                        
+
+                                    <?php } ?>
+                                    </tr>
+                                </tbody>
+                                <tbody class="checkout-details">
+    <!-- 								<tr>
+                                        <td>Subtotal</td>
+                                        <td>$190</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping</td>
+                                        <td>$50</td>
+                                    </tr> -->
+                                    <tr>
+                                        <tr>
+                                            <td><h5><b>Total</b></h5></td>
+                                            <td>
+                                                <h5 id="total"><b><?php echo MONEDA . number_format($total, 0, ',', '.'); ?></b></h5>
+                                            </td>
+                                        </tr>
+                                    </tr>
+                                </tbody>
+                            </table>
+                                <div class="container mt-5">
+                                    <div class="card-details">
+                                        <div class="col-10 text-center">
+                                            <div id="paypal-button-container"></div>
+                                        </div>
+                                        <br>
+                                        <div class="col-10 text-center">
+                                            <div class="checkout-btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+	<!-- end check out section -->
+
 
     <?php
 
