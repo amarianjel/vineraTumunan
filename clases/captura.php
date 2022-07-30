@@ -39,6 +39,10 @@ if (is_array($datos)) {
 
                 $sql = $con->prepare("INSERT INTO detalle_compra (id_compra, id_producto, nombre, cantidad, precio) VALUES(?,?,?,?,?)");
                 $sql->execute([$id, $row_prod['id'], $row_prod['nombre'], $cantidad, $precio_desc]);
+                $sql = $con->prepare("UPDATE productos SET stock=?-? WHERE productos.id=?");
+                $sql->execute([$row_prod['stock'],$cantidad,$row_prod['id']]);
+                $sql = $con->prepare("UPDATE productos SET activo=0 WHERE id=? AND stock=0");
+                $sql->execute([$row_prod['id']]);
             }
             include 'enviar_email.php';
         }
