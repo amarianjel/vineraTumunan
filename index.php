@@ -1,3 +1,4 @@
+<!--MUESTRA INDEX-->
 <?php 
 require 'config/config.php';
 ?>

@@ -1,3 +1,4 @@
+<!--MUESTRA CONTACTO-->
 <?php 
 require 'config/config.php';
 ?>
