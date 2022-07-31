@@ -72,8 +72,7 @@ require 'config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="./">Inicio</a>
-								</li>
+								<li class="current-list-item"><a href="./">Inicio</a></li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>
 								<li><a href="news.php">Noticias</a>
@@ -82,7 +81,8 @@ require 'config/config.php';
 										<li><a href="single-news.php">Single News</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.php">Contacto</a></li>
+								<!-- <li><a href="contact.php">Contacto</a></li> -->
+                                <li class="current-list-item"><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Tienda</a></li>
 								<li>
 									<div class="header-icons">
