@@ -21,7 +21,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge|Tienda</title>
+	<title>Viña Tumuñan Lodge| Tienda</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -82,7 +82,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Inicio</a>
+								<li><a href="index.php">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>

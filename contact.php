@@ -11,7 +11,7 @@ require 'config/config.php';
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge|Contacto</title>
+	<title>Viña Tumuñan Lodge| Contacto</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -72,7 +72,7 @@ require 'config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="./">Inicio</a></li>
+                                <li><a href="index.php">Inicio</a></li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>
 								<li><a href="news.php">Noticias</a>
@@ -81,7 +81,6 @@ require 'config/config.php';
 										<li><a href="single-news.php">Single News</a></li>
 									</ul>
 								</li>
-								<!-- <li><a href="contact.php">Contacto</a></li> -->
                                 <li class="current-list-item"><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Tienda</a></li>
 								<li>
