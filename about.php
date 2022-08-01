@@ -125,22 +125,29 @@ require 'config/config.php';
 
 	<!-- main section -->
     <main>
-        <!--Tarjetas-->
-        <section class="tarjetas">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
-                </div>
-                <div class="col-xl-4">
-                    <div style="text-align:center;padding-top:0.5em;">
-                        <img src="images/logo-svg.svg" style="width:15vW;margin-top:9vw;">
-                    </div>
-                    <br>
-                    <div>
-                        <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
-                    </div>
-            </div>
-        </section>
+        <section class="center espacio">
+			<h1 class="titulo">Sobre Nosotros.</h1>
+           		<p>Escondido en las estribaciones boscosas de los Andes, Tumuñan Lodge ofrece a los huéspedes de todo el mundo un retiro durante todo el año y la oportunidad única de explorar una parte de Chile muy linda, pero poco conocida. A solo 2 horas en auto al sur
+            	de Santiago que lo lleva a través de viñedos y vistas espectaculares de los Andes centrales, este refugio de montaña familiar atiende a aquellos que necesitan descanso y relajación, a los viajeros más aventureros que pueden disfrutar de
+                días únicos de senderismo , cabalgatas y pesca con mosca en el incomparable cordillera chileno. La propiedad ofrece estadías a largo plazo, incluyendo una casa de 4 dormitorios, chalet de 2 dormitorios y cabaña de 3 dormitorios.</p>
+			<h1 class="titulo">Tours de Vinos</h1>
+				<p>Tumuñan produce vinos de primera clase y estamos encantados de mostrarle los viñedos y degustar nuestros vinos juntos.</p>
+			<h1 class="titulo">Reserve Ahora.</h1>
+				<p>Para reservar una habitación, envíenos un correo electrónico a tumunanlodge@gmail.com. </p>
+                <p>INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de montañas, Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de basura, Sal).</p>
+                <p>NO INCLUYE: servicio de limpieza diario, limpieza, desayuno, restaurante.</p>
+			<h1 class="titulo">Paisaje.</h1>
+				<p>En la zona hay senderos de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos paisajes de montaña.</p>
+			<h1 class="titulo">Senderismo.</h1>
+				<p>En la zona hay senderos de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos paisajes de montaña.</p>
+			<h1 class="titulo">Montar a Caballo.</h1>
+				<p>Realice un relajante paseo a caballo para explorar las hermosas vistas del valle de Tumuñan desde la propiedad y sus alrededores. Con mucho gusto lo pondremos en contacto con los lugareños que pueden ayudarlo a planificar su viaje de un día.</p>
+			<h1 class="titulo">Tarifas Mensuales.</h1>
+				<p>Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. 
+				Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas con cocina totalmente equipadas.</p>
+			<h1 class="titulo">Conoce Nuestros Alojamientos.</h1>
+				<p>Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas con cocina totalmente equipadas. Contáctenos para más detalles y discutir una tarifa.</p>
+		</section>
         <!--Video-->
         <section>
             <div class="ratio ratio-21x9 alto-completo">
