@@ -212,7 +212,7 @@ if ($id == '' || $token == '') {
                                 <a href="checkout.php" class="cart-btn" onClick="addProducto(<?php echo $id; ?>, cantidad.value, '<?php echo $token_tmp; ?>')"><i class="fas fa-shopping-cart"></i> Agregar al carrito</a>
                                 <p><strong>Categorias: </strong><?php echo $cat; ?></p>
                             </div>
-                            <h4>Share:</h4>
+                            <h4>Compartir:</h4>
                             <ul class="product-share">
                                 <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
