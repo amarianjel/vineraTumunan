@@ -11,12 +11,27 @@ $datos = json_decode($json, true);
 
 if (is_array($datos)) {
 
+    $apiUrl = 'https://mindicador.cl/api';
+    //Es necesario tener habilitada la directiva allow_url_fopen para usar file_get_contents
+    if ( ini_get('allow_url_fopen') ) {
+        $json = file_get_contents($apiUrl);
+    } else {
+        //De otra forma utilizamos cURL
+        $curl = curl_init($apiUrl);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $json = curl_exec($curl);
+        curl_close($curl);
+    }
+
+    $dailyIndicators = json_decode($json);  
+    $dolarCam = $dailyIndicators->dolar->valor;
+
     $status = $datos['details']['status'];
     $fecha = $datos['details']['update_time'];
     $time = date("Y-m-d H:i:s", strtotime($fecha));
     $email = $datos['details']['payer']['email_address'];
     $idCliente = $datos['details']['payer']['payer_id'];
-    $monto = $datos['details']['purchase_units'][0]['amount']['value'];
+    $monto = $datos['details']['purchase_units'][0]['amount']['value']*$dolarCam; //Volvemos a transformar el valor del dolar a peso chileno para almacenarlo
     $idTransaccion = $datos['details']['purchase_units'][0]['payments']['captures'][0]['id'];
 
     $comando = $con->prepare("INSERT INTO compra (fecha, status, email, id_cliente, total, id_transaccion) VALUES(?,?,?,?,?,?)");

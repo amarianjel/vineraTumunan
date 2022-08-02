@@ -237,7 +237,7 @@ if ($id == '' || $token == '') {
                     </div>
                 </div>
                 <div class="row">
-                        <?php foreach ($resultado as $row) { ?>
+                        <?php $i = 0; foreach ($resultado as $row) { ?>
                             <?php
                                 $id = $row['id'];
                                 $imagen = "images/productos/$id/principal.jpg";
@@ -245,6 +245,7 @@ if ($id == '' || $token == '') {
                                     $imagen = "images/no-photo.jpg";
                                 }
                             ?>
+                            <?php if($i<3){?>
                             <div class="col-lg-4 col-md-6 text-center strawberry">
                                 <div class="single-product-item">
                                     <div class="product-image">
@@ -258,6 +259,7 @@ if ($id == '' || $token == '') {
                                         <i class="fas fa-shopping-cart"></i> Agregar al carrito</a>
                                 </div>
                             </div>
+                            <?php } $i++?>
                         <?php } ?>
                 </div>
             </div>

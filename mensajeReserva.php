@@ -1,37 +1,5 @@
-<?php
-
+<?php 
 require 'config/config.php';
-require 'config/database.php';
-
-$id_transaccion = isset($_GET['key']) ? $_GET['key'] : '0';
-
-$error = '';
-
-if ($id_transaccion == '') {
-    $error = 'Error al procesar la petición';
-} else {
-
-    $db = new Database();
-    $con = $db->conectar();
-
-    $sql = $con->prepare("SELECT count(id) FROM compra WHERE id_transaccion=? AND (status=? OR status=?)");
-    $sql->execute([$id_transaccion, 'COMPLETED', 'approved']);
-    if ($sql->fetchColumn() > 0) {
-
-        $sql = $con->prepare("SELECT id, fecha, email, total FROM compra WHERE id_transaccion=? AND (status=? OR status=?) LIMIT 1");
-        $sql->execute([$id_transaccion, 'COMPLETED', 'approved']);
-        $row = $sql->fetch(PDO::FETCH_ASSOC);
-
-        $idCompra = $row['id'];
-        $total = $row['total'];
-        $fecha = $row['fecha'];
-
-        $sqlDet = $con->prepare("SELECT nombre, precio, cantidad FROM detalle_compra WHERE id_compra=?");
-        $sqlDet->execute([$idCompra]);
-    } else {
-        $error = "Error al comprobar la compra";
-    }
-}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -75,6 +43,7 @@ if ($id_transaccion == '') {
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+
 
 </head>
 <body>
@@ -144,8 +113,8 @@ if ($id_transaccion == '') {
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Gracias por comprar los mejores vinos de la zona centro</i></p>
-						<h1>Detalles de su compra</h1>
+						<p>Realiza tu solicitud de reserva y ven a vivir la experiencia de la Viña Tumuñan Lodge</i></p>
+						<h1>Solicitud de reserva</h1>
 					</div>
 				</div>
 			</div>
@@ -153,52 +122,20 @@ if ($id_transaccion == '') {
 	</div>
 	<!-- end breadcrumb section -->
 
-    <div class="cart-section mt-150 mb-150"> 
+    <!-- reservas section -->
+    <main>
+        <div class="checkout-section mt-80 mb-150">
             <div class="container">
-            <?php if (strlen($error) > 0) { ?>
-                <div class="container">
-                    <div class="col mb-5">
-                        <h3><?php echo $error;?></h3>
+                <div class="row">
+                    <div class="col-lg">
+                        <i class="fa-face-grin-stars"></i>
+                        <h3>Muchas gracias por solicitar tu reserva, nos estaremos poniendo en contacto con usted para confirmar sus datos de reserva</h3>
+                        <a href="./" class="boxed-btn">Ir a la inicio</a>
                     </div>
                 </div>
-            <?php } else { ?>
-                <div class="container ">
-                    <div class="col mb-5">
-                        <h2>Detalles de compra</h2><br>
-                        <h5><b>Folio de compra: </b><?php echo $id_transaccion; ?><br></h5>
-                        <h5><b>Fecha de compra: </b> <?php echo $row['fecha']; ?><br></h5>
-						<?php while ($row_det = $sqlDet->fetch(PDO::FETCH_ASSOC)) {
-                        $importe =  $row_det['cantidad'] * $row_det['precio']; ?>
-                        <h5><b>Total:</b> <?php echo MONEDA . number_format($importe, 0, ',', '.'); ?><br></h5>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="cart-table-wrap">
-                            <table class="cart-table">
-                                <thead class="cart-table-head">
-                                    <tr class="table-head-row">
-                                        <th>Cantidad</th>
-                                        <th>Producto</th>
-                                        <th>Importe</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="table-head-row">               
-                                            <th><b><?php echo $row_det['cantidad']; ?></b></th>
-                                            <th><b><?php echo $row_det['nombre']; ?></b></th>
-                                            <th><b><?php echo MONEDA . number_format($importe, 0, ',', '.'); ?></b></th>
-                                        <?php } ?>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <br>
-                        <div class="cart-buttons">
-                                <a href="./" class="boxed-btn">Volver al inicio</a>
-                        </div>
-                    </div>
-                        
-                </div>
-            <?php } ?>
-            </div>  
+            </div>
         </div>
+    </main>
+	<!-- end reservas section -->
+
 <?php  include("includes/footer.php");?>

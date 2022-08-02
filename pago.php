@@ -276,10 +276,27 @@ if ($productos != null) {
                                                 <td><?php echo $producto['nombre']; ?></td>
                                                 <td><?php echo $cantidad . ' x ' . MONEDA . number_format($subtotal, 0, ',', '.') ; ?></td>
                                             </tr>
-                                        <?php } ?>
+                                        <?php }?>
                                         
 
-                                    <?php } ?>
+                                    <?php } 
+                                            //Obtener datos del dolar segun la api Mindicador
+                                            $apiUrl = 'https://mindicador.cl/api';
+                                            //Es necesario tener habilitada la directiva allow_url_fopen para usar file_get_contents
+                                            if ( ini_get('allow_url_fopen') ) {
+                                                $json = file_get_contents($apiUrl);
+                                            } else {
+                                                //De otra forma utilizamos cURL
+                                                $curl = curl_init($apiUrl);
+                                                curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+                                                $json = curl_exec($curl);
+                                                curl_close($curl);
+                                            }
+
+                                            $dailyIndicators = json_decode($json);  
+                                            $dolarCam = $dailyIndicators->dolar->valor;
+                                            $totalDolar=bcdiv($total,$dolarCam,2);
+                                    ?>
                                     </tr>
                                 </tbody>
                                 <tbody class="checkout-details">
@@ -355,9 +372,9 @@ if ($productos != null) {
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: <?php echo $total; ?>
+                            value: <?php echo $totalDolar;?>
                         },
-                        description: 'Compra tienda CDP'
+                        description: 'Compra tienda Viña Tumuñan Lodge'
                     }]
                 });
             },
