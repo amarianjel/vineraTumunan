@@ -148,6 +148,9 @@ require 'config/config.php';
 			<h1 class="titulo">Conoce Nuestros Alojamientos.</h1>
 				<p>Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas con cocina totalmente equipadas. Contáctenos para más detalles y discutir una tarifa.</p>
 		</section>
+		<section>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21963.498815824205!2d-70.79943981194643!3d-34.7499001301102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9664c1b33eefd169%3A0x7c7f01fc0de1ef70!2sTumu%C3%B1an%20Lodge!5e0!3m2!1ses-419!2scl!4v1659462547925!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
         <!--Video-->
         <section>
             <div class="ratio ratio-21x9 alto-completo">
