@@ -13,7 +13,7 @@ if (isset($_POST['id'])) {
     if ($token == $token_tmp && $cantidad > 0 && is_numeric($cantidad)) {
 
         if (isset($_SESSION['carrito']['productos'][$id])) {
-            $_SESSION['carrito']['productos'][$id] += $cantidad;
+            $_SESSION['carrito']['productos'][$id] = $cantidad;
         } else {
             $_SESSION['carrito']['productos'][$id] = $cantidad;
         }

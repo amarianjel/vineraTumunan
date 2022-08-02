@@ -176,7 +176,7 @@ if ($productos != null) {
                                         <td class="product-image"><img src="<?php echo $imagen?>"  alt=""></td>
                                         <td class="product-name"><?php echo $producto['nombre']; ?></td>
                                         <td class="product-price"><?php echo MONEDA . number_format($precio_desc, 0, ',', '.'); ?></td>
-                                        <td class="product-quantity"><input type="number" id="cantidad" name="cantidad" type="number" min="1" max="<?php echo $stock; ?>" value="<?php echo $cantidad; ?>" onchange="actualizaCantidad(this.value, <?php echo $_id; ?>)" ></td>
+                                        <td class="product-quantity"><input type="number" id="cantidad" name="cantidad" type="number" min="1" max="<?php echo $stock; ?>" value="<?php echo $cantidad;?>" onchange="actualizaCantidad(this.value,<?php echo $_id; ?>,<?php echo $stock; ?>)" ></td>
                                     </tr>
                                         <?php } ?>
 
@@ -191,21 +191,21 @@ if ($productos != null) {
                                 <thead class="total-table-head">
                                     <tr class="table-total-row">
                                         <th>Total</th>
-                                        <th>Price</th>
+                                        <th>Precio</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="total-data">
+                                    <!-- <tr class="total-data">
                                         <td><strong>Subtotal: </strong></td>
-                                        <td><?php echo MONEDA . number_format($total, 0, ',', '.'); ?></td>
-                                    </tr>
-                                    <tr class="total-data">
+                                        <td><?php echo MONEDA . number_format($subtotal, 0, ',', '.'); ?></td>
+                                    </tr> -->
+                                    <!-- <tr class="total-data">
                                         <td><strong>Envio: </strong></td>
                                         <td>$4.500</td>
-                                    </tr>
+                                    </tr> -->
                                     <tr class="total-data">
                                         <td><strong>Total: </strong></td>
-                                        <td><?php echo MONEDA . number_format($total+4500, 0, ',', '.'); ?></td>
+                                        <td><?php echo MONEDA . number_format($total, 0, ',', '.'); ?></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -272,37 +272,39 @@ if ($productos != null) {
             botonElimina.value = recipient
         })
 
-        function actualizaCantidad(cantidad, id) {
+        function actualizaCantidad(cantidad, id,stock) {
 
-            let url = 'clases/actualizar_carrito.php';
-            let formData = new FormData();
-            formData.append('action', 'agregar');
-            formData.append('id', id);
-            formData.append('cantidad', cantidad);
+            if(stock >= cantidad){
+                let url = 'clases/actualizar_carrito.php';
+                let formData = new FormData();
+                formData.append('action', 'agregar');
+                formData.append('id', id);
+                formData.append('cantidad', cantidad);
 
-            fetch(url, {
-                    method: 'POST',
-                    body: formData,
-                    mode: 'cors',
-                }).then(response => response.json())
-                .then(data => {
-                    if (data.ok) {
-                        let divSubtotal = document.getElementById('subtotal_' + id)
-                        divSubtotal.innerHTML = data.sub
+                fetch(url, {
+                        method: 'POST',
+                        body: formData,
+                        mode: 'cors',
+                    }).then(response => response.json())
+                    .then(data => {
+                        if (data.ok) {
+                            let divSubtotal = document.getElementById('subtotal_' + id)
+                            divSubtotal.innerHTML = data.sub
 
-                        let total = 0.00
-                        let list = document.getElementsByName('subtotal[]')
+                            let total = 0.00
+                            let list = document.getElementsByName('subtotal[]')
 
-                        for (var i = 0; i < list.length; ++i) {
-                            total += parseFloat(list[i].innerHTML.replace(/[$,]/g, ''))
+                            for (var i = 0; i < list.length; ++i) {
+                                total += parseFloat(list[i].innerHTML.replace(/[$,]/g, ''))
+                            }
+
+                            total = new Intl.NumberFormat('en-US', {
+                                minimumFractionDigits: 2
+                            }).format(total)
+                            document.getElementById("total").innerHTML = '<?php echo MONEDA ?>' + total
                         }
-
-                        total = new Intl.NumberFormat('en-US', {
-                            minimumFractionDigits: 2
-                        }).format(total)
-                        document.getElementById("total").innerHTML = '<?php echo MONEDA ?>' + total
-                    }
-                })
+                    })
+                }
         }
 
         function elimina() {

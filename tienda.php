@@ -5,7 +5,7 @@ require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
-$comando = $con->prepare("SELECT p.id, p.nombre, p.precio, p.stock, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
+$comando = $con->prepare("SELECT p.id, p.nombre, p.descuento, p.precio, p.stock, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
 $comando->execute();
 $resultado = $comando->fetchAll(PDO::FETCH_ASSOC);
 
@@ -168,7 +168,13 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
                                 </a>
                             </div>
                             <h3><?php echo $row['nombre']; ?></h3>
-                            <p class="product-price"><span>Precio</span><?php echo MONEDA . ' ' . number_format($row['precio'],'0',',','.'); ?></p>
+							<?php if($row['descuento'] > 0){
+								$precio_desc = $row['precio'] - (($row['precio'] * $row['descuento']) / 100);
+							?>
+                            <p class="product-price"><span>Precio</span><?php echo MONEDA . ' ' . number_format($precio_desc,'0',',','.'); ?></p>
+							<?php }else{?>
+							<p class="product-price"><span>Precio</span><?php echo MONEDA . ' ' . number_format($row['precio'],'0',',','.'); ?></p>
+							<?php }?>
                             <a href="" class="cart-btn" onClick="addProducto(<?php echo $row['id']; ?>, '<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>')">
                                 <i class="fas fa-shopping-cart"></i> Agregar al carrito</a>
                         </div>

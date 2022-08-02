@@ -4,7 +4,7 @@ require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
-$comando = $con->prepare("SELECT id, nombre, precio, stock FROM productos WHERE activo=1");
+$comando = $con->prepare("SELECT id, nombre, precio, stock, descuento FROM productos WHERE activo=1");
 $comando->execute();
 $resultado = $comando->fetchAll(PDO::FETCH_ASSOC);
 
@@ -24,7 +24,7 @@ if ($id == '' || $token == '') {
         $sql->execute([$id]);
         if ($sql->fetchColumn() > 0) {
 
-            $sql = $con->prepare("SELECT p.id, p.nombre, p.precio, p.stock,p.descuento,p.descripcion, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.id=? AND p.activo=1");
+            $sql = $con->prepare("SELECT p.id, p.nombre, p.precio, p.stock, p.descuento, p.descripcion, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.id=? AND p.activo=1");
             $sql->execute([$id]);
             $row = $sql->fetch(PDO::FETCH_ASSOC);
             $id = $row['id'];
@@ -193,10 +193,11 @@ if ($id == '' || $token == '') {
                         <div class="single-product-content">
                             <h3><?php echo $row['nombre']; ?></h3>
                             <p class="single-product-pricing">
-                                <?php if ($descuento > 0) { ?>
-
+                                <?php if ($descuento > 0) { 
+                                $precio_desc = $row['precio'] - (($row['precio'] * $descuento) / 100);
+                                ?>
                                 <p><del><?php echo MONEDA; ?> <?php echo number_format($row['precio'],'0',',','.'); ?></del></p>
-                                <p class="single-product-pricing"><?php echo MONEDA; ?> <?php echo number_format($row['precio'],'0',',','.'); ?> <small class=" text-success"><?php echo $descuento; ?>% descuento</small></p>
+                                <p class="single-product-pricing"><?php echo MONEDA; ?> <?php echo number_format($precio_desc,'0',',','.'); ?> <small class=" text-success"><?php echo $descuento; ?>% descuento</small></p>
 
                                 <?php } else { ?>
 
@@ -254,8 +255,14 @@ if ($id == '' || $token == '') {
                                         </a>
                                     </div>
                                     <h3><?php echo $row['nombre']; ?></h3>
+                                    <?php if($row['descuento'] > 0){
+								        $precio_desc = $row['precio'] - (($row['precio'] * $row['descuento']) / 100);
+                                    ?>
+                                    <p class="product-price"><span>Precio</span><?php echo MONEDA . ' ' . number_format($precio_desc,'0',',','.'); ?></p>
+                                    <?php }else{?>
                                     <p class="product-price"><span>Precio</span><?php echo MONEDA . ' ' . number_format($row['precio'],'0',',','.'); ?></p>
-                                    <a href="" class="cart-btn" onClick="addProducto(<?php echo $row['id']; ?>, '<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>')">
+                                    <?php }?>
+                                    <a href="" class="cart-btn" onClick="addProducto_2(<?php echo $row['id']; ?>, '<?php echo hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>')">
                                         <i class="fas fa-shopping-cart"></i> Agregar al carrito</a>
                                 </div>
                             </div>
@@ -274,10 +281,33 @@ if ($id == '' || $token == '') {
 
     <script>
         function addProducto(id, cantidad, token) {
+            if(<?php echo $stock; ?>>=cantidad){
+                var url = 'clases/carrito.php';
+                var formData = new FormData();
+                formData.append('id', id);
+                formData.append('cantidad', cantidad);
+                formData.append('token', token);
+
+                fetch(url, {
+                        method: 'POST',
+                        body: formData,
+                        mode: 'cors',
+                    }).then(response => response.json())
+                    .then(data => {
+                        if (data.ok) {
+                            let elemento = document.getElementById("num_cart")
+                            elemento.innerHTML = data.numero;
+                        }
+                    })
+                    location.reload()  
+            }
+        }
+    </script>
+    <script>
+        function addProducto_2(id, token) {
             var url = 'clases/carrito.php';
             var formData = new FormData();
             formData.append('id', id);
-            formData.append('cantidad', cantidad);
             formData.append('token', token);
 
             fetch(url, {
@@ -291,7 +321,7 @@ if ($id == '' || $token == '') {
                         elemento.innerHTML = data.numero;
                     }
                 })
-                location.reload()
+                location.reload();
         }
     </script>
 <?php  include("includes/footer.php");?>
