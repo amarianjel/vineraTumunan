@@ -103,15 +103,15 @@ if ($productos != null) {
 							<ul>
 								<li><a href="./">Inicio</a>
 								</li>
-								<li><a href="about.html">Sobre nosotros</a></li>
-								<li><a href="#">Reservas</a>
+								<li><a href="about.php">Sobre nosotros</a></li>
+								<li><a href="services.php">Reservas</a>
 								<li><a href="news.html">Noticias</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
 										<li><a href="single-news.html">Single News</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">Contacto</a></li>
+								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li>
 									<div class="header-icons">

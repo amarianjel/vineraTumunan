@@ -82,7 +82,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="index.php">Inicio</a>
+								<li><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>

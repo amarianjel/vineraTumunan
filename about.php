@@ -72,7 +72,7 @@ require 'config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-                                <li><a href="index.php">Inicio</a></li>
+                                <li><a href="./">Inicio</a></li>
                                 <li class="current-list-item"><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>
 								<li><a href="news.php">Noticias</a>
