@@ -22,7 +22,7 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Indice.</h2>
 						<ul>
-							<li><a href="index.php">Inicio.</a></li>
+							<li><a href="./">Inicio.</a></li>
 							<li><a href="about.php">Sobre Nosotros.</a></li>
 							<li><a href="services.php">Reserva.</a></li>
 							<li><a href="news.php">Noticias.</a></li>
