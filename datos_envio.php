@@ -158,38 +158,56 @@ if ($productos != null) {
                     <div class="col-lg-8">
                         <div class="checkout-accordion-wrap">
                             <div class="accordion" id="accordionExample">
-                            <div class="card single-accordion">
-                                <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Medios de pago
-                                    </button>
-                                </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                <div class="card-body text">
-                                    <div class="container mt-3 mb-5 ml-5 ">
-                                        <div class="card-details">
-                                            <h4>Paypal</h4>
-                                            <div class="col-7 text-center">
-                                                <div id="paypal-button-container"></div>
-                                            </div>
-                                            <br>
-                                            <h4>Mercado Pago</h4>
-                                            <div class="col-5 text-center">
-                                                <div class="checkout-btn"></div>
-                                            </div>
+                                <div class="card single-accordion">
+                                    <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Datos Básicos y datos de envío
+                                        </button>
+                                    </h5>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="billing-address-form">
+                                            <form action="clases/captura_datos_envio.php" method="POST">
+                                                <h4><Label>Datos básicos</Label></h4>
+                                                <p><input type="text" placeholder="Nombre" id="nombre" name="nombre"></p>
+                                                <p><input type="text" placeholder="Apellido" id="apellido" name="apellido"></p>
+                                                <p><input type="text" placeholder="Rut" id="rut" name="rut"></p>
+                                                <p><input type="email" placeholder="Email" id="mail" name="mail"></p>
+                                                <p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono"></p>
+                                                <h4><Label>Datos envío</Label></h4>
+                                                <p><select class="billing-address-form" style="width:100%;" id="region" name="region">
+                                                            <option value="I de Tarapacá">I de Tarapacá</option>
+                                                            <option value="I de Antofagasta">I de Antofagasta</option>
+                                                            <option value="III de Atacama">III de Atacama</option>
+                                                            <option value="IV de Coquimboá">IV de Coquimbo</option>
+                                                            <option value="V de Valparaíso">V de Valparaíso</option>
+                                                            <option value="VI del Libertador General Bernardo O'Higgins">VI del Libertador General Bernardo O'Higgins</option>
+                                                            <option value="VII del Maule">VII del Maule</option>
+                                                            <option value="XVI de Ñuble">XVI de Ñuble</option>
+                                                            <option value="VIII del Bío Bío">VIII del Bío Bío</option>
+                                                            <option value="IX de la Araucanía">IX de la Araucanía</option>
+                                                            <option value="XIV de los Ríos">XIV de los Ríos</option>
+                                                            <option value="X de los Lagos">X de los Lagos</option>
+                                                            <option value="XI Aysén del General Carlos Ibáñez del Campo">XI Aysén del General Carlos Ibáñez del Campo</option>
+                                                            <option value="XII de Magallanes y Antártica Chilena">XII de Magallanes y Antártica Chilena</option>
+                                                            <option value="Metropolitana de Santiago">Metropolitana de Santiago</option>
+                                                            <option value="XV de Arica y Parinacota">XV de Arica y Parinacota</option>
+                                                    </select></p>
+                                                <p><input type="text" placeholder="Ciudad" id="ciudad" name="ciudad"></p>
+                                                <p><input type="text" placeholder="Calle" id="calle" name="calle"></p>
+                                                <p><input type="tel" placeholder="Número" id="numero" name="numero"></p>
+                                                <input type="submit" class="boxed-btn black" value="Siguiente">
+                                            </form>
                                         </div>
                                     </div>
-                                </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
+                        </div> 
+                </div>
+                <div class="col-lg-4">
                         <div class="order-details-wrap">
                             <table class="order-details">
                                 <thead>
@@ -268,105 +286,15 @@ if ($productos != null) {
                                         </tr>
                                     </tr>
                                 </tbody>
-                            </table>                       
+                            </table>                               
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </main>
 	<!-- end check out section -->
 
 
-    <?php
-
-    $_SESSION['carrito']['total'] = $total;
-
-    $preference->items = $productos_mp;
-
-    $preference->back_urls = array(
-        "success" => SITE_URL . "/clases/captura_mp.php",
-        "failure" => SITE_URL . "/clases/fallo.php"
-    );
-    $preference->auto_return = "approved";
-    $preference->binary_mode = true;
-    $preference->statement_descriptor = "Viña Tumuñan Lodge";
-    $preference->external_reference = "Reference_1234";
-    $preference->save();
-
-    ?>
-
-    <?php
-
-    ?>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script>
-        paypal.Buttons({
-
-            style: {
-                color: 'blue',
-                shape: 'pill',
-                label: 'pay'
-            },
-
-            createOrder: function(data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: <?php echo $totalDolar;?>
-                        },
-                        description: 'Compra tienda Viña Tumuñan Lodge'
-                    }]
-                });
-            },
-
-            onApprove: function(data, actions) {
-
-                let url = 'clases/captura.php';
-                actions.order.capture().then(function(details) {
-
-                    console.log(details);
-
-                    let trans = details.purchase_units[0].payments.captures[0].id;
-                    return fetch(url, {
-                        method: 'post',
-                        mode: 'cors',
-                        headers: {
-                            'content-type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            details: details,
-                        })
-                    }).then(function(response) {
-                        window.location.href = "completado.php?key=" + trans;
-                    });
-                });
-            },
-
-            onCancel: function(data) {
-                console.log("Cancelo :(");
-                console.log(data);
-            }
-        }).render('#paypal-button-container');
-
-
-        const mp = new MercadoPago('<?php echo PUBLIC_KEY_MP; ?>', {
-            locale: '<?php echo LOCALE_MP; ?>'
-        });
-
-        // Inicializa el checkout Mercado Pago
-        mp.checkout({
-            preference: {
-                id: '<?php echo $preference->id; ?>'
-            },
-            render: {
-                container: '.checkout-btn', // Indica el nombre de la clase donde se mostrará el botón de pago
-                type: 'wallet', // Muestra un botón de pago con la marca Mercado Pago
-                label: 'Pagar con Mercado Pago', // Cambia el texto del botón de pago (opcional)
-            }
-        });
-    </script>
 
 <?php  include("includes/footer.php");?>

@@ -142,27 +142,27 @@ require 'config/config.php';
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="billing-address-form">
-                                            <form action="index.html">
+                                            <form action="clases/captura_datos_rs.php" method="POST">
                                                 <p><b>Nombre</b></p>
-                                                <p><input type="text" placeholder="Nombre"></p>
+                                                <p><input type="text" placeholder="Nombre" id="nombre" name="nombre" required></p>
                                                 <p><b>Apellido</b></p>
-                                                <p><input type="text" placeholder="Apellido"></p>
+                                                <p><input type="text" placeholder="Apellido" id="apellido" name="apellido" required></p>
                                                 <p><b>Rut</b></p>
-                                                <p><input type="text" placeholder="Rut"></p>
+                                                <p><input type="text" placeholder="Rut" id="rut" name="rut" required></p>
                                                 <p><b>Correo Electrónico</b></p>
-                                                <p><input type="email" placeholder="Email"></p>
+                                                <p><input type="email" placeholder="Email" id="email" name="email" required></p>
                                                 <p><b>Número de télefono/celular</b></p>
-                                                <p><input type="tel" placeholder="Numero de telefono"></p>
+                                                <p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono" required></p>
+												<p><b>Dias de alojamiento</b></p>
+                                                <p><input type="number" placeholder="Dias" id="dias" name="dias" value="1" min="1" required></p>
                                                 <p><b>Cantidad de personas</b></p>
-                                                <p><input type="text" placeholder="Cantidad de personas"></p>
+                                                <p><input type="number" placeholder="Cantidad de personas" value="1" min="1" id="c_personas" name="c_personas" required></p>
                                                 <p><b>Cantidad de adultos</b></p>
-                                                <p><input type="text" placeholder="Cantidad de personas"></p>
+                                                <p><input type="number" placeholder="Cantidad de adultos" value="1" min="1" id="c_adultos" name="c_adultos" required></p>
                                                 <p><b>Cantidad de niños (opcional)</b></p>
-                                                <p><input type="text" placeholder="Cantidad de personas"></p>
+                                                <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_niños" name="c_niños"></p>
+												<input type="submit" class="boxed-btn black" value="Enviar solicitud">
                                             </form>
-                                            <div class="cart-buttons">
-							                    <a href="mensajeReserva.php" class="boxed-btn">Enviar solicitud</a>
-						                    </div>
                                         </div>
                                     </div>
                                     </div>
