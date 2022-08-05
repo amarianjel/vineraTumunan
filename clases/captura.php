@@ -10,7 +10,6 @@ $json = file_get_contents('php://input');
 $datos = json_decode($json, true);
 
 if (is_array($datos)) {
-
     $apiUrl = 'https://mindicador.cl/api';
     //Es necesario tener habilitada la directiva allow_url_fopen para usar file_get_contents
     if ( ini_get('allow_url_fopen') ) {
@@ -22,9 +21,10 @@ if (is_array($datos)) {
         $json = curl_exec($curl);
         curl_close($curl);
     }
-
+    
     $dailyIndicators = json_decode($json);  
     $dolarCam = $dailyIndicators->dolar->valor;
+
 
     $status = $datos['details']['status'];
     $fecha = $datos['details']['update_time'];
