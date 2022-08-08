@@ -16,9 +16,9 @@ define("LOCALE_MP", "es-MX");
 
 
 //Datos para envio de correo electronico
-define("MAIL_HOST", "smtp.office365.com");
-define("MAIL_USER", "pablo.araneda@hotmail.com");
-define("MAIL_PASS", "Pablito.1243");
+define("MAIL_HOST", "");
+define("MAIL_USER", "");
+define("MAIL_PASS", "");
 define("MAIL_PORT", 587);
 
 session_start();

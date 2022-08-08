@@ -25,7 +25,7 @@ try {
     //Correo emisor y nombre
     $mail->setFrom(MAIL_USER, 'ViñaTumuñanLodge');
     //Correo receptor y nombre
-    $mail->addAddress('pablo.chavez10hm@gmail.com', 'usuario');
+    $mail->addAddress('user@mail.com', 'usuario');
     //Enviar copia correo
     /* $mail->addReplyTo('usuario@mail.com'); */
 
