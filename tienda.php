@@ -5,7 +5,7 @@ require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
-$comando = $con->prepare("SELECT p.id, p.nombre, p.descuento, p.precio, p.stock, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
+$comando = $con->prepare("SELECT p.id, p.nombre, p.descuento, p.precio, p.stock,p.imagen, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
 $comando->execute();
 $resultado = $comando->fetchAll(PDO::FETCH_ASSOC);
 
@@ -154,8 +154,8 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
             <div class="row product-lists">
                 <?php foreach ($resultado as $row) { ?>
                     <?php
-                        $id = $row['id'];
-                        $imagen = "images/productos/$id/principal.jpg";
+                        $img = $row['imagen'];
+                        $imagen = "images/productos/$img";
                         if (!file_exists($imagen)) {
                             $imagen = "images/no-photo.jpg";
                         }

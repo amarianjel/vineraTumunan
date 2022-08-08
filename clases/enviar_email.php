@@ -25,7 +25,7 @@ try {
     //Correo emisor y nombre
     $mail->setFrom(MAIL_USER, 'ViñaTumuñanLodge');
     //Correo receptor y nombre
-    $mail->addAddress('usuario@mail.com', 'usuario');
+    $mail->addAddress('pablo.chavez10hm@gmail.com', 'usuario');
     //Enviar copia correo
     /* $mail->addReplyTo('usuario@mail.com'); */
 
@@ -38,9 +38,9 @@ try {
     $cuerpo .= '<br>';
     $cuerpo .= '<p>Sus datos de envio son: </p>';
     $cuerpo .= '<p>Nombre: <b>' . $nombre . '</b></p>';
-    $cuerpo .= '<p>Apellido: <b>' . $apellido . '</b></p>';
+/*     $cuerpo .= '<p>Apellido: <b>' . $apellido . '</b></p>';
     $cuerpo .= '<p>Rut: <b>' . $rut . '</b></p>';
-/*     $cuerpo .= '<p>Email: <b>' . $mail . '</b></p>';
+    $cuerpo .= '<p>Email: <b>' . $mail . '</b></p>';
     $cuerpo .= '<p>Teléfono: <b>' . $fono . '</b></p>';
     $cuerpo .= '<p>Región: <b>' . $region . '</b></p>';
     $cuerpo .= '<p>Calle: <b>' . $calle . '</b></p>';
