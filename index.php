@@ -75,6 +75,7 @@ require 'config/config.php';
 								<li class="current-list-item"><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
+                                <li><a href="alojamientos.php">Alojamientos</a></li>
 								<li><a href="services.php">Reservas</a>
 								<li><a href="news.php">Noticias</a>
 									<ul class="sub-menu">
@@ -132,7 +133,7 @@ require 'config/config.php';
                 <div class="col-12">
                     <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-lg-4 col-sm-5">
                     <div style="text-align:center;padding-top:0.5em;">
                         <img src="images/logo-svg.svg" style="width:15vW;margin-top:9vw;">
                     </div>
@@ -141,7 +142,7 @@ require 'config/config.php';
                         <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-lg-4 text-center col-sm-6">
                     <div class="contenedor-tarjeta">
                         <img src="images/bed/Chalet/Website Only/King Suite 4.jpg" style="width: 100%; height:100%;" class="image">
                         <div class="overlay">
@@ -155,7 +156,7 @@ require 'config/config.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-lg-4 text-center col-sm-6">
                     <div class="contenedor-tarjeta">
                         <img src="images/activities/Wine Tours/wine tasting.png" class="image ">
                         <div class="overlay">
@@ -171,7 +172,7 @@ require 'config/config.php';
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-4 text-center">
+                <div class="col-lg-4 col-sm-5 text-center">
                     <div class="contenedor-tarjeta ">
                         <img src="images/food_Wine/TLwinelabel.jpg" style="transform: scale(1.5); " alt="Avatar " class="image ">
                         <div class="overlay ">
@@ -185,7 +186,7 @@ require 'config/config.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-lg-4 col-sm-5 text-center">
                     <div class="contenedor-tarjeta ">
                         <img src="images/activities/Hiking/ridingview.jpg " style="transform: scale(2); " class="image ">
                         <div class="overlay ">
@@ -199,7 +200,7 @@ require 'config/config.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 text-center">
+                <div class="col-lg-4 col-sm-5 text-center">
                     <div class="contenedor-tarjeta ">
                         <img src="images/bed/IMG_5637.jpg " style="transform: scale(2); " alt="Avatar " class="image ">
                         <div class="overlay ">

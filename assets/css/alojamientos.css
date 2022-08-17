@@ -64,10 +64,10 @@ h2 {
     text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
 }
 
-.container {
+.container2 {
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} 
 
 .titulo {
     font-size: 3em;
@@ -115,7 +115,7 @@ h4 {
     padding: 15px 50px 15px 50px;
 }
 
-img {
+.carrusel {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -123,9 +123,11 @@ img {
     object-fit: cover;
 }
 
+.carrusel:hover {
+    border: 1px solid red; /* Añadimos un borde de 1px de color rojo */
+  }
 
 /**************Slider1****************/
-
 #slider {
     position: relative;
     width: 75%;
@@ -311,4 +313,17 @@ img {
 #s10:checked~#slide9 {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
     transform: translate3d(-15%, 0, -100px);
+}
+
+/****************- Media Querys -****************************/
+@media screen and (max-width: 768px){
+    .portada{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    .titulo{
+        font-size: 1.8em;
+    }
 }

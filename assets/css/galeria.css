@@ -24,7 +24,7 @@ h1 {
 .parallax-completo {
     width: 100%;
     height: 100vH;
-    background-image: url("../images/bed/carro.jpg");
+    background-image: url("../../images/bed/114 - Edited.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ h2 {
 .parallax-chico {
     display: flex;
     height: 650px;
-    background-image: url('../images/activities/Portrait/IMG_5082.jpg');
+    background-image: url('../../images/activities/Portrait/IMG_5082.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
