@@ -49,7 +49,7 @@ require 'config/config.php';
 
 </head>
 
-<body>
+<body style="background-color: #f5e1ce;">
 
 	<!--PreLoader-->
 	<!-- <div class="loader">
@@ -130,7 +130,7 @@ require 'config/config.php';
 
 	<style>/*********Sobre Nosotros***********/
 		.titulo{
-			color: #e4a13ee7;
+			color: #051922;
 		}	
 
 
@@ -140,6 +140,12 @@ require 'config/config.php';
 	<!-- main section -->
 	<main>
 		<section class="center espacio mx-5 my-5">
+			<h3 style="text-align: center;">Will Evelyn</h3>
+			<div  style="display: flex; justify-content: center; margin:1em;">
+				<img src="images\b503d29b-6a58-4028-8c4e-97a72385f3d4.jpg" alt="" style="max-height: 40rem;">
+			</div>
+					<p style="text-align: center;">Owner/ Director, Tumuñan Lodge & Andes Adventures</p>
+					<hr>
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h3 class="titulo">Sobre Nosotros</h3>
@@ -253,7 +259,7 @@ require 'config/config.php';
 			<hr>
 			
 		</section>
-		<h3 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #e4a13ee7; color: #fff;">Ubicación</h3>
+		<h3 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #000000e7; color: #fff;">Ubicación</h3>
 		<div class="mapa" style="display: flex; justify-content: center; margin:1em;">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21963.498815824205!2d-70.79943981194643!3d-34.7499001301102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9664c1b33eefd169%3A0x7c7f01fc0de1ef70!2sTumu%C3%B1an%20Lodge!5e0!3m2!1ses-419!2scl!4v1659462547925!5m2!1ses-419!2scl"
