@@ -25,7 +25,6 @@ if (is_array($datos)) {
     $dailyIndicators = json_decode($json);  
     $dolarCam = $dailyIndicators->dolar->valor;
 
-
     $status = $datos['details']['status'];
     $fecha = $datos['details']['update_time'];
     $time = date("Y-m-d H:i:s", strtotime($fecha));
