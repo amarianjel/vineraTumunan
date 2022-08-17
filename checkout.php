@@ -212,7 +212,7 @@ if ($productos != null) {
                             </table>
                             <div class="cart-buttons">
                                 <a href="checkout.php" class="boxed-btn">Actualizar carrito</a>
-                                <a href="datos_envio.php" class="boxed-btn black">Pagar</a>
+                                <a href="pago.php" class="boxed-btn black">Pagar</a>
                             </div>
                         </div>
                     </div>

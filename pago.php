@@ -5,7 +5,7 @@ require 'config/database.php';
 
 
 //Datos envio
-$nombre = $_POST['nombre'];
+/* $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
 $rut = $_POST['rut'];
 $email = $_POST['mail'];
@@ -14,7 +14,7 @@ $region = $_POST['region'];
 $ciudad = $_POST['ciudad'];
 $calle = $_POST['calle'];
 $numero = $_POST['numero'];
-
+ */
 
 // SDK de Mercado Pago
 require __DIR__ .  '/vendor/autoload.php';
@@ -188,10 +188,10 @@ if ($productos != null) {
                                                 <div id="paypal-button-container"></div>
                                             </div>
                                             <br>
-                                            <h4>Mercado Pago</h4>
+                                            <!-- <h4>Mercado Pago</h4>
                                             <div class="col-5 text-center">
                                                 <div class="checkout-btn"></div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
