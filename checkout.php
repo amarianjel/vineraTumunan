@@ -11,7 +11,7 @@ $lista_carrito = array();
 
 if ($productos != null) {
     foreach ($productos as $clave => $producto) {
-        $sql = $con->prepare("SELECT id, nombre, precio, descuento,stock, $producto AS cantidad FROM productos WHERE id=? AND activo=1");
+        $sql = $con->prepare("SELECT id, nombre, precio, descuento, stock, imagen, $producto AS cantidad FROM productos WHERE id=? AND activo=1");
         $sql->execute([$clave]);
         $lista_carrito[] = $sql->fetch(PDO::FETCH_ASSOC);
     }
@@ -162,7 +162,8 @@ if ($productos != null) {
                                         $total = 0;
                                         foreach ($lista_carrito as $producto) {
                                             $_id = $producto['id'];
-                                            $imagen = "images/productos/$_id/principal.jpg";
+                                            $img = $producto['imagen'];
+                                            $imagen = "images/productos/".$img;
                                             $descuento = $producto['descuento'];
                                             $precio = $producto['precio'];
                                             $stock = $producto['stock'];
@@ -211,7 +212,7 @@ if ($productos != null) {
                             </table>
                             <div class="cart-buttons">
                                 <a href="checkout.php" class="boxed-btn">Actualizar carrito</a>
-                                <a href="datos_envio.php" class="boxed-btn black">Pagar</a>
+                                <a href="pago.php" class="boxed-btn black">Pagar</a>
                             </div>
                         </div>
                     </div>

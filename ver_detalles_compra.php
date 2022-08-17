@@ -146,7 +146,7 @@ if ($id_transaccion == '') {
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Gracias por comprar los mejores vinos de la zona centro</i></p>
-						<h1>Finalizar compra</h1>
+						<h1>Detalles de compra</h1>
 					</div>
 				</div>
 			</div>
@@ -154,64 +154,7 @@ if ($id_transaccion == '') {
 	</div>
 	<!-- end breadcrumb section -->
 	<main>
-		<div class="checkout-section mt-100 mb-150">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-7">
-							<div class="checkout-accordion-wrap">
-								<div class="accordion" id="accordionExample">
-									<div class="card single-accordion">
-										<div class="card-header" id="headingOne">
-										<h5 class="mb-0">
-											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-											Datos Básicos y datos de envío
-											</button>
-										</h5>
-										</div>
-										<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-										<div class="card-body">
-											<div class="billing-address-form">
-											<form action="clases/capturar_datos_envio.php" method="POST">
-													<h4><Label>Datos básicos</Label></h4>
-													<p><input type="text" placeholder="Nombre" id="nombre" name="nombre" required></p>
-													<p><input type="text" placeholder="Apellido" id="apellido" name="apellido" required></p>
-													<p><input type="text" placeholder="Rut" id="rut" name="rut" required></p>
-													<p><input type="email" placeholder="Email" id="mail" name="mail" required></p>
-													<p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono" required></p>
-													<h4><Label>Datos envío</Label></h4>
-													<p><select class="billing-address-form" style="width:100%;" id="region" name="region" required>
-																<option value="I de Tarapacá">I de Tarapacá</option>
-																<option value="I de Antofagasta">I de Antofagasta</option>
-																<option value="III de Atacama">III de Atacama</option>
-																<option value="IV de Coquimboá">IV de Coquimbo</option>
-																<option value="V de Valparaíso">V de Valparaíso</option>
-																<option value="VI del Libertador General Bernardo O'Higgins">VI del Libertador General Bernardo O'Higgins</option>
-																<option value="VII del Maule">VII del Maule</option>
-																<option value="XVI de Ñuble">XVI de Ñuble</option>
-																<option value="VIII del Bío Bío">VIII del Bío Bío</option>
-																<option value="IX de la Araucanía">IX de la Araucanía</option>
-																<option value="XIV de los Ríos">XIV de los Ríos</option>
-																<option value="X de los Lagos">X de los Lagos</option>
-																<option value="XI Aysén del General Carlos Ibáñez del Campo">XI Aysén del General Carlos Ibáñez del Campo</option>
-																<option value="XII de Magallanes y Antártica Chilena">XII de Magallanes y Antártica Chilena</option>
-																<option value="Metropolitana de Santiago">Metropolitana de Santiago</option>
-																<option value="XV de Arica y Parinacota">XV de Arica y Parinacota</option>
-														</select></p>
-													<p><input type="text" placeholder="Ciudad" id="ciudad" name="ciudad" required></p>
-													<p><input type="text" placeholder="Calle" id="calle" name="calle" required></p>
-													<p><input type="tel" placeholder="Número" id="numero" name="numero" required></p>
-													<p><input type="hidden" id="id_transaccion" name="id_transaccion" value="<?php echo $id_transaccion; ?>"></p>
-													<input type="submit" class="boxed-btn" value="Finalizar">
-												</form>
-											</div>
-										</div>
-										</div>
-									</div>
-								</div>
-							</div> 
-					</div>
-			<div class="col-lg-5">
-			<div class="container">
+			<div class="container mt-100 mb-150">
 				<?php if (strlen($error) > 0) { ?>
 					<div class="container">
 						<div class="col mb-5">
@@ -255,7 +198,5 @@ if ($id_transaccion == '') {
 				</div>                                          
 					</div>
 				</div>
-			</div>
 	</main>
-    
-<?php  include("includes/footer.php");?>
+    <?php  include("includes/footer.php");?>

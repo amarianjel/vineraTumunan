@@ -3,12 +3,6 @@
 require 'config/config.php';
 require 'config/database.php';
 
-// SDK de Mercado Pago
-require __DIR__ .  '/vendor/autoload.php';
-MercadoPago\SDK::setAccessToken(TOKEN_MP);
-$preference = new MercadoPago\Preference();
-$productos_mp = array();
-
 $productos = isset($_SESSION['carrito']['productos']) ? $_SESSION['carrito']['productos'] : null;
 
 $db = new Database();
@@ -169,7 +163,7 @@ if ($productos != null) {
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="billing-address-form">
-                                            <form action="clases/captura_datos_envio.php" method="POST">
+                                            <form action="pago.php" method="POST">
                                                 <h4><Label>Datos básicos</Label></h4>
                                                 <p><input type="text" placeholder="Nombre" id="nombre" name="nombre"></p>
                                                 <p><input type="text" placeholder="Apellido" id="apellido" name="apellido"></p>
@@ -230,16 +224,6 @@ if ($productos != null) {
                                                     $precio_desc = $precio - (($precio * $descuento) / 100);
                                                     $subtotal = $cantidad * $precio_desc;
                                                     $total += $subtotal;
-
-                                                    $item = new MercadoPago\Item();
-                                                    $item->id = $producto['id'];
-                                                    $item->title = $producto['nombre'];
-                                                    $item->quantity = $cantidad;
-                                                    $item->unit_price = $precio_desc;
-                                                    $item->currency_id = CURRENCY;
-
-                                                    array_push($productos_mp, $item);
-                                                    unset($item);
                                         ?>
                                             <tr>
                                                 <td><?php echo $producto['nombre']; ?></td>
@@ -248,24 +232,7 @@ if ($productos != null) {
                                         <?php }?>
                                         
 
-                                    <?php } 
-                                            //Obtener datos del dolar segun la api Mindicador
-                                            $apiUrl = 'https://mindicador.cl/api';
-                                            //Es necesario tener habilitada la directiva allow_url_fopen para usar file_get_contents
-                                            if ( ini_get('allow_url_fopen') ) {
-                                                $json = file_get_contents($apiUrl);
-                                            } else {
-                                                //De otra forma utilizamos cURL
-                                                $curl = curl_init($apiUrl);
-                                                curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-                                                $json = curl_exec($curl);
-                                                curl_close($curl);
-                                            }
-
-                                            $dailyIndicators = json_decode($json);  
-                                            $dolarCam = $dailyIndicators->dolar->valor;
-                                            $totalDolar=bcdiv($total,$dolarCam,2);
-                                    ?>
+                                    <?php } ?>
                                     </tr>
                                 </tbody>
                                 <tbody class="checkout-details">

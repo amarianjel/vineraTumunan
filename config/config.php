@@ -10,16 +10,10 @@ define("CLIENT_ID", "AWhQMptfFe9I3ZltfYbhTfozJ-1TjA5MrwN0pFLmCfsSPxx2U_O0Dlyr8xp
 define("CURRENCY", "USD");
 
 //Configuración para Mercado Pago
-define("TOKEN_MP", "TEST-XXXXXXXXX");
-define("PUBLIC_KEY_MP", "TEST-XXXXXXXXX");
-define("LOCALE_MP", "es-MX");
+define("TOKEN_MP", "TEST-525207997074765-081621-f88393fc3e4f4d8544f3f62e80740404-239049668");
+define("PUBLIC_KEY_MP", "TEST-09bf5204-ef5e-4ee2-afd2-19df2b716f1c");
+define("LOCALE_MP", "es-CL");
 
-
-//Datos para envio de correo electronico
-define("MAIL_HOST", "smtp.office365.com");
-define("MAIL_USER", "pablo.araneda@hotmail.com");
-define("MAIL_PASS", "Pablito.1243");
-define("MAIL_PORT", 587);
 
 session_start();
 
