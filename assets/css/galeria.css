@@ -6,13 +6,13 @@
     transition:all .2s cubic-bezier(.34,1.12,.68,1.31);
 }
 
-.gallery{
+/* .gallery{
     min-height: 100vh;
-    background:#eee;
+    background:rgb(189, 68, 68);
     padding-bottom: 100px;
-}
+} */
 
-.gallery .controls{
+.gallery .parallax-chico .controls{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,11 +21,11 @@
     list-style: none;
 }
 
-.gallery .controls .buttons{
+.gallery .parallax-chico .controls .buttons{
     height:40px;
     width: 140px;
-    background:#fff;
-    color:#666;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 253, 253);
     font-size: 20px;
     line-height: 40px;
     cursor: pointer;
@@ -34,192 +34,41 @@
     text-align: center;
 }
 
-.gallery .controls .buttons.active{
+.gallery .parallax-chico .controls .buttons.active{
     background:coral;
     color:#fff;
 }
 
-.gallery .image-container{
+.gallery .image-container .parallax-completo{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.gallery .image-container .image{
+.gallery .image-container .parallax-completo .image{
     height:250px;
     width: 350px;
     overflow: hidden;
-    border:15px solid #fff;
+    border:10px solid #fffec2;
     box-shadow: 0 3px 5px rgba(0,0,0,.3);
     margin: 20px;
 }
 
-.gallery .image-container .image img{
+.gallery .image-container .parallax-completo .image img{
     height: 100%;
     width:100%;
     object-fit: cover;
 }
 
-.gallery .image-container .image:hover img{
+.gallery .image-container .parallax-completo .image:hover img{
     transform: scale(1.4);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .body {
-	background-color: #3bb2b8;
-	background: linear-gradient(
-	  25deg,
-	  rgba(66, 230, 149, 1),
-	  rgba(66, 32, 149, 1)
-	);
-	background-repeat: no-repeat;
-	height: 100vh;
-	font-family: "Open Sans", sans-serif;
-  }
-  .container2 {
-	max-width: 800px;
-	margin: 5% auto;
-	padding: 20px;
-	background-color: #fff;
-	border-radius: 10px;
-	overflow: hidden;
-	box-sizing: border-box;
-	box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
-  }
-  
-  .text-center {
-	text-align: center;
-	margin-bottom: 1em;
-  }
-  
-  .lightbox-gallery {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-  }
-  
-  .lightbox-gallery div > img {
-	max-width: 100%;
-	display: block;
-  }
-  
-  .lightbox-gallery div {
-	margin: 10px;
-	flex-basis: 180px;
-  }
-  
-  @media only screen and (max-width: 480px) {
-	.lightbox-gallery {
-	  flex-direction: column;
-	  align-items: center;
-	}
-  
-	.lightbox > div {
-	  margin-bottom: 10px;
-	}
-  }
-  
-  /*Lighbox CSS*/
-/*   
-  .lightbox {
-	display: none;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 20;
-	padding-top: 30px;
-	box-sizing: border-box;
-  }
-  
-  .lightbox img {
-	display: block;
-	margin: auto;
-  }
-  
-  .lightbox .caption {
-	margin: 15px auto;
-	width: 50%;
-	text-align: center;
-	font-size: 1em;
-	line-height: 1.5;
-	font-weight: 700;
-	color: #eee;
-  }
-  
-  .github-link {
-	font-size: 18px;
-	color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .github-link:hover,
-  .github-link:active,
-  .github-link:visited {
-	color: #fff;
-	text-decoration: none;
-  } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'lato';
-}
-
-h1 {
-    color: #fff;
-    text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.portada {
-    padding-top: 300px;
-    padding-bottom: 50px;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
+/****- Parralax -******/
 .parallax-completo {
     width: 100%;
-    height: 100vH;
-    background-image: url("../../images/bed/114 - Edited.jpg");
+    background-image: url("../../images/bed/114\ -\ Edited.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,193 +79,44 @@ h1 {
     overflow: hidden;
 }
 
-.text-hero {
-    padding: 18px;
-    width: 320px;
-    text-align: center;
-    color: #fff;
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: 300;
-    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-}
-
-.center {
-    font-family: 'open sans';
-    max-width: 1100px;
-    width: 60%;
-    overflow: hidden;
-    margin: auto;
-    text-align: center;
-}
-
-.espacio {
-    padding: 30px 0 30px 0;
-}
-
-.justificar-parrafo {
-    font-size: 16px;
-    text-align: justify;
-    text-indent: 50px;
-    padding: 30px 0 30px 0;
-    font-style: oblique;
-}
-
-
-
 .parallax-chico {
-    display: flex;
-    height: 650px;
+    height: 300px;
     background-image: url('../../images/activities/Portrait/IMG_5082.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
-.parallax-chico h2 {
-    display: flex;
-    height: inherit;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: 400;
-}
+/*****--- Botones ----******/
 
-
-
-#tarifas {
-    background: #ccc;
-}
-
-.texto {
-    background: #ccc;
-    height: 190px;
-}
-
-.texto h2 {
-    text-align: center;
-    color: #000;
-    display: flex;
-    height: inherit;
-    justify-content: center;
-}
-
-.centrar-parrafo {
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-    .parallax-completo {
-        height: 100%;
-    }
-    .parallax-chico {
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .parallax-completo {
-        height: 80%;
-    }
-}
-
-@media screen and (max-height: 768px) {
-    .parallax-completo {
-        height: 100%;
-    }
-}
-*/
-
-/* ------------Galeria------------ */
-/* 
-body {
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-}
-
-.titulo {
-    font-size: 55px;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-}
-
-.galeria img {
-    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
-    border-radius: 15px;
-}
-
-.materialbox-caption {
-    bottom: 30px;
-    right: 0;
-    width: 50%;
-    height: auto;
-    padding: 10px;
-    margin: auto;
-    background: #000;
-    box-shadow: 5px 5px #fff;
-    font-size: 20px;
+.fifth {
+    border-color: #8e44ad;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  .fifth:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #8e44ad;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 500ms ease-in-out;
+  }
+  .fifth:hover {
     color: #fff;
-    line-height: 28px;
-}
-
-.galeria .col {
-    margin-bottom: 20px;
-}
-
-.justificar-parrafo-galeria {
-    font-size: 1.5em;
-    text-align: justify;
-    text-indent: 50px;
-    padding: 15px 0 15px 0;
-    font-weight: 900;
-    font-style: oblique;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
-}
-
-.btn {
-    width: 250px;
-    color: blue;
-}
-
-@media screen and (max-width: 700px) {
-    .materialbox-caption {
-        width: 90%;
-    }
-}
-
-@media screen and (max-height: 992px) {
-    .materialbox-caption {
-        width: 70%;
-    }
-    .galeria {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .materialbox-caption {
-        width: 70%;
-    }
-    .galeria {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .materialbox-caption {
-        width: 70%;
-    }
-    .container {
-        width: 90%;
-    }
-} */
-
-/*********- Media Querys -************/
-/* @media screen and (max-width:500px){
-    .portada{
-        font-size:2em;
-    }
-} */
+  }
+  .fifth:hover:after {
+    width: 110%;
+  }

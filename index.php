@@ -76,6 +76,7 @@ require 'config/config.php';
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
                                 <li><a href="alojamientos.php">Alojamientos</a></li>
+                                <li><a href="galeria.php">Galeria</a></li>
 								<li><a href="services.php">Reservas</a>
 								<li><a href="news.php">Noticias</a>
 									<ul class="sub-menu">
@@ -152,7 +153,7 @@ require 'config/config.php';
                                 </svg>
                                 <h4 class="enunciado-tarjeta ">Alojamiento</h4><br>
                                 <div class="www ">
-                                    <a class="button" href="/alojamientos">Ver Más</a>
+                                    <a class="button" href="alojamientos.php">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +170,7 @@ require 'config/config.php';
                                 </svg>
                                 <h4 class="enunciado-tarjeta">Galeria</h4><br>
                                 <div class="www ">
-                                    <a class="button" href="/galeria">Ver Más</a>
+                                    <a class="button" href="galeria.php">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +207,7 @@ require 'config/config.php';
                                 </svg>
                                 <h4 class="enunciado-tarjeta ">Excursiones</h4><br>
                                 <div class="www ">
-                                    <a class="button" href="/galeria#galeria-paisajes">Ver Más</a>
+                                    <a class="button" href="galeria.php#senderismo">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -214,13 +215,12 @@ require 'config/config.php';
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center">
                     <div class="contenedor-tarjeta ">
-                        <img src="images/bed/IMG_5637.jpg " style="transform: scale(2); " alt="Avatar " class="image ">
+                        <img src="images/food_Wine/finedining1.png" style="transform: scale(2); " alt="Avatar " class="image ">
                         <div class="overlay ">
                             <div class="centro-circulo">
-                                <i class="fa-solid fa-gift "></i>
-                                <h4 class="enunciado-tarjeta ">Promociones</h4><br>
+                                <h4 class="enunciado-tarjeta ">Comidas y Vinos</h4><br>
                                 <div class="www ">
-                                    <button class="button ">Ver Más</button>
+                                    <a class="button " href="galeria.php#comida_y_vinos">Ver Más</a>
                                 </div>
                             </div>
                         </div>

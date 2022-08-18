@@ -78,7 +78,9 @@ require 'config/config.php';
 							<ul>
 								<li><a href="./">Inicio</a></li>
 								<li class="current-list-item"><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services.php">Reservas</a>
+								<li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="services.php">Reservas</a></li>
 								<li><a href="news.php">Noticias</a>
 									<ul class="sub-menu">
 										<li><a href="news.php">News</a></li>
