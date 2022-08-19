@@ -76,12 +76,6 @@ require 'config/config.php';
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>
-								<li><a href="news.php">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.php">News</a></li>
-										<li><a href="single-news.php">Single News</a></li>
-									</ul>
-								</li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Tienda</a></li>
 								<li>
