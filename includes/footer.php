@@ -24,8 +24,9 @@
 						<ul>
 							<li><a href="./">Inicio.</a></li>
 							<li><a href="about.php">Sobre Nosotros.</a></li>
+							<li><a href="alojamientos.php">Alojamientos.</a></li>
+							<li><a href="galeria.php">Galeria.</a></li>
 							<li><a href="services.php">Reserva.</a></li>
-							<li><a href="news.php">Noticias.</a></li>
 							<li><a href="contact.php">Contacto.</a></li>
 							<li><a href="tienda.php">Tienda.</a></li>
 						</ul>
