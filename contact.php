@@ -75,12 +75,7 @@ require 'config/config.php';
                                 <li><a href="./">Inicio</a></li>
 								<li><a href="about.php">Sobre nosotros</a></li>
 								<li><a href="services.php">Reservas</a>
-								<li><a href="news.php">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.php">News</a></li>
-										<li><a href="single-news.php">Single News</a></li>
-									</ul>
-								</li>
+			
                                 <li class="current-list-item"><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Tienda</a></li>
 								<li>
@@ -125,96 +120,28 @@ require 'config/config.php';
 
 	<!-- main section -->
     <main>
-        <!--Tarjetas-->
-        <section class="tarjetas">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
-                </div>
-                <div class="col-xl-4">
-                    <div style="text-align:center;padding-top:0.5em;">
-                        <img src="images/logo-svg.svg" style="width:15vW;margin-top:9vw;">
-                    </div>
-                    <br>
-                    <div>
-                        <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 text-center">
-                    <div class="contenedor-tarjeta">
-                        <img src="images/bed/Chalet/Website Only/King Suite 4.jpg" style="width: 100%; height:100%;" class="image">
-                        <div class="overlay">
-                            <div class="centro-circulo">
-                                <i class="bi bi-chat-left-heart "></i>
-                                <h4 class="enunciado-tarjeta ">Alojamiento</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="/alojamientos">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 text-center">
-                    <div class="contenedor-tarjeta">
-                        <img src="images/activities/Wine Tours/wine tasting.png" class="image ">
-                        <div class="overlay">
-                            <div class="centro-circulo">
-                                <i class="bi bi-chat-left-heart "></i>
-                                <h4 class="enunciado-tarjeta">Galeria</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="/galeria">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-4 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/food_Wine/TLwinelabel.jpg" style="transform: scale(1.5); " alt="Avatar " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <i class="fa-solid fa-champagne-glasses "></i>
-                                <h4 class="enunciado-tarjeta ">Tienda</h4><br>
-                                <div class="www ">
-                                    <a class="button " href="/catalogo ">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/activities/Hiking/ridingview.jpg " style="transform: scale(2); " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <i class="fa-solid fa-mountain "></i>
-                                <h4 class="enunciado-tarjeta ">Excursiones</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="/galeria#galeria-paisajes">Ver Más</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/bed/IMG_5637.jpg " style="transform: scale(2); " alt="Avatar " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <i class="fa-solid fa-gift "></i>
-                                <h4 class="enunciado-tarjeta ">Promociones</h4><br>
-                                <div class="www ">
-                                    <button class="button ">Ver Más</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Video-->
+    <section class="center espacio mx-5 my-5">
+			<div class="row align-items-center">
+				<div class="info col-12 col-lg-6">
+					<h1 class="titulo">Datos de Contacto.</h1>
+					<h3 class="titulo">Nombre.</h1>
+					<p>     Will Evelyn </p>
+                    <h3 class="titulo">Correo.</h1>
+                    <p>     tumunanlodge@gmail.com</p>
+                    <h3 class="titulo">Número Telefonico.</h1>
+                    <p>     +56 9 9630 1152</p>
+                    <h3 class="titulo">Dirección.</h1>
+                    <p>     I-325, Las Peñas, O'Higgins, Chile. </p>
+
+				</div>
+				<div class="fotografia-info col-12 col-lg-6 my-5">
+					<img src="images\Foto_Personal.jpg">
+				</div>
+			</div>
+			<hr>	
+		</section>   
+    
+    <!--Video-->
         <section>
             <div class="ratio ratio-21x9 alto-completo">
                 <iframe width="100%" height="100%" src="images/viña_tumuñan.mp4" title="Viña Tumuñan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
