@@ -148,7 +148,7 @@ require 'config/config.php';
                             <img class="carrusel" src="images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg">
                         </label>
                             <label for="s5" id="slide5">
-                            <img class="carrusel" src="images/bed/IMG_4327.JPG">
+                            <img class="carrusel" src="images/bed/IMG_4327.jpg">
                         </label>
                             </p>
                         </div>

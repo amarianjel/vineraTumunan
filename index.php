@@ -196,7 +196,7 @@ require 'config/config.php';
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center">
                     <div class="contenedor-tarjeta ">
-                        <img src="images/activities/Hiking/3_enhanced__M8R1476.JPG" style="transform: scale(2); " class="image ">
+                        <img src="images/activities/Hiking/3_enhanced__M8R1476.jpg" style="transform: scale(2); " class="image ">
                         <div class="overlay ">
                             <div class="centro-circulo">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">

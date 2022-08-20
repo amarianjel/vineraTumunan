@@ -208,6 +208,9 @@ require 'config/config.php';
                         <a href="images/activities/Hiking/IMG_4226.jpg" class="image senderismo">
                             <img src="images/activities/Hiking/IMG_4226.jpg" alt="Senderismo">
                         </a>
+                        <a href="images/activities/Hiking/ridingview.jpg" class="image senderismo">
+                            <img src="images/activities/Hiking/ridingview.jpg" alt="Senderismo">
+                        </a>
                         <a href="images/activities/Hiking/multi-day-andean-trek-4.jpg.1024x0.jpg" class="image senderismo">
                             <img src="images/activities/Hiking/multi-day-andean-trek-4.jpg.1024x0.jpg" alt="Senderismo">
                         </a>
@@ -367,8 +370,8 @@ require 'config/config.php';
                         <a href="images/activities/Wine Tours/tumunan vineyard 416.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/tumunan vineyard 416.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpeg" class="image tours">
-                            <img src="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpeg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpg" alt="Tours de Vinos">
                         </a>
                         <a href="images/activities/Wine Tours/wine tasting.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/wine tasting.jpg" alt="Tours de Vinos">
