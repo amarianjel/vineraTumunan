@@ -90,19 +90,13 @@ if ($productos != null) {
 							<ul>
 								<li><a href="./">Inicio</a>
 								</li>
-								<li><a href="about.php">Sobre nosotros</a></li>
-                                <li><a href="alojamientos.php">Alojamientos</a></li>
-								<li><a href="galeria.php">Galeria</a></li>
-								<li><a href="services.php">Reservas</a></li>
-								<li><a href="news.html">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.php">Contacto</a></li>
-								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
-								<li>
+								<li><a href="./about.php">Sobre nosotros</a></li>
+                                <li><a href="./alojamientos.php">Alojamientos</a></li>
+								<li><a href="./galeria.php">Galeria</a></li>
+								<li><a href="./formReservas.php">Reservas</a></li>
+								<li><a href="./contact.php">Contacto</a></li>
+								<li><a href="./tienda.php">Tienda</a></li>
+								<li class="current-list-item">
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
                                             <?php if($num_cart==0){ ?>

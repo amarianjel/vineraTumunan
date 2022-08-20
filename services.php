@@ -1,4 +1,4 @@
-<!--MUESTRA RESERVAS-->
+<!-- No esta disponible la pagina -->
 <?php 
 require 'config/config.php';
 ?>

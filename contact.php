@@ -73,21 +73,15 @@ require 'config/config.php';
 						<nav class="main-menu">
 							<ul>
                                 <li><a href="./">Inicio</a></li>
-								<li><a href="about.php">Sobre nosotros</a></li>
-                                <li><a href="alojamientos.php">Alojamientos</a></li>
-								<li><a href="galeria.php">Galeria</a></li>
-								<li><a href="services.php">Reservas</a></li>
-								<li><a href="news.php">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.php">News</a></li>
-										<li><a href="single-news.php">Single News</a></li>
-									</ul>
-								</li>
+								<li><a href="./about.php">Sobre nosotros</a></li>
+                                <li><a href="./alojamientos.php">Alojamientos</a></li>
+								<li><a href="./galeria.php">Galeria</a></li>
+								<li><a href="./formReservas.php">Reservas</a></li>
                                 <li class="current-list-item"><a href="contact.php">Contacto</a></li>
-								<li><a href="tienda.php">Tienda</a></li>
+								<li><a href="./tienda.php">Tienda</a></li>
 								<li>
 									<div class="header-icons">
-										<a class="shopping-cart" href="checkout.php">
+										<a class="shopping-cart" href="./checkout.php">
                                             <?php if($num_cart==0){ ?>
                                                 <i class="fas fa-shopping-cart fa-lg"></i> Carrito
                                             <?php }else{ ?>
@@ -109,13 +103,13 @@ require 'config/config.php';
 	
 
 	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/bigstock-Vineyards-At-Sunset-37822447.jpg);">
+	<div class="hero-area hero-bg" style="background-image: url(images/activities/Hiking/115.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
 					<div class="hero-text">
 						<div class="hero-text-tablecell">
-							<p class="subtitle">Los mejores vinos de la zona centro</p>
+							<p class="subtitle">Contactanos para tener mayor información de nuestros servicios</p>
 							<h1>Viña Tumuñan Lodge</h1>
 						</div>
 					</div>
