@@ -1,0 +1,122 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition:all .2s cubic-bezier(.34,1.12,.68,1.31);
+}
+
+/* .gallery{
+    min-height: 100vh;
+    background:rgb(189, 68, 68);
+    padding-bottom: 100px;
+} */
+
+.gallery .parallax-chico .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px 0;
+    list-style: none;
+}
+
+.gallery .parallax-chico .controls .buttons{
+    height:40px;
+    width: 140px;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 253, 253);
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin:20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.gallery .parallax-chico .controls .buttons.active{
+    background:coral;
+    color:#fff;
+}
+
+.gallery .image-container .parallax-completo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .parallax-completo .image{
+    height:250px;
+    width: 350px;
+    overflow: hidden;
+    border:10px solid #fffec2;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+
+.gallery .image-container .parallax-completo .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .parallax-completo .image:hover img{
+    transform: scale(1.4);
+}
+
+/****- Parralax -******/
+.parallax-completo {
+    width: 100%;
+    background-image: url("../../images/bed/114\ -\ Edited.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.parallax-chico {
+    height: 320px;
+    background-image: url('../../images/activities/Portrait/IMG_5082.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/*****--- Botones ----******/
+
+.fifth {
+    border-color: #8e44ad;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  .fifth:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #8e44ad;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 500ms ease-in-out;
+  }
+  .fifth:hover {
+    color: #fff;
+  }
+  .fifth:hover:after {
+    width: 110%;
+  }
