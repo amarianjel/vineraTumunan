@@ -5,7 +5,7 @@ require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
-$comando = $con->prepare("SELECT p.id, p.nombre, p.descuento, p.precio, p.stock, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
+$comando = $con->prepare("SELECT p.id, p.nombre, p.descuento, p.precio, p.stock,p.imagen, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.activo=1 ORDER BY p.id ASC");
 $comando->execute();
 $resultado = $comando->fetchAll(PDO::FETCH_ASSOC);
 
@@ -85,13 +85,9 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 								<li><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services.php">Reservas</a>
-								<li><a href="news.php">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.php">News</a></li>
-										<li><a href="single-news.php">Single News</a></li>
-									</ul>
-								</li>
+								<li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a></li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li>
@@ -154,8 +150,8 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
             <div class="row product-lists">
                 <?php foreach ($resultado as $row) { ?>
                     <?php
-                        $id = $row['id'];
-                        $imagen = "images/productos/$id/principal.jpg";
+                        $img = $row['imagen'];
+                        $imagen = "images/productos/$img";
                         if (!file_exists($imagen)) {
                             $imagen = "images/no-photo.jpg";
                         }

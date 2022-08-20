@@ -11,7 +11,7 @@ $lista_carrito = array();
 
 if ($productos != null) {
     foreach ($productos as $clave => $producto) {
-        $sql = $con->prepare("SELECT id, nombre, precio, descuento,stock, $producto AS cantidad FROM productos WHERE id=? AND activo=1");
+        $sql = $con->prepare("SELECT id, nombre, precio, descuento, stock, imagen, $producto AS cantidad FROM productos WHERE id=? AND activo=1");
         $sql->execute([$clave]);
         $lista_carrito[] = $sql->fetch(PDO::FETCH_ASSOC);
     }
@@ -90,17 +90,13 @@ if ($productos != null) {
 							<ul>
 								<li><a href="./">Inicio</a>
 								</li>
-								<li><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services.php">Reservas</a>
-								<li><a href="news.html">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.php">Contacto</a></li>
-								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
-								<li>
+								<li><a href="./about.php">Sobre nosotros</a></li>
+                                <li><a href="./alojamientos.php">Alojamientos</a></li>
+								<li><a href="./galeria.php">Galeria</a></li>
+								<li><a href="./formReservas.php">Reservas</a></li>
+								<li><a href="./contact.php">Contacto</a></li>
+								<li><a href="./tienda.php">Tienda</a></li>
+								<li class="current-list-item">
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
                                             <?php if($num_cart==0){ ?>
@@ -162,7 +158,8 @@ if ($productos != null) {
                                         $total = 0;
                                         foreach ($lista_carrito as $producto) {
                                             $_id = $producto['id'];
-                                            $imagen = "images/productos/$_id/principal.jpg";
+                                            $img = $producto['imagen'];
+                                            $imagen = "images/productos/".$img;
                                             $descuento = $producto['descuento'];
                                             $precio = $producto['precio'];
                                             $stock = $producto['stock'];
@@ -211,7 +208,7 @@ if ($productos != null) {
                             </table>
                             <div class="cart-buttons">
                                 <a href="checkout.php" class="boxed-btn">Actualizar carrito</a>
-                                <a href="datos_envio.php" class="boxed-btn black">Pagar</a>
+                                <a href="pago.php" class="boxed-btn black">Pagar</a>
                             </div>
                         </div>
                     </div>

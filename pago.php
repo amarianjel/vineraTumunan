@@ -3,6 +3,19 @@
 require 'config/config.php';
 require 'config/database.php';
 
+
+//Datos envio
+/* $nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
+$rut = $_POST['rut'];
+$email = $_POST['mail'];
+$fono = $_POST['fono'];
+$region = $_POST['region'];
+$ciudad = $_POST['ciudad'];
+$calle = $_POST['calle'];
+$numero = $_POST['numero'];
+ */
+
 // SDK de Mercado Pago
 require __DIR__ .  '/vendor/autoload.php';
 MercadoPago\SDK::setAccessToken(TOKEN_MP);
@@ -104,13 +117,9 @@ if ($productos != null) {
 								<li><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services.php">Reservas</a>
-								<li><a href="news.html">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
+                                <li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a></li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li>
@@ -175,10 +184,10 @@ if ($productos != null) {
                                                 <div id="paypal-button-container"></div>
                                             </div>
                                             <br>
-                                            <h4>Mercado Pago</h4>
+                                            <!-- <h4>Mercado Pago</h4>
                                             <div class="col-5 text-center">
                                                 <div class="checkout-btn"></div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -293,10 +302,6 @@ if ($productos != null) {
     $preference->statement_descriptor = "Viña Tumuñan Lodge";
     $preference->external_reference = "Reference_1234";
     $preference->save();
-
-    ?>
-
-    <?php
 
     ?>
 

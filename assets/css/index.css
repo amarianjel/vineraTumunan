@@ -118,7 +118,7 @@ body {
 .titulo-circulos {
     margin-top: 0.5em;
     margin-bottom: 3vw;
-    font-size: 6em;
+    font-size: 5.5em;
     color: black;
     text-align: center;
     text-shadow: rgb(0, 0, 0) 0.3em 0.3em 0.5em;
@@ -192,24 +192,6 @@ body {
     text-align: center;
     color: #fff;
 }
-
-
-/*.centrador {
-    /*IMPORTANTE*/
-
-
-/*display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-
-/*.col-md {
-    align-items: center;
-}*/
-
-
-/*Boton */
 
 .www {
     height: 100%;
@@ -295,5 +277,12 @@ body {
         width: 200px;
         height: 300px;
         opacity: 0;
+    }
+}
+
+/****************- Media Querys -****************************/
+@media screen and (max-width: 768px){
+    .titulo-circulos{
+        font-size: 3.5em;
     }
 }

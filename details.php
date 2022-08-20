@@ -4,7 +4,7 @@ require 'config/database.php';
 $db = new Database();
 $con = $db->conectar();
 
-$comando = $con->prepare("SELECT id, nombre, precio, stock, descuento FROM productos WHERE activo=1");
+$comando = $con->prepare("SELECT id, nombre, precio, stock, descuento, imagen FROM productos WHERE activo=1");
 $comando->execute();
 $resultado = $comando->fetchAll(PDO::FETCH_ASSOC);
 
@@ -24,7 +24,7 @@ if ($id == '' || $token == '') {
         $sql->execute([$id]);
         if ($sql->fetchColumn() > 0) {
 
-            $sql = $con->prepare("SELECT p.id, p.nombre, p.precio, p.stock, p.descuento, p.descripcion, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.id=? AND p.activo=1");
+            $sql = $con->prepare("SELECT p.id, p.nombre, p.precio, p.stock, p.descuento, p.descripcion, p.imagen, c.id AS id_cat, c.categoria FROM productos p INNER JOIN categorias c ON c.id = p.id_categoria WHERE p.id=? AND p.activo=1");
             $sql->execute([$id]);
             $row = $sql->fetch(PDO::FETCH_ASSOC);
             $id = $row['id'];
@@ -33,10 +33,11 @@ if ($id == '' || $token == '') {
             $stock = $row['stock'];
             $precio = $row['precio'];
             $cat = $row['categoria'];
+            $img = $row['imagen'];
             $precio_desc = $precio - (($precio * $descuento) / 100);
-            $dir_images = 'images/productos/' . $id . '/';
+            $dir_images = 'images/productos/';
 
-            $rutaImg = $dir_images . 'principal.jpg';
+            $rutaImg = $dir_images . $img;
 
             if (!file_exists($rutaImg)) {
                 $rutaImg = 'images/no-photo.jpg';
@@ -132,13 +133,9 @@ if ($id == '' || $token == '') {
 								<li><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services.php">Reservas</a>
-								<li><a href="news.html">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
+                                <li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li>
@@ -240,8 +237,8 @@ if ($id == '' || $token == '') {
                 <div class="row">
                         <?php $i = 0; foreach ($resultado as $row) { ?>
                             <?php
-                                $id = $row['id'];
-                                $imagen = "images/productos/$id/principal.jpg";
+                                $ima = $row['imagen'];
+                                $imagen = "images/productos/$ima";
                                 if (!file_exists($imagen)) {
                                     $imagen = "images/no-photo.jpg";
                                 }

@@ -60,7 +60,7 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="home.php">
+							<a href="../index.php">
 								<img src="images/logo-svg.svg" width="120em">
 							</a>
 						</div>
@@ -69,18 +69,20 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="home.php">Inicio</a>
+								<li class="current-list-item"><a href="../index.php">Inicio</a>
 								</li>
-								<li><a href="about.html">Sobre nosotros</a></li>
-								<li><a href="#">Reservas</a>
+								<li><a href="../about.php">Sobre nosotros</a></li>
+								<li><a href="../alojamientos.php">Alojamientos</a>
+								<li><a href="../galeria.php">Galeria</a>
+								<li><a href="../services.php">Reservas</a>
 								<li><a href="news.html">Noticias</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
 										<li><a href="single-news.html">Single News</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">Contacto</a></li>
-								<li><a href="shop.html">Tienda</a></li>
+								<li><a href="../contact.html">Contacto</a></li>
+								<li><a href="../tienda.php">Tienda</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="details.php">

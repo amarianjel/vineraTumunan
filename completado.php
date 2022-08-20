@@ -32,6 +32,7 @@ if ($id_transaccion == '') {
         $error = "Error al comprobar la compra";
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -107,13 +108,9 @@ if ($id_transaccion == '') {
 								<li><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
-								<li><a href="services-php">Reservas</a>
-								<li><a href="news.html">Noticias</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
+								<li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a></li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li>
@@ -145,60 +142,116 @@ if ($id_transaccion == '') {
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Gracias por comprar los mejores vinos de la zona centro</i></p>
-						<h1>Detalles de su compra</h1>
+						<h1>Finalizar compra</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
-
-    <div class="cart-section mt-150 mb-150"> 
-            <div class="container">
-            <?php if (strlen($error) > 0) { ?>
-                <div class="container">
-                    <div class="col mb-5">
-                        <h3><?php echo $error;?></h3>
-                    </div>
-                </div>
-            <?php } else { ?>
-                <div class="container ">
-                    <div class="col mb-5">
-                        <h2>Detalles de compra</h2><br>
-                        <h5><b>Folio de compra: </b><?php echo $id_transaccion; ?><br></h5>
-                        <h5><b>Fecha de compra: </b> <?php echo $row['fecha']; ?><br></h5>
-						<?php while ($row_det = $sqlDet->fetch(PDO::FETCH_ASSOC)) {
-                        $importe =  $row_det['cantidad'] * $row_det['precio']; ?>
-                        <h5><b>Total:</b> <?php echo MONEDA . number_format($importe, 0, ',', '.'); ?><br></h5>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="cart-table-wrap">
-                            <table class="cart-table">
-                                <thead class="cart-table-head">
-                                    <tr class="table-head-row">
-                                        <th>Cantidad</th>
-                                        <th>Producto</th>
-                                        <th>Importe</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="table-head-row">               
-                                            <th><b><?php echo $row_det['cantidad']; ?></b></th>
-                                            <th><b><?php echo $row_det['nombre']; ?></b></th>
-                                            <th><b><?php echo MONEDA . number_format($importe, 0, ',', '.'); ?></b></th>
-                                        <?php } ?>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <br>
-                        <div class="cart-buttons">
-                                <a href="./" class="boxed-btn">Volver al inicio</a>
-                        </div>
-                    </div>
-                        
-                </div>
-            <?php } ?>
-            </div>  
-        </div>
+	<main>
+		<div class="checkout-section mt-100 mb-150">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="checkout-accordion-wrap">
+								<div class="accordion" id="accordionExample">
+									<div class="card single-accordion">
+										<div class="card-header" id="headingOne">
+										<h5 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											Datos Básicos y datos de envío
+											</button>
+										</h5>
+										</div>
+										<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+										<div class="card-body">
+											<div class="billing-address-form">
+											<form action="clases/capturar_datos_envio.php" method="POST">
+													<h4><Label>Datos básicos</Label></h4>
+													<p><input type="text" placeholder="Nombre" id="nombre" name="nombre" required></p>
+													<p><input type="text" placeholder="Apellido" id="apellido" name="apellido" required></p>
+													<p><input type="text" placeholder="Rut" id="rut" name="rut" required></p>
+													<p><input type="email" placeholder="Email" id="mail" name="mail" required></p>
+													<p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono" required></p>
+													<h4><Label>Datos envío</Label></h4>
+													<p><select class="billing-address-form" style="width:100%;" id="region" name="region" required>
+																<option value="I de Tarapacá">I de Tarapacá</option>
+																<option value="I de Antofagasta">I de Antofagasta</option>
+																<option value="III de Atacama">III de Atacama</option>
+																<option value="IV de Coquimboá">IV de Coquimbo</option>
+																<option value="V de Valparaíso">V de Valparaíso</option>
+																<option value="VI del Libertador General Bernardo O'Higgins">VI del Libertador General Bernardo O'Higgins</option>
+																<option value="VII del Maule">VII del Maule</option>
+																<option value="XVI de Ñuble">XVI de Ñuble</option>
+																<option value="VIII del Bío Bío">VIII del Bío Bío</option>
+																<option value="IX de la Araucanía">IX de la Araucanía</option>
+																<option value="XIV de los Ríos">XIV de los Ríos</option>
+																<option value="X de los Lagos">X de los Lagos</option>
+																<option value="XI Aysén del General Carlos Ibáñez del Campo">XI Aysén del General Carlos Ibáñez del Campo</option>
+																<option value="XII de Magallanes y Antártica Chilena">XII de Magallanes y Antártica Chilena</option>
+																<option value="Metropolitana de Santiago">Metropolitana de Santiago</option>
+																<option value="XV de Arica y Parinacota">XV de Arica y Parinacota</option>
+														</select></p>
+													<p><input type="text" placeholder="Ciudad" id="ciudad" name="ciudad" required></p>
+													<p><input type="text" placeholder="Calle" id="calle" name="calle" required></p>
+													<p><input type="tel" placeholder="Número" id="numero" name="numero" required></p>
+													<p><input type="hidden" id="id_transaccion" name="id_transaccion" value="<?php echo $id_transaccion; ?>"></p>
+													<input type="submit" class="boxed-btn" value="Finalizar">
+												</form>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div> 
+					</div>
+			<div class="col-lg-5">
+			<div class="container">
+				<?php if (strlen($error) > 0) { ?>
+					<div class="container">
+						<div class="col mb-5">
+							<h3><?php echo $error;?></h3>
+						</div>
+					</div>
+				<?php } else { ?>
+					<div class="container ">
+						<div class="col mb-5">
+							<h2>Detalles de compra</h2><br>
+							<h5><b>Folio de compra: </b><?php echo $id_transaccion; ?><br></h5>
+							<h5><b>Fecha de compra: </b> <?php echo $row['fecha']; ?><br></h5>
+							<?php while ($row_det = $sqlDet->fetch(PDO::FETCH_ASSOC)) {
+							$importe =  $row_det['cantidad'] * $row_det['precio']; ?>
+							<h5><b>Total:</b> <?php echo MONEDA . number_format($importe, 0, ',', '.'); ?><br></h5>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<div class="cart-table-wrap">
+								<table class="cart-table">
+									<thead class="cart-table-head">
+										<tr class="table-head-row">
+											<th>Cantidad</th>
+											<th>Producto</th>
+											<th>Importe</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="table-head-row">               
+												<th><b><?php echo $row_det['cantidad']; ?></b></th>
+												<th><b><?php echo $row_det['nombre']; ?></b></th>
+												<th><b><?php echo MONEDA . number_format($importe, 0, ',', '.'); ?></b></th>
+											<?php } ?>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+							
+					</div>
+				<?php } ?>
+				</div>                                          
+					</div>
+				</div>
+			</div>
+	</main>
+    
 <?php  include("includes/footer.php");?>
