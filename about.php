@@ -13,7 +13,7 @@ require 'config/config.php';
 		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge| Sobre Nosotros</title>
+	<title>Viña Tumuñan Lodge | Sobre Nosotros</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

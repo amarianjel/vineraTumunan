@@ -111,17 +111,17 @@ require 'config/config.php';
         <!-- end hero area -->
         <section class="body">
             <div class="gallery">
-                <section class="parallax-chico">
-                    <ul class="controls">
-                        <li class="buttons active fifth" data-filter="all">Todas</li>
-                        <li class="buttons fifth" data-filter="senderismo">Senderismo</li>
-                        <li class="buttons fifth" data-filter="pesca">Pesca</li>
-                        <li class="buttons fifth" data-filter="comida_y_vino">Comida y Vino</li>
-                        <li class="buttons fifth" data-filter="tours">Tours de Vinos</li>
-                        <li class="buttons fifth" data-filter="vinos">Vinos</li>
-                        <li class="buttons fifth" data-filter="alojamientos">Alojamientos</li>
+                <div class="product-filters">
+                    <ul>
+                        <li class="active" data-filter="all">Todas</li>
+                        <li class="buttons" data-filter="senderismo">Senderismo</li>
+                        <li class="buttons" data-filter="pesca">Pesca</li>
+                        <li class="buttons" data-filter="comida_y_vino">Comida y Vino</li>
+                        <li class="buttons" data-filter="tours">Tours de Vinos</li>
+                        <li class="buttons" data-filter="vinos">Vinos</li>
+                        <li class="buttons" data-filter="alojamientos">Alojamientos</li>
                     </ul>
-                </section>
+                </div>
 
                 <div class="image-container">
 

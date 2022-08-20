@@ -18,6 +18,11 @@ input[type=radio] {
     display: none;
 }
 
+.col-md-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .portada {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
