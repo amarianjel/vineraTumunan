@@ -129,7 +129,7 @@ require 'config/config.php';
                     <h1>Disfruta de nuestros servicios</h1> 
                 </div>
                 <div class="informacion">
-                    <div>
+                    <div class="box-col">
                         <div class="text-info">
                             <div style="text-align:center;">
                                 <img src="images/logo-svg.svg" style="width:15vW;">
@@ -147,7 +147,7 @@ require 'config/config.php';
                         </div>
                     </div>
 
-                    <div class="venta">
+                    <div class="box-col">
                         <div class="direccion">
                             <img class="picture" src="images/food_Wine/TLwinelabel.jpg">
                             <div class="middle">
@@ -155,14 +155,14 @@ require 'config/config.php';
                             </div>
                         </div>
                         <div class="direccion">
-                            <img class="picture" src="images/bed/Chalet/Website Only/King Suite 4.jpg" >
+                            <img class="picture" src="images/bed/Chalet/Website Only/King Suite 4.jpg" style="height: 100%;">
                             <div class="middle">
                                 <div class="text"><a class="boton" href="alojamientos.php">Alojamiento</a></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="actividades">
+                    <div class="box-col">
                         <div class="direccion">
                             <img class="picture" src="images/activities/Hiking/3_enhanced__M8R1476.jpg">
                             <div class="middle">
