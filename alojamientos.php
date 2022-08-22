@@ -153,7 +153,7 @@ require 'config/config.php';
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 offset-md-1">
+                    <div class="col-md-4 offset-md-1">
                         <h1 class="titulo">Casa en la Montaña</h1>
                         <p class="justificar-parrafo">
                             Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.
@@ -181,7 +181,7 @@ require 'config/config.php';
         <section>
             <div class="container .container2">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <h1 class="titulo">Chalet de Montaña para Parejas</h1>
                         <p class="justificar-parrafo">
                             Cabaña moderna que tiene 1 dormitorio con jardines privados, un fogon, una parrilla y una cocina pequeña. Cerca del río y con vistas a la montaña.
