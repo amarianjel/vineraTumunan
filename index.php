@@ -43,7 +43,6 @@ require 'config/config.php';
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
-
 </head>
 <body>
 	
@@ -123,104 +122,88 @@ require 'config/config.php';
 	<!-- main section -->
     <main>
         <!--Tarjetas-->
-        <section class="tarjetas">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h1 class="titulo-circulos">Disfruta de nuestros servicios</h1>
+        <section class="new_info">
+            <div>
+                <div class="title">
+                    <h1>Disfruta de nuestros servicios</h1> 
                 </div>
-                <div class="col-lg-4 col-sm-5">
-                    <div style="text-align:center;padding-top:0.5em;">
-                        <img src="images/logo-svg.svg" style="width:15vW;margin-top:9vw;">
-                    </div>
-                    <br>
-                    <div>
-                        <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center col-sm-6">
-                    <div class="contenedor-tarjeta">
-                        <img src="images/bed/Chalet/Website Only/King Suite 4.jpg" style="width: 100%; height:100%;" class="image">
-                        <div class="overlay">
-                            <div class="centro-circulo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-                                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-                                </svg>
-                                <h4 class="enunciado-tarjeta ">Alojamiento</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="alojamientos.php">Ver Más</a>
-                                </div>
+                <div class="informacion">
+                    <div class="box-col">
+                        <div class="text-info">
+                            <div style="text-align:center;">
+                                <img src="images/logo-svg.svg" style="width:15vW; padding: 5px 0px 0px 0px">
+                            </div>
+                            <br>
+                            <div>
+                                <p class="servicios">Arriendo de cabañas en los Andes de Colchagua. Disfrute de un buen vino rodeado de montañas nevadas y bosques nativos.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center col-sm-6">
-                    <div class="contenedor-tarjeta">
-                        <img src="images/activities/Wine Tours/wine tasting.png" class="image ">
-                        <div class="overlay">
-                            <div class="centro-circulo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                        <div class="direccion">
+                            <img class="picture" src="images/activities/Wine Tours/wine tasting.png">
+                            <div class="middle">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
                                     <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                     <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
                                 </svg>
-                                <h4 class="enunciado-tarjeta">Galeria</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="galeria.php">Ver Más</a>
-                                </div>
+								<h4 class="enunciado-tarjeta">Galeria</h4>
+								<div class="text"><a class="boton" href="galeria.php">Ver Mas</a>
+								</div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-5 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/food_Wine/TLwinelabel.jpg" style="transform: scale(1.5); " alt="Avatar " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+
+                    <div class="box-col">
+                        <div class="direccion">
+                            <img class="picture" src="images/food_Wine/TLwinelabel.jpg">
+                            <div class="middle">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
                                     <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
                                 </svg>
                                 <h4 class="enunciado-tarjeta ">Tienda</h4><br>
-                                <div class="www ">
-                                    <a class="button " href="tienda.php">Ver Más</a>
-                                </div>
+                                
+                                <div class="text"><a class="boton" href="tienda.php">Ver mas</a></div>
+                            </div>
+                        </div>
+                        <div class="direccion">
+                            <img class="picture" src="images/bed/Chalet/Website Only/King Suite 4.jpg" style="height: 100%;">
+                            <div class="middle">
+                                <div class="text">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                                	</svg>
+                                	<h4 class="enunciado-tarjeta ">Alojamiento</h4>
+									<br>
+									<a class="boton" href="alojamientos.php">Ver mas</a>
+								</div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/activities/Hiking/3_enhanced__M8R1476.jpg" style="transform: scale(2); " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
+
+                    <div class="box-col">
+                        <div class="direccion">
+                            <img class="picture" src="images/activities/Hiking/3_enhanced__M8R1476.jpg">
+                            <div class="middle">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
                                     <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
                                     <path d="M2 4h4.332l-.94 1H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.38l-.308 1H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
                                     <path d="M2 6h2.45L2.908 7.639A1.5 1.5 0 0 0 3.313 10H2V6zm8.595-2-.308 1H12a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H9.276l-.942 1H12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.405z"/>
                                     <path d="M12 10h-1.783l1.542-1.639c.097-.103.178-.218.241-.34V10zm0-3.354V6h-.646a1.5 1.5 0 0 1 .646.646zM16 8a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
                                 </svg>
                                 <h4 class="enunciado-tarjeta ">Excursiones</h4><br>
-                                <div class="www ">
-                                    <a class="button" href="galeria.php#senderismo">Ver Más</a>
-                                </div>
+                                <div class="text"><a class="boton" href="galeria.php#senderismo">Ver mas</a></div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                    <div class="contenedor-tarjeta ">
-                        <img src="images/food_Wine/finedining1.png" style="transform: scale(2); " alt="Avatar " class="image ">
-                        <div class="overlay ">
-                            <div class="centro-circulo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                        
+                        <div class="direccion">
+                            <img class="picture" src="images/food_Wine/finedining1.png">
+                            <div class="middle">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
                                     <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
                                     <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                                 </svg>
                                 <h4 class="enunciado-tarjeta ">Comidas y Vinos</h4>
                                 <br>
-                                <div class="www ">
-                                    <a class="button " href="galeria.php#comida_y_vinos">Ver Más</a>
-                                </div>
+                                <div class="text"><a class="boton" href="galeria.php#comida_y_vinos">Ver mas</a></div>    
                             </div>
                         </div>
                     </div>
@@ -236,5 +219,5 @@ require 'config/config.php';
         </section>
     </main>
 	<!-- end main section -->
-
+	<script src="assets/js/index.js"></script>
     <?php  include("includes/footer.php");?>
