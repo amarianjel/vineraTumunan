@@ -3,14 +3,19 @@
 }
 .title{
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 .informacion{
     display: flex;
     width: 100%;
     padding: 5px;
 }
-
+.servicios {
+    font-size: 1.6em;
+    text-align: center;
+    color: black;
+    font-family: "Didot", Times, serif;
+}
 .box-col{
     width: 33.3%;
     float: left;
@@ -23,6 +28,8 @@
 .direccion {
     position: relative;
     width: 100%;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
 }
 .picture {
     opacity: 1;
@@ -31,6 +38,7 @@
     padding: 2px;
     transition: .5s ease;
     backface-visibility: hidden;
+    z-index:1;
 }
 
 .middle {
@@ -42,28 +50,37 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    vertical-align: middle;
+}
+
+.middle svg{
+    color: white;
+}
+
+.direccion.appear{
+    opacity: 1;
 }
 
 .direccion:hover .picture {
-    opacity: 0.8;
+    filter: blur(10px);
 }
 
 .direccion:hover .middle {
-    cursor: pointer;
+    transition: 0.5s;
     opacity: 1;
-    border: 2px silver solid;
 }
 
 .text>.boton {
     display: block;
     background-color: #051922;
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     padding: 10px 50px;
+    width: fit-content;
     text-decoration: none;
 }
 a{
-    color: #e4a13ee7;
+    color: #fff;
 }
 
 
