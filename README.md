@@ -12,3 +12,4 @@ INSTALACIÓN
 # En las clases esta el cambio para el correo, para enviar los datos
 * La base de datos esta actualizada
 * Recordar cambiar las configuraciones en el hosting
+* Realizar merge o pull segun corresponda
