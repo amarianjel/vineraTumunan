@@ -10,8 +10,11 @@ require 'config/config.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
+	<!-- Boostrap 5.1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 	<!-- title -->
-	<title>Viña Tumuñan Lodge| Inicio </title>
+	<title>Viña Tumuñan Lodge | Inicio </title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -74,28 +77,41 @@ require 'config/config.php';
 								<li class="current-list-item"><a href="./">Inicio</a>
 								</li>
 								<li><a href="about.php">Sobre nosotros</a></li>
-                                <li><a href="alojamientos.php">Alojamientos</a></li>
-                                <li><a href="galeria.php">Galeria</a></li>
+								<li><a href="alojamientos.php">Alojamientos</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
 								<li><a href="formReservas.php">Reservas</a>
 								<li><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Tienda</a></li>
+								<li><a href="./">
+									<img src="./images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/index.php">
+									<img src="./images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/index.php">
+									<img src="./images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
-                                            <?php if($num_cart==0){ ?>
-                                                <i class="fas fa-shopping-cart fa-lg"></i> Carrito
-                                            <?php }else{ ?>
-											    <i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrito 
-                                            <?php } ?> 
+											<?php if($num_cart==0){ ?>
+												<i class="fas fa-shopping-cart fa-lg"></i> Carrito
+											<?php }else{ ?>
+												<i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrito 
+											<?php } ?> 
 										</a>
 									</div>
 								</li>
 							</ul>
 						</nav>
-						<div class="mobile-menu"></div>
-						<!-- menu end -->
-					</div>
+					<div class="mobile-menu"></div>
+					<!-- menu end -->
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -121,6 +137,69 @@ require 'config/config.php';
 
 	<!-- main section -->
     <main>
+		<!--Carrusel-->
+		<section>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active overflow carrusel-full">
+                        <img src="./images/43672428.jpg" class="d-block w-100 carrusel-full">
+                    </div>
+                    <div class="carousel-item overflow  carrusel-full">
+                        <img src="./images/bed/chalet2020/DSC_0595.jpg" class="d-block w-100  carrusel-full" alt="Nuestros Vinhas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo">Relajate en una estadia comoda y placentera</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow carrusel-full">
+                        <img src="./images/food_Wine/cheese.jpg" class="d-block w-100 carrusel-full">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo">Disfruta de lo mejor de nuestra Viña</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow carrusel-full">
+                        <img src="./images/Activities/Hiking/3_enhanced__M8R1476.jpg" class="d-block w-100 carrusel-full">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo"> Explora en las zona, y disfruta los que nuestro entrono tiene para ti</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow  carrusel-full">
+                        <img src="./images/Activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="d-block w-100 carrusel-full">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo"> Disfruta de nuestros excelentes vinos, que el valle de San Fernando tiene para ti</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow  carrusel-full">
+                        <img src="./images/Activities/Wine Tours/tumunan vineyard 416.jpg" class="d-block w-100 carrusel-full">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo">Únete a los tours que preparamos para tí y conoce el proceso de nuestros vinos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item overflow  carrusel-full">
+                        <img src="./images/Activities/Hiking/_AT_9852.jpg" class="d-block w-100 carrusel-full">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="carruselParrafo">Nutrete con la energia de la naturaleza</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+            </div>
+        </section>
         <!--Tarjetas-->
         <section class="new_info">
             <div>

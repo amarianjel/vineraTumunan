@@ -83,6 +83,19 @@ require 'config/config.php';
 								<li><a href="./formReservas.php">Reservas</a></li>
 								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
+								<li><a href="about.php">
+									<img src="./images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/about.php">
+									<img src="./images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/about.php">
+									<img src="./images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -215,7 +228,7 @@ require 'config/config.php';
 
 			<div class="row align-items-center">
 				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Pictures for new Little Hotelier Website\Activity 1.jpg" alt="">
+					<img src="images/activities/Hiking/ridingview.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h3 class="titulo">Montar a Caballo</h3>
@@ -265,7 +278,7 @@ require 'config/config.php';
 		<!--Video-->
 		<section>
 			<div class="ratio ratio-21x9 alto-completo">
-				<iframe width="100%" height="100%" src="images/viña_tumuñan.mp4" title="Viña Tumuñan" frameborder="0"
+				<iframe width="100%" height="100%" src="images/video_vina.mp4" title="Viña Tumuñan" frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
 				<!--<iframe src="https://www.youtube.com/embed/_Y9afSciAAM?autoplay=1&mute=1 " title="YouTube video player " frameborder="0 " allowfullscreen></iframe>-->

@@ -70,6 +70,19 @@ require 'config/config.php';
                                     <li><a href="formReservas.php">Reservas</a>
                                     <li><a href="contact.php">Contacto</a></li>
                                     <li><a href="tienda.php">Tienda</a></li>
+                                    <li><a href="galeria.php">
+									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/galeria.php">
+									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/galeria.php">
+									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
                                     <li>
                                         <div class="header-icons">
                                             <a class="shopping-cart" href="checkout.php">
@@ -113,7 +126,7 @@ require 'config/config.php';
             <div class="gallery">
                 <div class="product-filters">
                     <ul>
-                        <li class="active" data-filter="all">Todas</li>
+                        <li class="active buttons" data-filter="all">Todas</li>
                         <li class="buttons" data-filter="senderismo">Senderismo</li>
                         <li class="buttons" data-filter="pesca">Pesca</li>
                         <li class="buttons" data-filter="comida_y_vino">Comida y Vino</li>

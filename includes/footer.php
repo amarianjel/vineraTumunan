@@ -4,13 +4,13 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
-						<h2 class="widget-title">Sobre Nosotros.</h2>
+						<h2 class="widget-title">Sobre Nosotros</h2>
 						<p>Escondido en las estribaciones boscosas de los Andes, Tumuñan Lodge ofrece a los huéspedes de todo el mundo un retiro durante todo el año y la oportunidad única de explorar una parte de Chile muy linda.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Contactanos.</h2>
+						<h2 class="widget-title">Contactanos</h2>
 						<ul>
 							<li>I-325, Las Peñas, O'Higgins, Chile.</li>
 							<li>tumunanlodge@gmail.com</li>
@@ -46,7 +46,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyright &copy; 2022 -  All Rights Reserved.</p>
+					<p>Copyright &copy; 2022 -  Todos los Derechos Reservados</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">

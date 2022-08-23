@@ -72,6 +72,19 @@ require 'config/config.php';
 								<li><a href="./formReservas.php">Reservas</a>
 								<li><a href="./contact.html">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
+                                <li><a href="alojamientos.php">
+									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/alojamientos.php">
+									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/alojamientos.php">
+									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="details.php">
