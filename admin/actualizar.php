@@ -48,7 +48,7 @@ if (isset($_GET)) {
 include("includes/header.php"); ?>
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800"><?php echo $nombre; ?></h1>
-    <a href="productos.php" class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" id="abrirProducto"><i class="fas fa-plus fa-sm text-white-50"></i> Volver Atras</a>
+    <a href="productos.php" class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" id="abrirProducto">Volver Atras</a>
 </div>
 <form action="" method="POST" enctype="multipart/form-data" autocomplete="off">
                     <div class="row">
@@ -60,7 +60,7 @@ include("includes/header.php"); ?>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="stock">stock</label>
+                                <label for="stock">Stock</label>
                                 <input id="stock" class="form-control" type="text" name="stock" value="<?php echo $stock; ?>" required>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ include("includes/header.php"); ?>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="descuento">Precio Rebajado</label>
+                                <label for="descuento">Descuento (0-100)</label>
                                 <input id="descuento" class="form-control" type="text" name="descuento" value="<?php echo $descuento; ?>" required>
                             </div>
                         </div>

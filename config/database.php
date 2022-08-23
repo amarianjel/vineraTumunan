@@ -3,7 +3,7 @@
 class Database
 {
     private $hostname = "localhost";
-    private $database = "tienda_online";
+    private $database = "tumu971com_prueba";
     private $username = "root";
     private $password = "";
     private $charset = "utf8";

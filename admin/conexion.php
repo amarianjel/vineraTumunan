@@ -1,8 +1,16 @@
 <?php
-    $host = "localhost";
+
+if (!isset($_SESSION)) { session_start(); }
+header("Content-Type: text/html; charset=utf8");
+date_default_timezone_set('America/Santiago');
+
+    $host = "localhost:3306";
     $user = "root";
     $clave = "";
-    $bd = "tienda_online";
+    $bd = "tumu971com_prueba";
+
+    // admin
+    // Viñatumuñan@_22
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
         echo "No se pudo conectar a la base de datos";
@@ -10,3 +18,5 @@
     }
     mysqli_select_db($conexion,$bd) or die("No se encuentra la base de datos");
     mysqli_set_charset($conexion,"utf8");
+    
+    ?>

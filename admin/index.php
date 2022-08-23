@@ -25,7 +25,7 @@ if (!empty($_SESSION['active'])) {
                 $_SESSION['id'] = $dato['id'];
                 $_SESSION['nombre'] = $dato['nombre'];
                 $_SESSION['user'] = $dato['usuario'];
-                header('Location: admin/productos.php');
+                header('Location: ./productos.php');
             } else {
                 $alert = '<div class="alert alert-danger text-center alert-dismissible fade show" role="alert">
                         Contraseña incorrecta

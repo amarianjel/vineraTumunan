@@ -159,6 +159,7 @@ require 'config/config.php';
                                                 <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_niños" name="c_niños"></p>
 												<input type="submit" class="boxed-btn black" value="Enviar solicitud">
                                             </form>
+                                            
                                         </div>
                                     </div>
                                     </div>

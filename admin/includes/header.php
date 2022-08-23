@@ -1,11 +1,13 @@
-<?php session_start();
+<?php 
+
+
 if (empty($_SESSION['id'])) {
     header('Location: ./');
 }
 $id=$_SESSION['id'];
 $consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
         foreach($consulta as $cons){
-            $nombre = $cons['nombre'];
+            $nombre_us = $cons['nombre'];
             $img = $cons['imagen'];
         } 
 ?>
@@ -40,7 +42,7 @@ $consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
         <ul class="navbar-nav bg-gradient-warning sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="productos.php">
                 <div class="sidebar-brand-icon p-4">
                     <img class="img" src="../images/logo-svg.svg" width="100px"alt="">
                 </div>
@@ -52,7 +54,7 @@ $consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="../index.php">
+                <a class="nav-link" href="../salir.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Pagina web</span></a>
             </li>
@@ -102,7 +104,7 @@ $consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 l"><?php echo $nombre;?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 l"><?php echo $nombre_us;?></span>
                                 <img class="img-profile rounded-circle" src="../images/usuario/<?php echo $img;?>">
                             </a>
                             <!-- Dropdown - User Information -->
