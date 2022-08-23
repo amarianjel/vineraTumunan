@@ -13,14 +13,15 @@ $mail = new PHPMailer(true);
 
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                //Enable verbose debug output
+    $mail->SMTPDebug = 0;                //Enable verbose debug output
     $mail->isSMTP();
     $mail->Host       = 'mail.tumunan.com';                     //Configure el servidor SMTP para enviar
     $mail->SMTPAuth   = true;                          // Habilita la autenticación SMTP
     $mail->Username   = 'admin@tumunan.com';                     //Usuario SMTP
     $mail->Password   = 'abraham1307';                     //Contraseña SMTP                             
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   //Habilitar el cifrado TLS   SMTPS
-    $mail->Port       = 465;                     //Puerto TCP al que conectarse, si usa 587 agregar `SMTPSecure = PHPMailer :: ENCRYPTION_STARTTLS`
+    $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
+    $mail->SMTPAutoTLS = false;
+    $mail->Port       = 587;                    //Puerto TCP al que conectarse, si usa 587 agregar `SMTPSecure = PHPMailer :: ENCRYPTION_STARTTLS`
 
     //Correo emisor y nombre
     $mail->setFrom('admin@tumunan.com', 'ViñaTumuñanLodge');

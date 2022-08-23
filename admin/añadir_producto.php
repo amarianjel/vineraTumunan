@@ -1,9 +1,7 @@
 <?php
-require_once "conexion.php";
-
-if (isset($_POST)) {
-    if (!empty($_POST)) {
-        $nombre = $_POST['nombre'];
+require_once("conexion.php");
+if (isset($_POST['agregar'])) {
+        $nombre_p = $_POST['nombre'];
         $stock = $_POST['stock'];
         $descripcion = $_POST['descripcion'];
         $precio = $_POST['precio'];
@@ -16,20 +14,23 @@ if (isset($_POST)) {
         $fecha = date("YmdHis");
         $foto = $fecha . ".jpg";
         $destino = "../images/productos/" . $foto;
-        $query = mysqli_query($conexion, "INSERT INTO productos(nombre, descripcion, precio, descuento, stock, imagen, id_categoria) VALUES ('$nombre', '$descripcion', '$precio', '$descuento', $stock, '$foto', $categoria)");
-        if ($query) {
-            if (move_uploaded_file($tmpname, $destino)) {
-                header('Location: productos.php');
-            }
+        if (move_uploaded_file($tmpname, $destino)) {
+            $sql="INSERT INTO productos(nombre, descripcion, precio, descuento, stock, imagen, id_categoria, activo) VALUES ('$nombre_p', '$descripcion', '$precio', '$descuento', $stock, '$foto', $categoria,$activo)";
+            $query = mysqli_query($conexion, $sql );
+            header('Location: productos.php');
+        }else{
+            $sql="INSERT INTO productos(nombre, descripcion, precio, descuento, stock, id_categoria, activo) VALUES ('$nombre_p', '$descripcion', '$precio', '$descuento', $stock, $categoria,0)";
+            $query = mysqli_query($conexion, $sql );
+            header('Location: productos.php');
         }
-    }
+        
 }
 include("includes/header.php"); ?>
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Añadir Producto</h1>
     <a href="productos.php" class="d-none d-sm-inline-block btn btn-sm btn-secondary shadow-sm" id="abrirProducto"><i class="fas fa-plus fa-sm text-white-50"></i> Volver Atras</a>
 </div>
-<form action="" method="POST" enctype="multipart/form-data" autocomplete="off">
+<form action="añadir_producto.php" method="POST" enctype="multipart/form-data" autocomplete="off">
 <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -51,7 +52,7 @@ include("includes/header.php"); ?>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="descuento">Descuento</label>
+                                <label for="descuento">Descuento (0-100)</label>
                                 <input id="descuento" class="form-control" type="text" name="descuento" value="0" required>
                             </div>
                         </div>
@@ -74,10 +75,10 @@ include("includes/header.php"); ?>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="activo">Activo / Desactivo</label>
+                                <label for="activo">Activo / Desactivo (Activo = Se muestra en la página web, Desactivado=No se encuentra en la página web)</label>
                                 <select id="activo" class="form-control" name="activo" required>
-                                        <option value="<?php echo 1; ?>"><?php echo 1; ?></option>
-                                        <option value="<?php echo 0; ?>"><?php echo 0; ?></option>         
+                                        <option value="1">Activo</option>
+                                        <option value="0">Desactivado</option>  
                                 </select>
                             </div>
                         </div>
@@ -88,6 +89,6 @@ include("includes/header.php"); ?>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit">Registrar</button>
+                    <button class="btn btn-primary" type="submit" name="agregar">Registrar</button>
                 </form>
 <?php include("includes/footer.php"); ?>

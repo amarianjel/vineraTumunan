@@ -20,7 +20,7 @@ if (isset($_GET)) {
                     $tmpname = $img['tmp_name'];
                     $fecha = date("YmdHis");
                     $foto = $fecha . ".jpg";
-                    $destino = "../images/usuario/" . $foto;
+                    $destino = "../../images/usuario/" . $foto;
                     if (move_uploaded_file($tmpname, $destino)) {
                         $query = mysqli_query($conexion, "UPDATE usuarios SET nombre='$nombre', imagen='$foto' WHERE id=$id");
                         header('Location: productos.php');

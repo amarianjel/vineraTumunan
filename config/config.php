@@ -1,15 +1,15 @@
 <?php
 
-//ConfiguraciÃ³n del sistema
+//Configuraci¨®n del sistema
 define("SITE_URL", "http://www.tumunan.com");
 define("KEY_TOKEN", "TU_TOKEN");
 define("MONEDA", "$");
 
-//ConfiguraciÃ³n para Paypal
+//Configuraci¨®n para Paypal
 define("CLIENT_ID", "AWhQMptfFe9I3ZltfYbhTfozJ-1TjA5MrwN0pFLmCfsSPxx2U_O0Dlyr8xpDmcP5NI64bo4Bku3hAhjn");
 define("CURRENCY", "USD");
 
-//ConfiguraciÃ³n para Mercado Pago
+//Configuraci¨®n para Mercado Pago
 define("TOKEN_MP", "TEST-525207997074765-081621-f88393fc3e4f4d8544f3f62e80740404-239049668");
 define("PUBLIC_KEY_MP", "TEST-09bf5204-ef5e-4ee2-afd2-19df2b716f1c");
 define("LOCALE_MP", "es-CL");
