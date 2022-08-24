@@ -356,8 +356,8 @@ require 'config/config.php';
                         <a href="images/activities/Wine Tours/Colchagua 7.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/Colchagua 7.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="images/activities/Wine Tours/image2.jpeg" class="image tours">
-                            <img src="images/activities/Wine Tours/image2.jpeg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/image2.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/image2.jpg" alt="Tours de Vinos">
                         </a>
                         <a href="images/activities/Wine Tours/IMG_5036.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/IMG_5036.jpg" alt="Tours de Vinos">
@@ -380,11 +380,8 @@ require 'config/config.php';
                         <a href="images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="images/activities/Wine Tours/tumunan vineyard 416.jpg" class="image tours">
-                            <img src="images/activities/Wine Tours/tumunan vineyard 416.jpg" alt="Tours de Vinos">
-                        </a>
-                        <a href="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpg" class="image tours">
-                            <img src="images/activities/Wine Tours/tumuñan vineyard in autumn glory.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/z.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/z.jpg" alt="Tours de Vinos">
                         </a>
                         <a href="images/activities/Wine Tours/wine tasting.jpg" class="image tours">
                             <img src="images/activities/Wine Tours/wine tasting.jpg" alt="Tours de Vinos">

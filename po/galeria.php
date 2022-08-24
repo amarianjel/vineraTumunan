@@ -11,7 +11,7 @@ require '../config/config.php';
         <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../assets/css/galeria.css">
         
-        <title>Vineyard Tumuñan Lodge | Gallery</title>
+        <title>Vinhedo Tumuñan Lodge | Galeria</title>
 
                 <!--Style-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,24 +62,24 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Start</a>
+								<li><a href="./">Começar</a>
 								</li>
-								<li><a href="about.php">About us</a></li>
-								<li><a href="alojamientos.php">Lodging</a></li>
-								<li class="current-list-item"><a href="galeria.php">Gallery</a></li>
-								<li><a href="formReservas.php">Bookings</a>
-								<li><a href="contact.php">Contact</a></li>
-								<li><a href="tienda.php">Store</a></li>
+								<li><a href="about.php">Sobre nós</a></li>
+								<li><a href="alojamientos.php">Alojamento</a></li>
+								<li class="current-list-item"><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a>
+								<li><a href="contact.php">Contacto</a></li>
+								<li><a href="tienda.php">Armazenar</a></li>
 								<li><a href="../galeria.php">
 									<img src="../images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
-								<li><a href="galeria.php">
+								<li><a href="../en/galeria.php">
 									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
-								<li><a href="../po/galeria.php">
+								<li><a href="galeria.php">
 									<img src="../images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								</li>
@@ -87,9 +87,9 @@ require '../config/config.php';
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
 											<?php if($num_cart==0){ ?>
-												<i class="fas fa-shopping-cart fa-lg"></i> Shopping
+												<i class="fas fa-shopping-cart fa-lg"></i> Carrinho
 											<?php }else{ ?>
-												<i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Shopping
+												<i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrinho
 											<?php } ?> 
 										</a>
 									</div>
@@ -113,8 +113,8 @@ require '../config/config.php';
                     <div class="col-lg-9 offset-lg-2 text-center">
                         <div class="hero-text">
                             <div class="hero-text-tablecell">
-                                <p class="subtitle">Live the Tumuñan experience</p>
-                                <h1>Vineyard Tumuñan Lodge</h1>
+                                <p class="subtitle">Viva a experiência Tumuñan</p>
+                                <h1>Vinhedo Tumuñan Lodge</h1>
                             </div>
                         </div>
                     </div>
@@ -126,13 +126,13 @@ require '../config/config.php';
             <div class="gallery">
                 <div class="product-filters">
                     <ul>
-                        <li class="active buttons" data-filter="all">All</li>
-                        <li class="buttons" data-filter="senderismo">Hiking</li>
-                        <li class="buttons" data-filter="pesca">Fishing</li>
-                        <li class="buttons" data-filter="comida_y_vino">Food and wine</li>
-                        <li class="buttons" data-filter="tours">Wine Tours</li>
-                        <li class="buttons" data-filter="vinos">Wines</li>
-                        <li class="buttons" data-filter="alojamientos">Lodging</li>
+                        <li class="active buttons" data-filter="all">Tudo</li>
+                        <li class="buttons" data-filter="senderismo">Caminhada</li>
+                        <li class="buttons" data-filter="pesca">Pescaria</li>
+                        <li class="buttons" data-filter="comida_y_vino">Comida e vinho</li>
+                        <li class="buttons" data-filter="tours">Passeios de vinho</li>
+                        <li class="buttons" data-filter="vinos">Vinho</li>
+                        <li class="buttons" data-filter="alojamientos">Alojamento</li>
                     </ul>
                 </div>
 
@@ -575,7 +575,7 @@ require '../config/config.php';
 
         </section>
         <footer>
-            <?php  include("../includes/en/footer.php");?>
+            <?php  include("../includes/po/footer.php");?>
         </footer>
         
         

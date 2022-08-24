@@ -166,25 +166,25 @@ require 'config/config.php';
                         </div>
                     </div>
                     <div class="carousel-item overflow carrusel-full">
-                        <img src="./images/Activities/Hiking/3_enhanced__M8R1476.jpg" class="d-block w-100 carrusel-full">
+                        <img src="./images/Activities/Hiking/1.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo"> Explora en las zona, y disfruta los que nuestro entrono tiene para ti</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="./images/Activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="d-block w-100 carrusel-full">
+                        <img src="./images/Activities/Wine Tours/1.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo"> Disfruta de nuestros excelentes vinos, que el valle de San Fernando tiene para ti</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="./images/Activities/Wine Tours/tumunan vineyard 416.jpg" class="d-block w-100 carrusel-full">
+                        <img src="./images/Activities/Wine Tours/2.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo">Únete a los tours que preparamos para tí y conoce el proceso de nuestros vinos</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="./images/Activities/Hiking/_AT_9852.jpg" class="d-block w-100 carrusel-full">
+                        <img src="./images/Activities/Hiking/2.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo">Nutrete con la energia de la naturaleza</p>
                         </div>

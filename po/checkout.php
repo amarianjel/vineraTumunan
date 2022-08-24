@@ -1,6 +1,6 @@
 <?php
-require 'config/config.php';
-require 'config/database.php';
+require '../config/config.php';
+require '../config/database.php';
 
 $productos = isset($_SESSION['carrito']['productos']) ? $_SESSION['carrito']['productos'] : null;
 
@@ -27,38 +27,38 @@ if ($productos != null) {
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge</title>
+	<title>Vinhedo Tumuñan Lodge</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/botones-idioma.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/botones-idioma.css">
 	<!--Style-->
 	<!-- index css -->
-	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="../assets/css/index.css">
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="../assets/css/all.min.css">
 	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
 	<!-- owl carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="../assets/css/owl.carousel.css">
 	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../assets/css/magnific-popup.css">
 	<!-- animate css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="../assets/css/animate.css">
 	<!-- mean menu css -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<link rel="stylesheet" href="../assets/css/meanmenu.min.css">
 	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/main.css">
 	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="../assets/css/responsive.css">
 
 </head>
 <body>
@@ -80,7 +80,7 @@ if ($productos != null) {
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="../images/logo-svg.svg" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -88,35 +88,35 @@ if ($productos != null) {
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Inicio</a>
+								<li><a href="./">Começar</a>
 								</li>
-								<li><a href="./about.php">Sobre nosotros</a></li>
-                                <li><a href="./alojamientos.php">Alojamientos</a></li>
-								<li><a href="./galeria.php">Galeria</a></li>
-								<li><a href="./formReservas.php">Reservas</a></li>
-								<li><a href="./contact.php">Contacto</a></li>
-								<li><a href="./tienda.php">Tienda</a></li>
-                                <li><a href="checkout.php">
+								<li><a href="about.php">Sobre nós</a></li>
+								<li><a href="alojamientos.php">Alojamento</a></li>
+								<li><a href="galeria.php">Galeria</a></li>
+								<li><a href="formReservas.php">Reservas</a>
+								<li><a href="contact.php">Contacto</a></li>
+								<li><a href="tienda.php">Armazenar</a></li>
+								<li><a href="../checkout.php">
 									<img src="../images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
-								<li><a href="./en/checkout.php">
+								<li><a href="../en/checkout.php">
 									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
-								<li><a href="./po/checkout.php">
+								<li><a href="checkout.php">
 									<img src="../images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								</li>
-								<li class="current-list-item">
+								<li>
 									<div class="header-icons">
-										<a class="shopping-cart" href="checkout.php">
-                                            <?php if($num_cart==0){ ?>
-                                                <i class="fas fa-shopping-cart fa-lg"></i> Carrito
-                                            <?php }else{ ?>
-											    <i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrito 
-                                            <?php } ?>
+										<a class="shopping-cart current-list-item" href="checkout.php">
+											<?php if($num_cart==0){ ?>
+												<i class="fas fa-shopping-cart fa-lg"></i> Carrinho
+											<?php }else{ ?>
+												<i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrinho
+											<?php } ?> 
 										</a>
 									</div>
 								</li>
@@ -132,13 +132,13 @@ if ($productos != null) {
 	<!-- end header -->
 	
 	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(images/bg_2.jpg);">
+	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(../images/bg_2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Añade tus productos favoritos al carrito</i></p>
-						<h1>Carrito de compras</h1>
+						<p>Adicione seus produtos favoritos ao carrinho</i></p>
+						<h1>Carrinho de compras</h1>
 					</div>
 				</div>
 			</div>
@@ -160,10 +160,10 @@ if ($productos != null) {
                                 <thead class="cart-table-head">
                                     <tr class="table-head-row">
                                         <th class="product-remove"></th>
-                                        <th class="product-image">Imagen producto</th>
-                                        <th class="product-name">Nombre</th>
-                                        <th class="product-price">Precio</th>
-                                        <th class="product-quantity">Cantidad</th>
+                                        <th class="product-image">Imagem do Produto</th>
+                                        <th class="product-name">Nome</th>
+                                        <th class="product-price">Preço</th>
+                                        <th class="product-quantity">Quantia</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -172,7 +172,7 @@ if ($productos != null) {
                                         foreach ($lista_carrito as $producto) {
                                             $_id = $producto['id'];
                                             $img = $producto['imagen'];
-                                            $imagen = "images/productos/".$img;
+                                            $imagen = "../images/productos/".$img;
                                             $descuento = $producto['descuento'];
                                             $precio = $producto['precio'];
                                             $stock = $producto['stock'];
@@ -201,7 +201,7 @@ if ($productos != null) {
                                 <thead class="total-table-head">
                                     <tr class="table-total-row">
                                         <th>Total</th>
-                                        <th>Precio</th>
+                                        <th>Preço</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -220,7 +220,8 @@ if ($productos != null) {
                                 </tbody>
                             </table>
                             <div class="cart-buttons">
-                                <a href="checkout.php" class="boxed-btn">Actualizar carrito</a>
+                                <a href="checkout.php" class="boxed-btn">Atualizar carrinho</a>
+                                <!-- aquiii -->
                                 <a href="pago.php" class="boxed-btn black">Pagar</a>
                             </div>
                         </div>
@@ -237,9 +238,9 @@ if ($productos != null) {
                             <div class="col-lg-8 offset-lg-2 text-center">
                                 <div class="error-text">
                                     <i class="far fa-sad-cry"></i>
-                                    <h1>Oops! No existen productos en este carrito</h1>
-                                    <p>Busca en la tienda productos para agregar productos</p>
-                                    <a href="tienda.php" class="boxed-btn">Ir a la tienda</a>
+                                    <h1>Ops! Não há produtos neste carrinho</h1>
+                                    <p>Pesquise na loja por produtos para adicionar produtos</p>
+                                    <a href="tienda.php" class="boxed-btn">Vá para a loja</a>
                                 </div>
                             </div>
                         </div>
@@ -256,7 +257,7 @@ if ($productos != null) {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ¿Desea eliminar el producto de la lista?
+                        ¿Desea eliminar o produto da lista?
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -285,7 +286,7 @@ if ($productos != null) {
         function actualizaCantidad(cantidad, id,stock) {
 
             if(stock >= cantidad){
-                let url = 'clases/actualizar_carrito.php';
+                let url = '../clases/actualizar_carrito.php';
                 let formData = new FormData();
                 formData.append('action', 'agregar');
                 formData.append('id', id);
@@ -321,7 +322,7 @@ if ($productos != null) {
             let botonElimina = document.getElementById('btn-elimina')
             let recipient = botonElimina.value
 
-            let url = 'clases/actualizar_carrito.php';
+            let url = '../clases/actualizar_carrito.php';
             let formData = new FormData();
             formData.append('action', 'eliminar');
             formData.append('id', recipient);
@@ -339,4 +340,4 @@ if ($productos != null) {
             $('#eliminaModal').modal('hide')
         }
     </script>
-<?php  include("includes/footer.php");?>
+<?php  include("../includes/po/footer.php");?>

@@ -27,7 +27,7 @@ if ($productos != null) {
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge</title>
+	<title>Vineyard Tumuñan Lodge</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -132,7 +132,7 @@ if ($productos != null) {
 	<!-- end header -->
 	
 	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(images/bg_2.jpg);">
+	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(../images/bg_2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -253,15 +253,15 @@ if ($productos != null) {
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Alerta</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Alert</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ¿Desea eliminar el producto de la lista?
+                        ¿You want to remove the product from the list?
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button id="btn-elimina" class="btn btn-danger" onclick="elimina()">Eliminar</button>
+                        <button id="btn-elimina" class="btn btn-danger" onclick="elimina()">Delete</button>
                     </div>
                 </div>
             </div>

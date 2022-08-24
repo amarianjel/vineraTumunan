@@ -14,7 +14,7 @@ require '../config/config.php';
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge | Começar </title>
+	<title>Vinhedo Tumuñan Lodge | Começar </title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -166,25 +166,25 @@ require '../config/config.php';
                         </div>
                     </div>
                     <div class="carousel-item overflow carrusel-full">
-                        <img src="../images/Activities/Hiking/3_enhanced__M8R1476.jpg" class="d-block w-100 carrusel-full">
+                        <img src="../images/Activities/Hiking/1.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo"> Explore a área e aproveite o que nosso ambiente tem para você</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="../images/Activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="d-block w-100 carrusel-full">
+                        <img src="../images/Activities/Wine Tours/1.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo"> Desfrute dos nossos excelentes vinhos, que o Vale de San Fernando tem para si</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="../images/Activities/Wine Tours/tumunan vineyard 416.jpg" class="d-block w-100 carrusel-full">
+                        <img src="../images/Activities/Wine Tours/2.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo">Junte-se aos passeios que preparamos para si e conheça o processo dos nossos vinhos</p>
                         </div>
                     </div>
                     <div class="carousel-item overflow  carrusel-full">
-                        <img src="../images/Activities/Hiking/_AT_9852.jpg" class="d-block w-100 carrusel-full">
+                        <img src="../images/Activities/Hiking/2.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="carruselParrafo">Alimente-se com a energia da natureza</p>
                         </div>
@@ -298,5 +298,5 @@ require '../config/config.php';
         </section>
     </main>
 	<!-- end main section -->
-	<script src="assets/js/index.js"></script>
+	<script src="../assets/js/index.js"></script>
     <?php  include("../includes/po/footer.php");?>
