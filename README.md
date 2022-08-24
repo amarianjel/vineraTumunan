@@ -13,3 +13,6 @@ INSTALACIÓN
 * La base de datos esta actualizada
 * Recordar cambiar las configuraciones en el hosting
 * Realizar merge o pull segun corresponda
+
+## Cambiar datos en las conexiones con BDD
+* Formulario de reserva
