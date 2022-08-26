@@ -209,7 +209,7 @@ require 'config/config.php';
                 <div class="informacion">
                     <div class="box-col">
                         <div class="text-info">
-                            <div style="text-align:center;">
+                            <div class="logo" style="text-align:center;">
                                 <img src="images/logo-svg.svg" style="width:15vW; padding: 5px 0px 0px 0px">
                             </div>
                             <br>
