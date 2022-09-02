@@ -165,6 +165,7 @@ require '../config/config.php';
                             <p class="carruselParrafo">Enjoy the best of our vineyard</p>
                         </div>
                     </div>
+                    <!--
                     <div class="carousel-item overflow carrusel-full">
                         <img src="../images/Activities/Hiking/1.jpg" class="d-block w-100 carrusel-full">
                         <div class="carousel-caption d-none d-md-block">
@@ -189,6 +190,7 @@ require '../config/config.php';
                             <p class="carruselParrafo">Feed yourself with the energy of nature</p>
                         </div>
                     </div>
+                    -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsEn" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
