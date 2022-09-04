@@ -62,9 +62,7 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Start</a>
-								</li>
-								<li><a href="about.php">About us</a></li>
+								<li><a href="./">About us</a></li>
 								<li><a href="alojamientos.php">Lodging</a></li>
 								<li class="current-list-item"><a href="galeria.php">Gallery</a></li>
 								<li><a href="formReservas.php">Bookings</a>

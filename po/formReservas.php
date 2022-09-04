@@ -8,7 +8,6 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Reserva</title>
@@ -73,9 +72,7 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Começar</a>
-								</li>
-								<li><a href="about.php">Sobre nós</a></li>
+								<li><a href="./">Sobre nós</a></li>
 								<li><a href="alojamientos.php">Alojamento</a></li>
 								<li><a href="galeria.php">Galeria</a></li>
 								<li class="current-list-item"><a href="formReservas.php">Reservas</a>
@@ -153,15 +150,15 @@ require '../config/config.php';
                                         <div class="billing-address-form">
                                             <form action="../clases/captura_datos_rs.php" method="POST">
                                                 <p><b>Nome</b></p>
-                                                <p><input type="text" placeholder="Nombre" id="nombre" name="nombre" required></p>
-                                                <p><b>Last name</b></p>
-                                                <p><input type="text" placeholder="Apellido" id="apellido" name="apellido" required></p>
-                                                <p><b>DNI</b></p>
-                                                <p><input type="text" placeholder="Rut" id="rut" name="rut" required></p>
+                                                <p><input type="text" placeholder="Ex: Rafael" id="nombre" name="nombre" required></p>
+                                                <p><b>Sobrenome</b></p>
+                                                <p><input type="text" placeholder="Ex: Dos Santos" id="apellido" name="apellido" required></p>
+                                                <p><b>CPF</b></p>
+                                                <p><input type="text" placeholder="Ex: 000.000.006-00" id="" name="rut" required></p>
                                                 <p><b>Email</b></p>
-                                                <p><input type="email" placeholder="Email" id="email" name="email" required></p>
+                                                <p><input type="email" placeholder="Ex: rafael@mail.com" id="email" name="email" required></p>
                                                 <p><b>Número do celular</b></p>
-                                                <p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono" required></p>
+                                                <p><input type="tel" placeholder="Ex: +5511900000000" id="fono" name="fono" required></p>
 												<p><b>Dias de hospedagem</b></p>
                                                 <p><input type="number" placeholder="Dias" id="dias" name="dias" value="1" min="1" required></p>
                                                 <p><b>Quantidade de pessoas</b></p>

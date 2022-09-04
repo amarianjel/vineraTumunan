@@ -62,25 +62,23 @@ require 'config/config.php';
                             <!-- menu start -->
                             <nav class="main-menu">
                                 <ul>
-                                    <li><a href="./">Inicio</a>
-                                    </li>
-                                    <li><a href="about.php">Sobre nosotros</a></li>
+                                    <li><a href="./">Sobre nosotros</a></li>
                                     <li><a href="alojamientos.php">Alojamientos</a></li>
                                     <li  class="current-list-item"><a href="galeria.php">Galeria</a></li>
                                     <li><a href="formReservas.php">Reservas</a>
                                     <li><a href="contact.php">Contacto</a></li>
                                     <li><a href="tienda.php">Tienda</a></li>
                                     <li><a href="galeria.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
 								<li><a href="./en/galeria.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
 								<li><a href="./po/galeria.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								</li>
                                     <li>

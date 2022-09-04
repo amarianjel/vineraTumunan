@@ -8,7 +8,6 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Vineyard Tumuñan Lodge | Contact</title>
@@ -77,9 +76,7 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Start</a>
-								</li>
-								<li><a href="about.php">About us</a></li>
+								<li><a href="./">About us</a></li>
 								<li><a href="alojamientos.php">Lodging</a></li>
 								<li><a href="galeria.php">Gallery</a></li>
 								<li><a href="formReservas.php">Bookings</a>
@@ -143,21 +140,21 @@ require '../config/config.php';
 		<h2 class="titulo" style="margin: 5rem; text-align: center;">Contact Information</h2>
     <section class="center espacio mx-5 my-5">
 			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6" style="padding-right: 5rem;padding-left: 15rem; text-align: center;">
+				<div class="info col-12 col-lg-6" style="padding-right: 5rem;padding-left: 15rem; text-align: center;">	
 					<div style="margin: 5rem; text-align: left;">
 						<hr>
-						<h4 class="titulo">Name</h4>
-						<a href="#" class="dato">Will Evelyn </p>
+						<h3>Name</h3>
+						<a href="" style="font-size: 19px">Will Evelyn </p>
 						<hr>
-                    	<h4 class="titulo" >E-mail</h4>
-                    	<a href="mailto:tumunanlodge@gmail.com" class="dato">tumunanlodge@gmail.com</a>
+                    	<h3 style="margin-bottom: 15px;">E-mail</h3>
+                    	<a href="mailto:tumunanlodge@gmail.com" style="font-size: 19px;">tumunanlodge@gmail.com</a>
 						<hr>
-                    	<h4 class="titulo">Phone Number</h4>
-                    	<a href="https://wa.me/56996301152" class="dato"> +56 9 9630 1152</<<<<a>
+                    	<h3>Phone Number</h3>
+                    	<a href="https://wa.me/56996301152" style="font-size: 19px"> +56 9 9630 1152</<<<<a>
 						<hr>
-                    	<h4 class="titulo">Address</h4>
-                    	<a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>	
-					</div>	
+                    	<h3 style="margin-bottom: 15px;">Address</h3>
+                    	<a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" style="font-size: 19px"> I-325, Las Peñas, O'Higgins, Chile </a>	
+					</div>
 				</div>
 				<div class="fotografia-info col-12 col-lg-4 my-6">
 					<img src="../images\activities\Wine Tours\IMG_5044.JPG" style=" border: 2px solid rgb(37, 19, 52);">

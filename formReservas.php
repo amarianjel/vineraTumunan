@@ -8,7 +8,6 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Reservas</title>
@@ -73,25 +72,23 @@ require 'config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Inicio</a>
-								</li>
-								<li><a href="./about.php">Sobre nosotros</a></li>
+								<li><a href="./">Sobre nosotros</a></li>
 								<li><a href="./alojamientos.php">Alojamientos</a></li>
 								<li><a href="./galeria.php">Galeria</a></li>
 								<li class="current-list-item"><a href="./formReservas.php">Reservas</a></li>
 								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
 								<li><a href="formReservas.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
 								<li><a href="./en/formReservas.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
 								<li><a href="./po/formReservas.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
@@ -153,15 +150,15 @@ require 'config/config.php';
                                         <div class="billing-address-form">
                                             <form action="clases/captura_datos_rs.php" method="POST">
                                                 <p><b>Nombre</b></p>
-                                                <p><input type="text" placeholder="Nombre" id="nombre" name="nombre" required></p>
+                                                <p><input type="text" placeholder="Ej: Juan" id="nombre" name="nombre" required></p>
                                                 <p><b>Apellido</b></p>
-                                                <p><input type="text" placeholder="Apellido" id="apellido" name="apellido" required></p>
+                                                <p><input type="text" placeholder="Ej: Pérez" id="apellido" name="apellido" required></p>
                                                 <p><b>Rut</b></p>
-                                                <p><input type="text" placeholder="Rut" id="rut" name="rut" required></p>
+                                                <p><input type="text" placeholder="Ej: 22.222.222-2" id="rut" name="rut" required></p>
                                                 <p><b>Correo Electrónico</b></p>
-                                                <p><input type="email" placeholder="Email" id="email" name="email" required></p>
+                                                <p><input type="email" placeholder="Ej: juan@mail.com" id="email" name="email" required></p>
                                                 <p><b>Número de télefono/celular</b></p>
-                                                <p><input type="tel" placeholder="Numero de telefono" id="fono" name="fono" required></p>
+                                                <p><input type="tel" placeholder="Ej: (+56) 922222222" id="fono" name="fono" required></p>
 												<p><b>Dias de alojamiento</b></p>
                                                 <p><input type="number" placeholder="Dias" id="dias" name="dias" value="1" min="1" required></p>
                                                 <p><b>Cantidad de personas</b></p>
