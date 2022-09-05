@@ -115,7 +115,7 @@ require '../config/config.php';
         
         <!-- images/bigstock-Vineyards-At-Sunset-37822447.jpg -->
         <!-- hero area -->
-        <div class="hero-area hero-bg" style="background-image: url(../images/activities/Hiking/3_enhanced__M8R1476.jpg);">
+        <div class="hero-area hero-bg" style="background-image: url(../images/activities/Hiking/1.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 offset-lg-2 text-center">
