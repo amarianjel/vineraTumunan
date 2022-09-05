@@ -22,7 +22,7 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/botones-idioma.css">
 	<!--Style-->
 	<!-- index css -->
-	<link rel="stylesheet" href="./assets/css/index.css">
+	<link rel="stylesheet" href="../assets/css/index.css">
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	<!-- google font -->
@@ -32,6 +32,8 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap.bundle.min.js">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="../assets/css/owl.carousel.css">
 	<!-- magnific popup -->
@@ -44,6 +46,8 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="../assets/css/responsive.css">
+	<!-- js -->
+	<link rel="stylesheet" href="../assets/css/displayjs.css">
 
 </head>
 
@@ -76,23 +80,12 @@ require '../config/config.php';
 							<ul>
 								<li class="current-list-item"><a href="./">Sobre nós</a></li>
 								<li><a href="alojamientos.php">Alojamento</a></li>
+								<li><a href="events.php">Eventos</a></li>
 								<li><a href="galeria.php">Galeria</a></li>
 								<li><a href="formReservas.php">Reservas</a>
 								<li><a href="contact.php">Contacto</a></li>
 								<li><a href="tienda.php">Armazenar</a></li>
-								<li><a href="../about.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
-									</a>
-								</li>
-								<li><a href="../en/about.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
-									</a>
-								</li>
-								<li>
-								<li><a href="about.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
-									</a>
-								</li>
+								
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -102,6 +95,25 @@ require '../config/config.php';
 												<i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrinho
 											<?php } ?> 
 										</a>
+									</div>
+								</li>
+
+								<li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											idioma
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="../index.php" style="color:black;">
+												<img src="../images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="../en/index.php" style="color:black;">
+												<img src="../images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="../po/index.php" style="color:black;">
+												<img src="../images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
 									</div>
 								</li>
 							</ul>
@@ -149,7 +161,7 @@ require '../config/config.php';
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Sobre nós</h2>
 					
-					<p style="font-size: 19px">Apenas a 2 horas de carro ao sul
+					<p class="displayjs" style="font-size: 19px">Apenas a 2 horas de carro ao sul
                     de Santiago que leva você por vinhedos e vistas espetaculares dos Andes centrais,
                     este refúgio de montanha familiar atende aos que precisam de descanso e relaxamento, aqueles
                     viajantes mais aventureiros que podem desfrutar
@@ -176,11 +188,11 @@ require '../config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Reserve agora</h2>
-					<p style="font-size: 19px">Para reservar um quarto, <a href="./formReservas.php">Clique aqui</a> e preencha o formulário. Entraremos em contato em breve.</p>
-                    <p style="font-size: 19px">INCLUI: Acesso a piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros, TV direta na casa
+					<p class="displayjs" style="font-size: 19px">Para reservar um quarto, <a href="./formReservas.php">Clique aqui</a> e preencha o formulário. Entraremos em contato em breve.</p>
+                    <p class="displayjs" style="font-size: 19px">INCLUI: Acesso a piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros, TV direta na casa
                     montanhas, toalhas de banho e de mão (1 por pessoa) produtos básicos de cozinha (lavalozas, sacos de
                     lixo, sal).</p>
-                    <p style="font-size: 19px">NÃO INCLUI: serviço de limpeza diário, limpeza, café da manhã, restaurante.</p>
+                    <p class="displayjs" style="font-size: 19px">NÃO INCLUI: serviço de limpeza diário, limpeza, café da manhã, restaurante.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
@@ -194,7 +206,7 @@ require '../config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Cenário</h2>
-					<p style="font-size: 19px">Em nossa propriedade há 3 km de trilhas autoguiadas por florestas pitorescas
+					<p class="displayjs" style="font-size: 19px">Em nossa propriedade há 3 km de trilhas autoguiadas por florestas pitorescas
                     e paisa gens de montanha.</p>
                     <p style="font-size: 19px">Para ver as paisagens da região <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
@@ -204,8 +216,8 @@ require '../config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Caminhada</h2>
-					<p style="font-size: 19px">Na área existem trilhas autoguiadas de 1 km a 10 km de comprimento por pitorescas paisagens de montanha.</p>
-                    <p style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
+					<p class="displayjs" style="font-size: 19px">Na área existem trilhas autoguiadas de 1 km a 10 km de comprimento por pitorescas paisagens de montanha.</p>
+                    <p class="displayjs" style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -219,8 +231,8 @@ require '../config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Andar a cavalo</h2>
-					<p style="font-size: 19px">Faça um relaxante passeio a cavalo para explorar as belas vistas do Vale Tumuñan a partir do propriedade e seu entorno. Teremos o prazer de colocá-lo em contato com os locais que podem ajudá-lo a planejar sua viagem de um dia..</p>
-                    <p style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
+					<p class="displayjs" style="font-size: 19px">Faça um relaxante passeio a cavalo para explorar as belas vistas do Vale Tumuñan a partir do propriedade e seu entorno. Teremos o prazer de colocá-lo em contato com os locais que podem ajudá-lo a planejar sua viagem de um dia..</p>
+                    <p class="displayjs" style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
 			</div>
 			<hr>
@@ -244,5 +256,7 @@ require '../config/config.php';
 		</section>
 	</main>
 	<!-- end main section -->
-
+    <!-- Script -->
+	<script src="../assets/js/effects.js"></script>
 	<?php  include("../includes/po/footer.php");?>
+</body>

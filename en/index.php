@@ -22,7 +22,7 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/botones-idioma.css">
 	<!--Style-->
 	<!-- index css -->
-	<link rel="stylesheet" href="./assets/css/index.css">
+	<link rel="stylesheet" href="../assets/css/index.css">
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	<!-- google font -->
@@ -32,6 +32,8 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap.bundle.min.js">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="../assets/css/owl.carousel.css">
 	<!-- magnific popup -->
@@ -44,6 +46,8 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="../assets/css/responsive.css">
+	<!-- js -->
+	<link rel="stylesheet" href="../assets/css/displayjs.css">
 
 </head>
 
@@ -76,23 +80,12 @@ require '../config/config.php';
 							<ul>
 								<li class="current-list-item"><a href="./">About us</a></li>
 								<li><a href="alojamientos.php">Lodging</a></li>
+								<li><a href="events.php">Events</a></li>
 								<li><a href="galeria.php">Gallery</a></li>
 								<li><a href="formReservas.php">Bookings</a>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="tienda.php">Store</a></li>
-								<li><a href="../about.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
-									</a>
-								</li>
-								<li><a href="./">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
-									</a>
-								</li>
-								<li>
-								<li><a href="../po/about.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
-									</a>
-								</li>
+								
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -104,6 +97,26 @@ require '../config/config.php';
 										</a>
 									</div>
 								</li>
+
+								<li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Language
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="../index.php" style="color:black;">
+												<img src="../images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="../en/index.php" style="color:black;">
+												<img src="../images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="../po/index.php" style="color:black;">
+												<img src="../images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
+									</div>
+								</li>
+								
 							</ul>
 						</nav>
 					<div class="mobile-menu"></div>
@@ -149,7 +162,7 @@ require '../config/config.php';
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">About us</h2>
 					
-					<p style="font-size: 19px">Just a 2 hour drive south from Santiago that takes you through vineyards and spectacular views of the central Andes, 
+					<p class="displayjs" style="font-size: 19px">Just a 2 hour drive south from Santiago that takes you through vineyards and spectacular views of the central Andes, 
                         this family-friendly mountain retreat caters to those in need of rest and relaxation,
                         and more adventurous travelers who can enjoy unique days of hiking, horseback riding and fly fishing in the incomparable Chilean Andes.</p>
 				</div>
@@ -165,7 +178,7 @@ require '../config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Store</h2>
-					<p style="font-size: 19px">Tumuñan produces world class wines from its unique mountain terroir. You can also buy our wines and honey in our online store. To access the online store <a href="./tienda.php">Click here. </a>You can buy your favorite products by going to our vineyard located in <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>where we additionally offer tours and tastings. </p>
+					<p class="displayjs" style="font-size: 19px">Tumuñan produces world class wines from its unique mountain terroir. You can also buy our wines and honey in our online store. To access the online store <a href="./tienda.php">Click here. </a>You can buy your favorite products by going to our vineyard located in <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>where we additionally offer tours and tastings. </p>
 				</div>
 			</div>
 			<hr>
@@ -173,11 +186,11 @@ require '../config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Reserve now</h2>
-					<p style="font-size: 19px">To reserve a room, <a href="./formReservas.php">Click Here</a> and fill out the form. We will contact you shortly.</p>
-			        <p style="font-size: 19px">INCLUDES: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows, Direct TV in the house
+					<p class="displayjs" style="font-size: 19px">To reserve a room, <a href="./formReservas.php">Click Here</a> and fill out the form. We will contact you shortly.</p>
+			        <p class="displayjs" style="font-size: 19px">INCLUDES: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows, Direct TV in the house
                         mountains, bath and hand towels (1 per person) basic kitchen products (lavalozas, bags of
                         garbage, Salt).</p>
-			        <p style="font-size: 19px">NOT INCLUDED: daily maid service, cleaning, breakfast, restaurant.</p>
+			        <p class="displayjs" style="font-size: 19px">NOT INCLUDED: daily maid service, cleaning, breakfast, restaurant.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
@@ -191,8 +204,8 @@ require '../config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Scenery</h2>
-					<p style="font-size: 19px">On our property there are 3km of self-guided hiking trails long through picturesque forests and mountain landscapes.</p>
-                    <p style="font-size: 19px">To see the landscapes of the area <a href="./galeria.php">Click here.</a></p>
+					<p class="displayjs" style="font-size: 19px">On our property there are 3km of self-guided hiking trails long through picturesque forests and mountain landscapes.</p>
+                    <p class="displayjs" style="font-size: 19px">To see the landscapes of the area <a href="./galeria.php">Click here.</a></p>
 				</div>
 			</div>
 			<hr>
@@ -200,8 +213,8 @@ require '../config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Hiking</h2>
-					<p style="font-size: 19px">In the area there are self-guided hiking trails from up to 10 km long through picturesque mountain landscapes.</p>
-                    <p style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
+					<p class="displayjs" style="font-size: 19px">In the area there are self-guided hiking trails from up to 10 km long through picturesque mountain landscapes.</p>
+                    <p class="displayjs" style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -215,10 +228,10 @@ require '../config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">To ride a horse</h2>
-					<p style="font-size: 19px">Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
+					<p class="displayjs" style="font-size: 19px">Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
                     property and its surroundings. We will gladly put you in contact with the locals who can
                     help you plan your day trip.</p>
-                    <p style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
+                    <p class="displayjs" style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
 				</div>
 			</div>
 			<hr>
@@ -242,5 +255,8 @@ require '../config/config.php';
 		</section>
 	</main>
 	<!-- end main section -->
+	<!-- Script -->
+	<script src="../assets/js/effects.js"></script>
 
 	<?php  include("../includes/en/footer.php");?>
+</body>

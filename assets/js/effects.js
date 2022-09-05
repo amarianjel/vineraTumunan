@@ -1,4 +1,4 @@
-const observer = document.querySelectorAll('.direccion');
+const observer = document.querySelectorAll('.displayjs');
 
 const appearOptions = {
     threshold: 1,

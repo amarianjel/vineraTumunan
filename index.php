@@ -33,6 +33,8 @@ require 'config/config.php';
 	<link rel="stylesheet" href="assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap.bundle.min.js">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<!-- magnific popup -->
@@ -45,6 +47,8 @@ require 'config/config.php';
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- js -->
+	<link rel="stylesheet" href="assets/css/displayjs.css">
 
 </head>
 
@@ -77,23 +81,12 @@ require 'config/config.php';
 							<ul>
 								<li class="current-list-item"><a href="./">Sobre nosotros</a></li>
 								<li><a href="./alojamientos.php">Alojamientos</a></li>
+								<li><a href="./events.php">Eventos</a></li>
 								<li><a href="./galeria.php">Galeria</a></li>
 								<li><a href="./formReservas.php">Reservas</a></li>
 								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
-								<li><a href="./">
-									<img src="./images/traduccion/espana.png" class="logo-idioma">
-									</a>
-								</li>
-								<li><a href="./en/index.php">
-									<img src="./images/traduccion/reino-unido.png" class="logo-idioma">
-									</a>
-								</li>
-								<li>
-								<li><a href="./po/index.php">
-									<img src="./images/traduccion/portugal.png" class="logo-idioma">
-									</a>
-								</li>
+
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -106,6 +99,26 @@ require 'config/config.php';
 										</a>
 									</div>
 								</li>
+
+								<li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Lenguaje
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="./" style="color:black;">
+												<img src="images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="./en/index.php" style="color:black;">
+												<img src="./images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="./po/index.php" style="color:black;">
+												<img src="./images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
+									</div>
+								</li>
+
 							</ul>
 						</nav>
 						<div class="mobile-menu"></div>
@@ -151,7 +164,7 @@ require 'config/config.php';
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Sobre Nosotros</h2>
 					
-					<p style="font-size: 19px">A solo 2 horas en auto al sur
+					<p class="displayjs" style="font-size: 19px">A solo 2 horas en auto al sur
 						de Santiago que lo lleva a través de viñedos y vistas espectaculares de los Andes centrales,
 						este refugio de montaña familiar atiende a aquellos que necesitan descanso y relajación, a los
 						viajeros más aventureros que pueden disfrutar de
@@ -170,7 +183,7 @@ require 'config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Tienda</h2>
-					<p style="font-size: 19px">Tumuñan produce vinos de clase mundial gracias su terreno montañoso. Además puede comprar nuestros vinos y miel en nuestra tienda online. Para acceder a la tienda online <a href="./tienda.php">Pinche aquí. </a>Puede adquirir sus productos favoritos acercandose a nuestra viña ubicada en <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>donde adicionalmente ofrecemos tours y degustaciones. </p>
+					<p class="displayjs" style="font-size: 19px">Tumuñan produce vinos de clase mundial gracias su terreno montañoso. Además puede comprar nuestros vinos y miel en nuestra tienda online. Para acceder a la tienda online <a href="./tienda.php">Pinche aquí. </a>Puede adquirir sus productos favoritos acercandose a nuestra viña ubicada en <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>donde adicionalmente ofrecemos tours y degustaciones. </p>
 				</div>
 			</div>
 			<hr>
@@ -178,8 +191,8 @@ require 'config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Reserve Ahora</h2>
-					<p style="font-size: 19px">Para reservar una habitación, <a href="./formReservas.php">Pinche Aquí</a> y rellene el formulario. Nos pondremos en contacto a la brevedad con usted.</p>
-					<p style="font-size: 19px">SE INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de
+					<p class="displayjs" style="font-size: 19px">Para reservar una habitación, <a href="./formReservas.php">Pinche Aquí</a> y rellene el formulario. Nos pondremos en contacto a la brevedad con usted.</p>
+					<p class="displayjs" style="font-size: 19px">SE INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de
 						montañas, Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de
 						basura, Sal).</p>
 					<p style="font-size: 19px">NO SE INCLUYE: servicio de limpieza diario, desayuno, restaurante.</p>
@@ -196,9 +209,9 @@ require 'config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Paisaje</h2>
-					<p style="font-size: 19px">En nuestra propiedad hay 3 km de rutas de senderismo autoguiadas a través de pintorescos bosques 
+					<p class="displayjs" style="font-size: 19px">En nuestra propiedad hay 3 km de rutas de senderismo autoguiadas a través de pintorescos bosques 
 						y paisajes de montaña.</p>
-					<p style="font-size: 19px">Para ver los paisajes de la zona <a href="./galeria.php">Pinche Aquí.</a></p>
+					<p class="displayjs" style="font-size: 19px">Para ver los paisajes de la zona <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 			</div>
 			<hr>
@@ -206,9 +219,9 @@ require 'config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Senderismo</h2>
-					<p style="font-size: 19px">En la zona hay rutas de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
+					<p class="displayjs" style="font-size: 19px">En la zona hay rutas de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
 						paisajes de montaña.</p>
-					<p style="font-size: 19px">Para ver la galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
+					<p class="displayjs" style="font-size: 19px">Para ver la galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -222,10 +235,10 @@ require 'config/config.php';
 				</div>
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Montar a Caballo</h2>
-					<p style="font-size: 19px">Realice un relajante paseo a caballo para explorar las hermosas vistas del valle de Tumuñan desde la
+					<p class="displayjs" style="font-size: 19px">Realice un relajante paseo a caballo para explorar las hermosas vistas del valle de Tumuñan desde la
 						propiedad y sus alrededores. Con mucho gusto lo pondremos en contacto con los lugareños que pueden
 						ayudarlo a planificar su viaje de un día.</p>
-					<p style="font-size: 19px">Para ver las galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
+					<p class="displayjs" style="font-size: 19px">Para ver las galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 			</div>
 			
@@ -248,5 +261,7 @@ require 'config/config.php';
 		</section>
 	</main>
 	<!-- end main section -->
-
+    <!-- Script -->
+	<script src="assets/js/effects.js"></script>
 	<?php  include("includes/footer.php");?>
+</body>
