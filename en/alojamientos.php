@@ -107,7 +107,7 @@ require '../config/config.php';
 	<!-- end header -->
 
     	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(../images/bed/IMG_5562.jpg);">
+	<div class="hero-area hero-bg" style="background-image: url(../images/bed/aloja.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -124,28 +124,23 @@ require '../config/config.php';
 	<!-- end hero area -->
 
     <main>
-        <h1 class="portada">Lodging</h1>
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
                     <h2><i>Disconnect in Alto Colchagua</i></h2>
                     <div>
-                        <p class="justificar-inicio">We have been working hard to reconfigure Tumuñan Lodge to be able to welcome guests in a hygienic and safe manner. Monthly rentals are just one way to rent one of our 3 fully self-catering cabins
-                            equipped.
-                            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tumuñan Lodge offers the Chalet and Mountain House for monthly rentals, please contact us via email with the dates you are interested in and we will contact you
-                            you with a quote and what is included.
+                        <p class="justificar-inicio">We have been working hard to reconfigure Tumuñan Lodge to be able to welcome guests in a hygienic and safe manner. Monthly rentals are just one way to rent one of our 3 fully self-catering cabins equipped. 
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-
         <section>
             <div class="container container2">
                 <div class="row">
                     <div class="col-md-7">
                         <div id="slider">
-                            <input type="radio" name="slider" id="s1" checked id="ch">
+                            <input type="radio" name="slider" id="s1" checked>
                             <input type="radio" name="slider" id="s2">
                             <input type="radio" name="slider" id="s3">
                             <input type="radio" name="slider" id="s4">
@@ -170,57 +165,46 @@ require '../config/config.php';
                         </div>
                     </div>
                     <div class="col-md-4 offset-md-1">
-                        <h1 class="titulo">House on the Mountain</h1>
+                        <h1 class="titulo">Chalet</h1>
                         <p class="justificar-parrafo">
-                        Spacious 4-bedroom home with a fully equipped kitchen, private patio, garden, fire pit, grill, and spectacular mountain views.
+                        Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.
                         </p>
-                        <h4>Costs</h4>
+                        <h4>Price</h4>
                         <p class="costos">
-                        CLP$410,000 per weekend (2 nights/ 3 days, a wine tasting and 1 day of use of the jacuzzi included).
-                        </p>
-                        <hr>
-                        <p class="costos">
-                        CLP$410,000 per weekend (2 nights/ 3 days, a wine tasting and 1 day of use of the jacuzzi included).
+                            CLP$410,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="center espacio">
-            <h3><i>Reserve now</i></h3>
-            <div>
-                <p>To reserve a room, send us an email tour tumunanlodge@gmail.com. </p>
-                <p>What is included: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows (Direct TV in the mountain house).</p>
-                <p> What is not included: daily maid service, cleaning, breakfast, restaurant The rate also includes: Bath and hand towels (1 per person) Basic kitchen products (Lavalozas, garbage bags, Salt).</p>
-            </div>
-        </section>
+        <hr>
         <section>
             <div class="container .container2">
                 <div class="row">
                     <div class="col-md-4">
-                        <h1 class="titulo">Mountain Chalet for Couples</h1>
+                        <h1 class="titulo">Chalet for Couples</h1>
                         <p class="justificar-parrafo">
-                        Modern cabin that has 1 bedroom with private gardens, a fire pit, a grill and a small kitchen. Near the river and with mountain views.
+                        Modern cabin that has 1 bedroom with private gardens, fire pit, barbecue and a small kitchen. Close to the river and with mountain views.
                         </p>
-                        <h4>Costs</h4>
+                        <h4>Prices</h4>
                         <p class="costos">
-                        CLP$240,000 per weekend (2 nights/ 3 days, a wine tasting and 1 day of use of the jacuzzi included).
+                            CLP$240,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
                         </p>
                         <hr>
                         <p class="costos">
-                        CLP$510,000 per week (5 nights / 6 days, a tour and wine tasting and 2 days of use of the jacuzzi included).
+                            CLP$510,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
                         </p>
                     </div>
                     <div class="col-md-7 offset-md-1">
                         <div id="slider2">
-                            <input type="radio" name="slider" id="s6" checked>
+                            <input type="radio" name="slider" id="s6">
                             <input type="radio" name="slider" id="s7">
                             <input type="radio" name="slider" id="s8">
                             <input type="radio" name="slider" id="s9">
                             <input type="radio" name="slider" id="s10">
 
                             <label for="s6" id="slide6">
-                        <img class="carrusel" src="../images/bed/Chalet/Website Only/King Suite 4.jpg">
+                        <img class="carrusel" src="../images/bed/Chalet/King Suite 4.jpg">
                     </label>
                             <label for="s7" id="slide7">
                                 <img class="carrusel" src="../images/bed/chalet2020/DSC_0606.jpg">
@@ -240,12 +224,59 @@ require '../config/config.php';
                 </div>
             </div>
         </section>
+        <hr>
         <section>
-            <div class="center espacio">
-                <h3>Monthly Rates</h3>
-                <p>We have been working hard to reconfigure Tumuñan Lodge to be able to welcome guests in a hygienic and safe manner.</p>
-                <p>Monthly rentals are just one way to rent one of our 3 fully equipped self-catering cabins.</p>
-                <p class="centrar-parrafo">Contact us for more details and to discuss a rate.</p>
+            <div class="container container2">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div id="slider3">
+                            <input type="radio" name="slider" id="s11">
+                            <input type="radio" name="slider" id="s12">
+                            <input type="radio" name="slider" id="s13">
+                            <input type="radio" name="slider" id="s14">
+                            <input type="radio" name="slider" id="s15">
+            
+                            <label for="s11" id="slide11">
+                            <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
+                        </label>
+                            <label for="s12" id="slide12">
+                            <img class="carrusel" src="../images/bed/casa_montana/2.jpg">
+                        </label>
+                            <label for="s13" id="slide13">
+                            <img class="carrusel" src="../images/bed/casa_montana/3.jpg">
+                        </label>
+                            <label for="s14" id="slide14">
+                            <img class="carrusel" src="../images/bed/casa_montana/4.jpg">
+                        </label>
+                            <label for="s15" id="slide15">
+                            <img class="carrusel" src="../images/bed/casa_montana/5.jpg">
+                        </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-1">
+                        <h1 class="titulo">Mountain House</h1>
+                        <p class="justificar-parrafo">
+                        Cozy modern cabin with 2 bedrooms, 2 bathrooms, fire pit, grill and kitchenette. Near the river with mountain views.
+                        </p>
+                        <h4>Prices</h4>
+                        <p class="costos">
+                            CLP$360,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
+                        </p>
+                        <hr>
+                        <p class="costos">
+                            CLP$720,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="center espacio">
+            <h3><i>Book Now</i></h3>
+            <div>
+                <p>To book a room, send an email to <a href="./formReservas.php">Click here</a></p>
+                <p>What's Included: Access to the pool and jacuzzi, trails, WiFi, sheets and pillows (TV direct at the mountain house).</p>
+                <p>What is not included: daily maid service, cleaning, breakfast, restaurant The rate also includes: Bath and hand towels (1 per person) Basic kitchen products (Lavalozas, garbage bags, Salt).</p>
             </div>
         </section>
     </main>

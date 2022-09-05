@@ -107,7 +107,7 @@ require '../config/config.php';
 	<!-- end header -->
 
     	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(../images/bed/IMG_5562.jpg);">
+	<div class="hero-area hero-bg" style="background-image: url(../images/bed/aloja.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -124,27 +124,23 @@ require '../config/config.php';
 	<!-- end hero area -->
 
     <main>
-        <h1 class="portada">Alojamento</h1>
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
                     <h2><i>Desconecte em Alto Colchagua</i></h2>
                     <div>
-                        <p class="justificar-inicio">Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente auto-suficientes equipado.
-                            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tumuñan Lodge oferece o Chalet e Mountain House para aluguel mensal, entre em contato conosco via e-mail com as datas de seu interesse e entraremos em contato
-                            você com uma cotação e o que está incluído.
+                        <p class="justificar-inicio">Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente equipadas.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-
         <section>
             <div class="container container2">
                 <div class="row">
                     <div class="col-md-7">
                         <div id="slider">
-                            <input type="radio" name="slider" id="s1" checked id="ch">
+                            <input type="radio" name="slider" id="s1" checked>
                             <input type="radio" name="slider" id="s2">
                             <input type="radio" name="slider" id="s3">
                             <input type="radio" name="slider" id="s4">
@@ -169,57 +165,46 @@ require '../config/config.php';
                         </div>
                     </div>
                     <div class="col-md-4 offset-md-1">
-                        <h1 class="titulo">Casa na montanha</h1>
+                        <h1 class="titulo">Chalet</h1>
                         <p class="justificar-parrafo">
                         Espaçosa casa de 4 quartos com cozinha totalmente equipada, pátio privativo, jardim, fogueira, churrasqueira e vistas espetaculares da montanha.
                         </p>
-                        <h4>Costs</h4>
+                        <h4>Preço</h4>
                         <p class="costos">
-                        CLP$ 410.000 por fim de semana (2 noites/ 3 dias, degustação de vinhos e 1 dia de uso da jacuzzi incluídos).
-                        </p>
-                        <hr>
-                        <p class="costos">
-                        CLP$ 410.000 por fim de semana (2 noites/ 3 dias, degustação de vinhos e 1 dia de uso da jacuzzi incluídos).
+                            CLP$410,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="center espacio">
-            <h3><i>Reserve agora</i></h3>
-            <div>
-                <p>Para reservar um quarto, envie-nos um tour por e-mail tumunanlodge@gmail.com. </p>
-                <p>O que está incluso: Acesso à piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros (TV direta na casa da montanha).</p>
-                <p> O que não está incluso: serviço de limpeza diário, limpeza, café da manhã, restaurante A tarifa também inclui: Toalhas de banho e de mão (1 por pessoa) Produtos básicos de cozinha (Lavalozas, sacos de lixo, Sal).</p>
-            </div>
-        </section>
+        <hr>
         <section>
             <div class="container .container2">
                 <div class="row">
                     <div class="col-md-4">
-                        <h1 class="titulo">Chalé de Montanha para Casais</h1>
+                        <h1 class="titulo">Chalet para Casais</h1>
                         <p class="justificar-parrafo">
                         Cabana moderna que tem 1 quarto com jardins privativos, fogueira, churrasqueira e uma pequena cozinha. Perto do rio e com vista serra.
                         </p>
-                        <h4>Custos</h4>
+                        <h4>Preços</h4>
                         <p class="costos">
-                        CLP$ 240.000 por fim de semana (2 noites/ 3 dias, degustação de vinhos e 1 dia de uso da jacuzzi incluídos).
+                            CLP$240,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
                         </p>
                         <hr>
                         <p class="costos">
-                        CLP $ 510.000 por semana (5 noites / 6 dias, um passeio e degustação de vinhos e 2 dias de uso do jacuzzi incluídos).
+                            CLP$510,000 por semana (5 noites / 6 dias, passeio e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
                         </p>
                     </div>
                     <div class="col-md-7 offset-md-1">
                         <div id="slider2">
-                            <input type="radio" name="slider" id="s6" checked>
+                            <input type="radio" name="slider" id="s6">
                             <input type="radio" name="slider" id="s7">
                             <input type="radio" name="slider" id="s8">
                             <input type="radio" name="slider" id="s9">
                             <input type="radio" name="slider" id="s10">
 
                             <label for="s6" id="slide6">
-                        <img class="carrusel" src="../images/bed/Chalet/Website Only/King Suite 4.jpg">
+                        <img class="carrusel" src="../images/bed/Chalet/King Suite 4.jpg">
                     </label>
                             <label for="s7" id="slide7">
                                 <img class="carrusel" src="../images/bed/chalet2020/DSC_0606.jpg">
@@ -239,12 +224,59 @@ require '../config/config.php';
                 </div>
             </div>
         </section>
+        <hr>
         <section>
-            <div class="center espacio">
-                <h3>Taxas Mensais</h3>
-                <p>Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura.</p>
-                <p>Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente equipadas.</p>
-                <p class="centrar-parrafo">Contacte-nos para mais detalhes e para discutir uma taxa.</p>
+            <div class="container container2">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div id="slider3">
+                            <input type="radio" name="slider" id="s11">
+                            <input type="radio" name="slider" id="s12">
+                            <input type="radio" name="slider" id="s13">
+                            <input type="radio" name="slider" id="s14">
+                            <input type="radio" name="slider" id="s15">
+            
+                            <label for="s11" id="slide11">
+                            <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
+                        </label>
+                            <label for="s12" id="slide12">
+                            <img class="carrusel" src="../images/bed/casa_montana/2.jpg">
+                        </label>
+                            <label for="s13" id="slide13">
+                            <img class="carrusel" src="../images/bed/casa_montana/3.jpg">
+                        </label>
+                            <label for="s14" id="slide14">
+                            <img class="carrusel" src="../images/bed/casa_montana/4.jpg">
+                        </label>
+                            <label for="s15" id="slide15">
+                            <img class="carrusel" src="../images/bed/casa_montana/5.jpg">
+                        </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-1">
+                        <h1 class="titulo">Casa da Montanha</h1>
+                        <p class="justificar-parrafo">
+                        Cabine moderna e aconchegante com 2 quartos, 2 banheiros, fogueira, churrasqueira e cozinha compacta. Perto do rio com vista para a montanha.
+                        </p>
+                        <h4>Preços</h4>
+                        <p class="costos">
+                            CLP$360,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de utilização do jacuzzi incluídos).
+                        </p>
+                        <hr>
+                        <p class="costos">
+                            CLP$720,000 por semana (5 noites / 6 dias, tour e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="center espacio">
+            <h3><i>Reserve agora</i></h3>
+            <div>
+                <p>Para reservar um quarto, envie um email para  <a href="./formReservas.php">Clique aqui</a></p>
+                <p>O que está incluído: Acesso à piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros (TV direta na casa da montanha).</p>
+                <p> O que não está incluso: serviço de limpeza diário, limpeza, café da manhã, restaurante A tarifa também inclui: Toalhas de banho e de mão (1 por pessoa) Produtos básicos de cozinha (Lavalozas, sacos de lixo, Sal).</p>
             </div>
         </section>
     </main>
