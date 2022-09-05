@@ -6,9 +6,7 @@ date_default_timezone_set('America/Santiago');
 
     $host = "localhost:3306";
     $user = "root";
-    $user = "tumu971com_prueba";
     $clave = "";
-    //$clave = "abraham1307";
     $bd = "tumu971com_prueba";
 
     // admin

@@ -9,9 +9,6 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
-
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Sobre Nosotros</title>
 
@@ -149,25 +146,16 @@ require 'config/config.php';
 	<!-- main section -->
 	<main>
 		<section class="center espacio mx-5 my-5">
-			<h3 style="text-align: center;">Will Evelyn</h3>
-			<div  style="display: flex; justify-content: center; margin:1em;">
-				<img src="images\b503d29b-6a58-4028-8c4e-97a72385f3d4.jpg" alt="" style="max-height: 40rem;">
-			</div>
-					<p style="text-align: center;">Owner/ Director, Tumuñan Lodge & Andes Adventures</p>
-					<hr>
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Sobre Nosotros</h3>
+					<h2 class="titulo">Sobre Nosotros</h2>
 					
-					<p>Escondido en las estribaciones boscosas de los Andes, Tumuñan Lodge ofrece a los huéspedes de
-						todo el mundo un retiro durante todo el año y la oportunidad única de explorar una parte de
-						Chile muy linda, pero poco conocida. A solo 2 horas en auto al sur
+					<p style="font-size: 19px">A solo 2 horas en auto al sur
 						de Santiago que lo lleva a través de viñedos y vistas espectaculares de los Andes centrales,
 						este refugio de montaña familiar atiende a aquellos que necesitan descanso y relajación, a los
 						viajeros más aventureros que pueden disfrutar de
 						días únicos de senderismo , cabalgatas y pesca con mosca en el incomparable cordillera chileno.
-						La propiedad ofrece estadías a largo plazo, incluyendo una casa de 4 dormitorios, chalet de 2
-						dormitorios y cabaña de 3 dormitorios.</p>
+					</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="images\activities\Wine Tours\wine tasting.jpg" alt="">
@@ -180,21 +168,20 @@ require 'config/config.php';
 					<img src="images\activities\Wine Tours\55923167.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Tours de Vinos</h3>
-					<p>Tumuñan produce vinos de primera clase y estamos encantados de mostrarle los viñedos y degustar nuestros
-						vinos juntos.</p>
+					<h2 class="titulo">Tienda</h2>
+					<p style="font-size: 19px">Tumuñan produce vinos de clase mundial gracias su terreno montañoso. Además puede comprar nuestros vinos y miel en nuestra tienda online. Para acceder a la tienda online <a href="./tienda.php">Pinche aquí. </a>Puede adquirir sus productos favoritos acercandose a nuestra viña ubicada en <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>donde adicionalmente ofrecemos tours y degustaciones. </p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Reserve Ahora</h3>
-					<p>Para reservar una habitación, envíenos un correo electrónico a tumunanlodge@gmail.com. </p>
-			<p>INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de
-				montañas, Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de
-				basura, Sal).</p>
-			<p>NO INCLUYE: servicio de limpieza diario, limpieza, desayuno, restaurante.</p>
+					<h2 class="titulo">Reserve Ahora</h2>
+					<p style="font-size: 19px">Para reservar una habitación, <a href="./formReservas.php">Pinche Aquí</a> y rellene el formulario. Nos pondremos en contacto a la brevedad con usted.</p>
+					<p style="font-size: 19px">SE INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de
+						montañas, Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de
+						basura, Sal).</p>
+					<p style="font-size: 19px">NO SE INCLUYE: servicio de limpieza diario, desayuno, restaurante.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
@@ -207,18 +194,20 @@ require 'config/config.php';
 					<img src="images\Homepage Picture Roll\To Keep\55922826.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Paisaje</h3>
-					<p>En la zona hay senderos de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
-						paisajes de montaña.</p>
+					<h2 class="titulo">Paisaje</h2>
+					<p style="font-size: 19px">En nuestra propiedad hay 3 km de rutas de senderismo autoguiadas a través de pintorescos bosques 
+						y paisajes de montaña.</p>
+					<p style="font-size: 19px">Para ver los paisajes de la zona <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Senderismo</h3>
-					<p>En la zona hay senderos de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
+					<h2 class="titulo">Senderismo</h2>
+					<p style="font-size: 19px">En la zona hay rutas de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
 						paisajes de montaña.</p>
+					<p style="font-size: 19px">Para ver la galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -231,44 +220,16 @@ require 'config/config.php';
 					<img src="images/activities/Hiking/ridingview.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Montar a Caballo</h3>
-					<p>Realice un relajante paseo a caballo para explorar las hermosas vistas del valle de Tumuñan desde la
+					<h2 class="titulo">Montar a Caballo</h2>
+					<p style="font-size: 19px">Realice un relajante paseo a caballo para explorar las hermosas vistas del valle de Tumuñan desde la
 						propiedad y sus alrededores. Con mucho gusto lo pondremos en contacto con los lugareños que pueden
 						ayudarlo a planificar su viaje de un día.</p>
+					<p style="font-size: 19px">Para ver las galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 			</div>
-			<hr>
-
-
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Tarifas Mensuales</h3>
-					<p>Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de
-						manera higiénica y segura.
-						Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas con cocina totalmente
-						equipadas.</p>
-				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Homepage Picture Roll\To Keep\40481667.jpg" alt="">
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Homepage Picture Roll\To Keep\40529047.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Conoce Nuestros Alojamientos</h3>
-					<p>Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de
-						manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3
-						cabañas con cocina totalmente equipadas. Contáctenos para más detalles y discutir una tarifa.</p>
-				</div>
-			</div>
-			<hr>
 			
 		</section>
-		<h3 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #000000e7; color: #fff;">Ubicación</h3>
+		<h2 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #000000e7; color: #fff;">Ubicación</h2>
 		<div class="mapa" style="display: flex; justify-content: center; margin:1em;">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21963.498815824205!2d-70.79943981194643!3d-34.7499001301102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9664c1b33eefd169%3A0x7c7f01fc0de1ef70!2sTumu%C3%B1an%20Lodge!5e0!3m2!1ses-419!2scl!4v1659462547925!5m2!1ses-419!2scl"

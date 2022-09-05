@@ -9,8 +9,6 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Sobre nós</title>
@@ -76,9 +74,7 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Começar</a>
-								</li>
-								<li class="current-list-item"><a href="about.php">Sobre nós</a></li>
+								<li class="current-list-item"><a href="./">Sobre nós</a></li>
 								<li><a href="alojamientos.php">Alojamento</a></li>
 								<li><a href="galeria.php">Galeria</a></li>
 								<li><a href="formReservas.php">Reservas</a>
@@ -149,25 +145,16 @@ require '../config/config.php';
 	<!-- main section -->
 	<main>
 		<section class="center espacio mx-5 my-5">
-			<h3 style="text-align: center;">Will Evelyn</h3>
-			<div  style="display: flex; justify-content: center; margin:1em;">
-				<img src="../images\b503d29b-6a58-4028-8c4e-97a72385f3d4.jpg" alt="" style="max-height: 40rem;">
-			</div>
-					<p style="text-align: center;">Proprietário / Diretor, Tumuñan Lodge & Andes Adventures</p>
-					<hr>
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Sobre nós</h3>
+					<h2 class="titulo">Sobre nós</h2>
 					
-					<p>Escondido no sopé arborizado dos Andes, o Tumuñan Lodge oferece aos hóspedes
-a todos um retiro durante todo o ano e a oportunidade única de explorar uma parte
-Chile muito bonito, mas pouco conhecido. Apenas a 2 horas de carro ao sul
-de Santiago que leva você por vinhedos e vistas espetaculares dos Andes centrais,
-este refúgio de montanha familiar atende aos que precisam de descanso e relaxamento, aqueles
-viajantes mais aventureiros que podem desfrutar
-dias únicos de caminhadas, cavalgadas e pesca com mosca na incomparável cordilheira chilena.
-A propriedade oferece estadias de longa duração, incluindo uma casa de 4 quartos, chalé de 2 quartos,
-quartos e cabine de 3 quartos.</p>
+					<p style="font-size: 19px">Apenas a 2 horas de carro ao sul
+                    de Santiago que leva você por vinhedos e vistas espetaculares dos Andes centrais,
+                    este refúgio de montanha familiar atende aos que precisam de descanso e relaxamento, aqueles
+                    viajantes mais aventureiros que podem desfrutar
+                    dias únicos de caminhadas, cavalgadas e pesca com mosca na incomparável cordilheira chilena.
+                    </p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\activities\Wine Tours\wine tasting.jpg" alt="">
@@ -180,20 +167,20 @@ quartos e cabine de 3 quartos.</p>
 					<img src="../images\activities\Wine Tours\55923167.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Passeios de vinho</h3>
-					<p>Tumuñan produz vinhos de primeira classe e temos o prazer de mostrar-lhe as vinhas e provar os nossos vinho juntos.</p>
+					<h2 class="titulo">Loja</h2>
+					<p style="font-size: 19px">Tumuñan produz vinhos de classe mundial graças ao seu terreno montanhoso. Além disso, você pode comprar nossos vinhos e leites em nossa loja online. Para acessar a loja online <a href="./tienda.php">Clique aqui. </a>Você pode comprar seus produtos favoritos perto de nosso vinhedo localizado em <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>onde também oferecemos visitas guiadas e degustações.</p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Reserve agora</h3>
-					<p>Para reservar um quarto, envie-nos um e-mail para tumunanlodge@gmail.com. </p>
-			<p>INCLUI: Acesso a piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros, TV direta na casa
-            montanhas, toalhas de banho e de mão (1 por pessoa) produtos básicos de cozinha (lavalozas, sacos de
-            lixo, sal).</p>
-			<p>NÃO INCLUI: serviço de limpeza diário, limpeza, café da manhã, restaurante.</p>
+					<h2 class="titulo">Reserve agora</h2>
+					<p style="font-size: 19px">Para reservar um quarto, <a href="./formReservas.php">Clique aqui</a> e preencha o formulário. Entraremos em contato em breve.</p>
+                    <p style="font-size: 19px">INCLUI: Acesso a piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros, TV direta na casa
+                    montanhas, toalhas de banho e de mão (1 por pessoa) produtos básicos de cozinha (lavalozas, sacos de
+                    lixo, sal).</p>
+                    <p style="font-size: 19px">NÃO INCLUI: serviço de limpeza diário, limpeza, café da manhã, restaurante.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
@@ -206,16 +193,19 @@ quartos e cabine de 3 quartos.</p>
 					<img src="../images\Homepage Picture Roll\To Keep\55922826.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Cenário</h3>
-					<p>Na área existem trilhas autoguiadas de 1 km a 10 km de comprimento por pitorescas paisagens de montanha.</p>
+					<h2 class="titulo">Cenário</h2>
+					<p style="font-size: 19px">Em nossa propriedade há 3 km de trilhas autoguiadas por florestas pitorescas
+                    e paisa gens de montanha.</p>
+                    <p style="font-size: 19px">Para ver as paisagens da região <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Caminhada</h3>
-					<p>Na área existem trilhas autoguiadas de 1 km a 10 km de comprimento por pitorescas paisagens de montanha.</p>
+					<h2 class="titulo">Caminhada</h2>
+					<p style="font-size: 19px">Na área existem trilhas autoguiadas de 1 km a 10 km de comprimento por pitorescas paisagens de montanha.</p>
+                    <p style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -228,31 +218,9 @@ quartos e cabine de 3 quartos.</p>
 					<img src="../images/activities/Hiking/ridingview.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Andar a cavalo</h3>
-					<p>Faça um relaxante passeio a cavalo para explorar as belas vistas do Vale Tumuñan a partir do propriedade e seu entorno. Teremos o prazer de colocá-lo em contato com os locais que podem ajudá-lo a planejar sua viagem de um dia..</p>
-				</div>
-			</div>
-			<hr>
-
-
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Taxas Mensais</h3>
-					<p>Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente auto-suficientes equipado.</p>
-				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\40481667.jpg" alt="">
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\40529047.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Conheça nossas acomodações</h3>
-					<p>Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber hóspedes de forma higiênica e segura. As rendas mensais são apenas uma forma de alugar um dos nossos 3 cabines com cozinha totalmente equipada. Contacte-nos para mais detalhes e para discutir uma taxa..</p>
+					<h2 class="titulo">Andar a cavalo</h2>
+					<p style="font-size: 19px">Faça um relaxante passeio a cavalo para explorar as belas vistas do Vale Tumuñan a partir do propriedade e seu entorno. Teremos o prazer de colocá-lo em contato com os locais que podem ajudá-lo a planejar sua viagem de um dia..</p>
+                    <p style="font-size: 19px">Para ver a galeria de imagens <a href="./galeria.php">Clique aqui.</a></p>
 				</div>
 			</div>
 			<hr>

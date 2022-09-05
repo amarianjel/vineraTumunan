@@ -64,31 +64,34 @@ require 'config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./index.php">Inicio</a>
-								</li>
-								<li><a href="./about.php">Sobre nosotros</a></li>
+								<li><a href="./">Sobre nosotros</a></li>
 								<li class="current-list-item"><a href="../alojamientos.php">Alojamientos</a>
 								<li><a href="./galeria.php">Galeria</a>
 								<li><a href="./formReservas.php">Reservas</a>
 								<li><a href="./contact.html">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
                                 <li><a href="alojamientos.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
 								<li><a href="./en/alojamientos.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
 								<li><a href="./po/alojamientos.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="details.php">
-											<i class="fas fa-shopping-cart fa-lg"></i> Carrito <span id="num_cart" class="badge bg-secondary"><?php echo $num_cart; ?></span>
+                                    <div class="header-icons">
+										<a class="shopping-cart" href="checkout.php">
+											<?php if($num_cart==0){ ?>
+											<i class="fas fa-shopping-cart fa-lg"></i> Carrito
+											<?php }else{ ?>
+											<i class="fas fa-shopping-cart fa-lg">
+												<sup><?php echo $num_cart; ?></sup></i> Carrito
+											<?php } ?>
 										</a>
 									</div>
 								</li>

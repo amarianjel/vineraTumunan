@@ -18,7 +18,6 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Tienda</title>
@@ -82,9 +81,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Inicio</a>
-								</li>
-								<li><a href="about.php">Sobre nosotros</a></li>
+								<li><a href="./">Sobre nosotros</a></li>
 								<li><a href="alojamientos.php">Alojamientos</a></li>
 								<li><a href="galeria.php">Galeria</a></li>
 								<li><a href="formReservas.php">Reservas</a></li>
@@ -95,12 +92,12 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 									</a>
 								</li>
 								<li><a href="./en/tienda.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
 									</a>
 								</li>
 								<li>
 								<li><a href="./po/tienda.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
 									</a>
 								<li>
 									<div class="header-icons">

@@ -18,7 +18,6 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Armazenar</title>
@@ -82,9 +81,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Começar</a>
-								</li>
-								<li><a href="about.php">Sobre nós</a></li>
+								<li><a href="./">Sobre nós</a></li>
 								<li><a href="alojamientos.php">Alojamento</a></li>
 								<li><a href="galeria.php">Galeria</a></li>
 								<li><a href="formReservas.php">Reservas</a>

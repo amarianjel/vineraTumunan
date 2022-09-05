@@ -1,4 +1,4 @@
-<!--MUESTRA SOBRE NOSTROS-->
+<!--MUESTRA SOBRE NOSOTROS-->
 <?php 
 require '../config/config.php';
 ?>
@@ -9,9 +9,6 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
-
 	<!-- title -->
 	<title>Vineyard Tumuñan Lodge | About us</title>
 
@@ -76,9 +73,7 @@ require '../config/config.php';
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li><a href="./">Start</a>
-								</li>
-								<li class="current-list-item"><a href="about.php">About us</a></li>
+								<li class="current-list-item"><a href="./">About us</a></li>
 								<li><a href="alojamientos.php">Lodging</a></li>
 								<li><a href="galeria.php">Gallery</a></li>
 								<li><a href="formReservas.php">Bookings</a>
@@ -149,25 +144,13 @@ require '../config/config.php';
 	<!-- main section -->
 	<main>
 		<section class="center espacio mx-5 my-5">
-			<h3 style="text-align: center;">Will Evelyn</h3>
-			<div  style="display: flex; justify-content: center; margin:1em;">
-				<img src="../images\b503d29b-6a58-4028-8c4e-97a72385f3d4.jpg" alt="" style="max-height: 40rem;">
-			</div>
-					<p style="text-align: center;">Owner/ Director, Tumuñan Lodge & Andes Adventures</p>
-					<hr>
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">About us</h3>
+					<h2 class="titulo">About us</h2>
 					
-					<p>Tucked away in the forested foothills of the Andes, Tumuñan Lodge offers guests of
-everyone a year-round retreat and the unique opportunity to explore a part of
-Chile very pretty, but little known. Just a 2 hour drive south
-from Santiago that takes you through vineyards and spectacular views of the central Andes,
-this family-friendly mountain retreat caters to those in need of rest and relaxation, those
-more adventurous travelers who can enjoy
-unique days of hiking, horseback riding and fly fishing in the incomparable Chilean mountain range.
-The property offers long-term stays, including a 4-bedroom house, 2-bedroom chalet,
-bedrooms and 3-bedroom cabin.</p>
+					<p style="font-size: 19px">Just a 2 hour drive south from Santiago that takes you through vineyards and spectacular views of the central Andes, 
+                        this family-friendly mountain retreat caters to those in need of rest and relaxation,
+                        and more adventurous travelers who can enjoy unique days of hiking, horseback riding and fly fishing in the incomparable Chilean Andes.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\activities\Wine Tours\wine tasting.jpg" alt="">
@@ -180,21 +163,20 @@ bedrooms and 3-bedroom cabin.</p>
 					<img src="../images\activities\Wine Tours\55923167.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Wine Tours</h3>
-					<p>Tumuñan produces first class wines and we are delighted to show you the vineyards and taste our
-                    wine together.</p>
+					<h2 class="titulo">Store</h2>
+					<p style="font-size: 19px">Tumuñan produces world class wines from its unique mountain terroir. You can also buy our wines and honey in our online store. To access the online store <a href="./tienda.php">Click here. </a>You can buy your favorite products by going to our vineyard located in <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>where we additionally offer tours and tastings. </p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Reserve now</h3>
-					<p>To reserve a room, send us an email to tumunanlodge@gmail.com. </p>
-			<p>INCLUDES: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows, Direct TV in the house
-            mountains, bath and hand towels (1 per person) basic kitchen products (lavalozas, bags of
-            garbage, Salt).</p>
-			<p>NOT INCLUDED: daily maid service, cleaning, breakfast, restaurant.</p>
+					<h2 class="titulo">Reserve now</h2>
+					<p style="font-size: 19px">To reserve a room, <a href="./formReservas.php">Click Here</a> and fill out the form. We will contact you shortly.</p>
+			        <p style="font-size: 19px">INCLUDES: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows, Direct TV in the house
+                        mountains, bath and hand towels (1 per person) basic kitchen products (lavalozas, bags of
+                        garbage, Salt).</p>
+			        <p style="font-size: 19px">NOT INCLUDED: daily maid service, cleaning, breakfast, restaurant.</p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
@@ -207,18 +189,18 @@ bedrooms and 3-bedroom cabin.</p>
 					<img src="../images\Homepage Picture Roll\To Keep\55922826.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Scenery</h3>
-					<p>In the area there are self-guided hiking trails from 1 km to 10 km long through picturesque
-                    mountain landscapes.</p>
+					<h2 class="titulo">Scenery</h2>
+					<p style="font-size: 19px">On our property there are 3km of self-guided hiking trails long through picturesque forests and mountain landscapes.</p>
+                    <p style="font-size: 19px">To see the landscapes of the area <a href="./galeria.php">Click here.</a></p>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Hiking</h3>
-					<p>In the area there are self-guided hiking trails from 1 km to 10 km long through picturesque
-                    mountain landscapes.</p>
+					<h2 class="titulo">Hiking</h2>
+					<p style="font-size: 19px">In the area there are self-guided hiking trails from up to 10 km long through picturesque mountain landscapes.</p>
+                    <p style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
 				</div>
 				<div class="fotografia-info col-12 col-lg-6 my-5">
 					<img src="../images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
@@ -231,38 +213,11 @@ bedrooms and 3-bedroom cabin.</p>
 					<img src="../images/activities/Hiking/ridingview.jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">To ride a horse</h3>
-					<p>Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
+					<h2 class="titulo">To ride a horse</h2>
+					<p style="font-size: 19px">Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
                     property and its surroundings. We will gladly put you in contact with the locals who can
                     help you plan your day trip.</p>
-				</div>
-			</div>
-			<hr>
-
-
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Monthly Rates</h3>
-					<p>We have been working hard to reconfigure Tumuñan Lodge to be able to receive guests from
-                    hygienic and safe way.
-                    Monthly rentals are just one way to rent one of our 3 fully self-catering cabins
-                    equipped.</p>
-				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\40481667.jpg" alt="">
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\40529047.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h3 class="titulo">Know Our Accommodations</h3>
-					<p>We have been working hard to reconfigure Tumuñan Lodge to be able to receive guests from
-hygienic and safe way. Monthly rentals are just one way to rent one of our 3
-cabins with fully equipped kitchen. Contact us for more details and to discuss a rate.</p>
+                    <p style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
 				</div>
 			</div>
 			<hr>
