@@ -1,0 +1,122 @@
+.principal{
+    width: 100%;
+}
+.displayjs{
+    opacity: 0;
+}
+.displayjs.appear{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.principal p{
+    padding: 30px 0px 0px 20px;
+    width: 60%;
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-size: 2.6vh;
+}
+.integrations, .activities{
+    margin: 42px;
+}
+.items-list{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.items-list div{
+    margin: 20px;
+    width: 20%;
+}
+.items-list div img{
+    height: 5rem;
+}
+.activities-list{
+    position: relative;
+    display: flex;
+}
+.activities-list div{
+    width: 33.3%;
+    position: relative;
+    height: 60vh;
+    margin: 10px;
+    text-align: center;
+}
+h3{
+    color: #e4a13ee7;
+    text-shadow: 1px 1px black;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.activities-list div p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2.5vh;
+    width: 90%;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width:990px) {
+    .principal{
+        height: 70vh;
+    }
+    .principal p{
+        padding: 15px 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:950px){
+    .displayjs{
+        opacity: 1;
+    }
+    .activities-list{
+        display: contents;
+    }
+    .activities-list div{
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+        height: 70vh;
+    }
+    h3{
+        font-size: 5vh;
+    }
+    .activities-list div p{
+        font-size: 19px;
+    }
+}
+
+@media  screen and (max-width:660px) {
+    .principal{
+        height: 70vh;
+        text-align: center;
+    }
+    .principal p{
+        padding: 15px 20px;
+        margin:0px !important;
+        font-size: 2.6vh;
+    }
+    .items-list{
+        display: contents;
+    }
+    .items-list div{
+        width: 100%;
+        margin: 0px 0px 15px 0;
+    }
+    .activities-list{
+        display: contents;
+    }
+    .activities-list div{
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+        height: 70vh;
+    }
+    h3{
+        font-size: 5vh;
+    }
+}

@@ -33,6 +33,8 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="../assets/css/owl.carousel.css">
 	<!-- magnific popup -->
@@ -64,26 +66,15 @@ require '../config/config.php';
 
 						<!-- menu start -->
 						<nav class="main-menu">
-							<ul>
+                        <ul>
 								<li><a href="./">About us</a></li>
 								<li class="current-list-item"><a href="alojamientos.php">Lodging</a></li>
+								<li><a href="events.php">Events</a></li>
 								<li><a href="galeria.php">Gallery</a></li>
 								<li><a href="formReservas.php">Bookings</a>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="tienda.php">Store</a></li>
-								<li><a href="../alojamientos.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
-									</a>
-								</li>
-								<li><a href="alojamientos.php">
-									<img src="../images/traduccion/reino-unido.png" class="logo-idioma">
-									</a>
-								</li>
-								<li>
-								<li><a href="../po/alojamientos.php">
-									<img src="../images/traduccion/portugal.png" class="logo-idioma">
-									</a>
-								</li>
+								
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -95,6 +86,26 @@ require '../config/config.php';
 										</a>
 									</div>
 								</li>
+
+								<li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Language
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="../alojamientos.php" style="color:black;">
+												<img src="../images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="../en/alojamientos.php" style="color:black;">
+												<img src="../images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="../po/alojamientos.php" style="color:black;">
+												<img src="../images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
+									</div>
+								</li>
+								
 							</ul>
 						</nav>
 					<div class="mobile-menu"></div>
