@@ -120,6 +120,19 @@ if ($productos != null) {
 								<li><a href="formReservas.php">Reservas</a></li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
+                                <li><a href="checkout.php">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/checkout.php">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/checkout.php">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -250,7 +263,6 @@ if ($productos != null) {
                                                 $json = curl_exec($curl);
                                                 curl_close($curl);
                                             }
-
                                             $dailyIndicators = json_decode($json);  
                                             $dolarCam = $dailyIndicators->dolar->valor;
                                             $totalDolar=bcdiv($total,$dolarCam,2);

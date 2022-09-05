@@ -109,6 +109,19 @@ if ($id_transaccion == '') {
 								<li><a href="formReservas.php">Reservas</a></li>
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
+								<li><a href="checkout.php">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
+									</a>
+								</li>
+								<li><a href="./en/checkout.php">
+									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
+									</a>
+								</li>
+								<li>
+								<li><a href="./po/checkout.php">
+									<img src="images/traduccion/portugal.png" class="logo-idioma">
+									</a>
+								</li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="checkout.php">
@@ -147,6 +160,14 @@ if ($id_transaccion == '') {
 	<!-- end breadcrumb section -->
 	<main>
 		<div class="checkout-section mt-100 mb-150">
+				<?php if (strlen($error) > 0) { ?>
+					<div class="container">
+						<div class="col mb-5">
+							<h3>Ha ocurrido un error al procesar su pago!! Vuelva a intentarlo</h3>
+							<a href="tienda.php" class="boxed-btn black">Ir a la tienda</a>
+						</div>
+					</div>
+				<?php } else { ?>
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-7">
@@ -204,13 +225,7 @@ if ($id_transaccion == '') {
 					</div>
 			<div class="col-lg-5">
 			<div class="container">
-				<?php if (strlen($error) > 0) { ?>
-					<div class="container">
-						<div class="col mb-5">
-							<h3><?php echo $error;?></h3>
-						</div>
-					</div>
-				<?php } else { ?>
+				
 					<div class="container ">
 						<div class="col mb-5">
 							<h2>Detalles de compra</h2><br>
@@ -218,7 +233,7 @@ if ($id_transaccion == '') {
 							<h5><b>Fecha de compra: </b> <?php echo $row['fecha']; ?><br></h5>
 							<?php while ($row_det = $sqlDet->fetch(PDO::FETCH_ASSOC)) {
 							$importe =  $row_det['cantidad'] * $row_det['precio']; ?>
-							<h5><b>Total:</b> <?php echo MONEDA . number_format($importe, 0, ',', '.'); ?><br></h5>
+								<h5><b>Total:</b> <?php echo MONEDA . number_format($importe, 0, ',', '.'); ?><br></h5>
 						</div>
 						<div class="col-lg-12 col-md-12">
 							<div class="cart-table-wrap">
@@ -243,10 +258,10 @@ if ($id_transaccion == '') {
 						</div>
 							
 					</div>
-				<?php } ?>
 				</div>                                          
 					</div>
 				</div>
+				<?php } ?>
 			</div>
 	</main>
     

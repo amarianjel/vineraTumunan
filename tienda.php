@@ -88,7 +88,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 								<li><a href="contact.php">Contacto</a></li>
 								<li class="current-list-item"><a href="tienda.php">Tienda</a></li>
 								<li><a href="tienda.php">
-									<img src="../images/traduccion/espana.png" class="logo-idioma">
+									<img src="images/traduccion/espana.png" class="logo-idioma">
 									</a>
 								</li>
 								<li><a href="./en/tienda.php">
