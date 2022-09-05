@@ -28,7 +28,7 @@ try {
     //Correo receptor y nombre
     $mail->addAddress($email, 'usuario');
     //Enviar copia correo
-    $mail->addCC('admin@tumunan.com');
+    $mail->addCC('tumunanlodge@gmail.com');
 
     //Contenido
     $mail->isHTML(true);   //Establecer el formato de correo electrónico en HTML

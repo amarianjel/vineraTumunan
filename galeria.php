@@ -31,6 +31,8 @@ require 'config/config.php';
         <link rel="stylesheet" href="assets/css/all.min.css">
         <!-- bootstrap -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap.bundle.min.js">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
         <!-- owl carousel -->
         <link rel="stylesheet" href="assets/css/owl.carousel.css">
         <!-- magnific popup -->
@@ -61,38 +63,48 @@ require 'config/config.php';
 
                             <!-- menu start -->
                             <nav class="main-menu">
-                                <ul>
-                                    <li><a href="./">Sobre nosotros</a></li>
-                                    <li><a href="alojamientos.php">Alojamientos</a></li>
-                                    <li  class="current-list-item"><a href="galeria.php">Galeria</a></li>
-                                    <li><a href="formReservas.php">Reservas</a>
-                                    <li><a href="contact.php">Contacto</a></li>
-                                    <li><a href="tienda.php">Tienda</a></li>
-                                    <li><a href="galeria.php">
-									<img src="images/traduccion/espana.png" class="logo-idioma">
-									</a>
-								</li>
-								<li><a href="./en/galeria.php">
-									<img src="images/traduccion/reino-unido.png" class="logo-idioma">
-									</a>
-								</li>
+                            <ul>
+								<li><a href="./">Sobre nosotros</a></li>
+								<li><a href="./alojamientos.php">Alojamientos</a></li>
+								<li><a href="./events.php">Eventos</a></li>
+								<li  class="current-list-item"><a href="./galeria.php">Galeria</a></li>
+								<li><a href="./formReservas.php">Reservas</a></li>
+								<li><a href="./contact.php">Contacto</a></li>
+								<li><a href="./tienda.php">Tienda</a></li>
+
 								<li>
-								<li><a href="./po/galeria.php">
-									<img src="images/traduccion/portugal.png" class="logo-idioma">
-									</a>
+									<div class="header-icons">
+										<a class="shopping-cart" href="checkout.php">
+											<?php if($num_cart==0){ ?>
+											<i class="fas fa-shopping-cart fa-lg"></i> Carrito
+											<?php }else{ ?>
+											<i class="fas fa-shopping-cart fa-lg">
+												<sup><?php echo $num_cart; ?></sup></i> Carrito
+											<?php } ?>
+										</a>
+									</div>
 								</li>
-                                    <li>
-                                        <div class="header-icons">
-                                            <a class="shopping-cart" href="checkout.php">
-                                                <?php if($num_cart==0){ ?>
-                                                    <i class="fas fa-shopping-cart fa-lg"></i> Carrito
-                                                <?php }else{ ?>
-                                                    <i class="fas fa-shopping-cart fa-lg"> <sup><?php echo $num_cart; ?></sup></i> Carrito 
-                                                <?php } ?> 
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
+
+								<li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Lenguaje
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="./galeria.php" style="color:black;">
+												<img src="images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="./en/galeria.php" style="color:black;">
+												<img src="./images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="./po/galeria.php" style="color:black;">
+												<img src="./images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
+									</div>
+								</li>
+
+							</ul>
                             </nav>
                             <div class="mobile-menu"></div>
                             <!-- menu end -->
@@ -105,7 +117,7 @@ require 'config/config.php';
         
         <!-- images/bigstock-Vineyards-At-Sunset-37822447.jpg -->
         <!-- hero area -->
-        <div class="hero-area hero-bg" style="background-image: url(images/activities/Hiking/3_enhanced__M8R1476.jpg);">
+        <div class="hero-area hero-bg" style="background-image: url(images/activities/Hiking/1.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 offset-lg-2 text-center">
