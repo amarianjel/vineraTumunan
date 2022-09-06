@@ -137,7 +137,7 @@ require '../config/config.php';
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
-                    <h2><i>Desconecte em Alto Colchagua</i></h2>
+                    <h2>Desconecte em Alto Colchagua</h2>
                     <div>
                         <p class="justificar-inicio">Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente equipadas.
                         </p>
@@ -282,7 +282,7 @@ require '../config/config.php';
             </div>
         </section>
         <section class="center espacio">
-            <h3><i>Reserve agora</i></h3>
+            <h3>Reserve agora</h3>
             <div>
                 <p>Para reservar um quarto, envie um email para  <a href="./formReservas.php">Clique aqui</a></p>
                 <p>O que está incluído: Acesso à piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros (TV direta na casa da montanha).</p>

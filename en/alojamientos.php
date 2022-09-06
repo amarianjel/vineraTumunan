@@ -138,7 +138,7 @@ require '../config/config.php';
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
-                    <h2><i>Disconnect in Alto Colchagua</i></h2>
+                    <h2>Disconnect in Alto Colchagua</h2>
                     <div>
                         <p class="justificar-inicio">We have been working hard to reconfigure Tumuñan Lodge to be able to welcome guests in a hygienic and safe manner. Monthly rentals are just one way to rent one of our 3 fully self-catering cabins equipped. 
                         </p>
@@ -283,7 +283,7 @@ require '../config/config.php';
             </div>
         </section>
         <section class="center espacio">
-            <h3><i>Book Now</i></h3>
+            <h3>Book Now</h3>
             <div>
                 <p>To book a room, send an email to <a href="./formReservas.php">Click here</a></p>
                 <p>What's Included: Access to the pool and jacuzzi, trails, WiFi, sheets and pillows (TV direct at the mountain house).</p>

@@ -96,8 +96,6 @@ h4 {
     font-size: 18px;
     text-align: justify;
     text-indent: 50px;
-    font-weight: 600;
-    color: rgb(32, 28, 28);
 }
 
 .center {
@@ -105,8 +103,8 @@ h4 {
     width: 100%;
     overflow: hidden;
     text-align: center;
-    font-style: oblique;
-    background-color: #e4dcd7;
+    /* font-style: oblique;
+    background-color: #e4dcd7; */
 }
 
 .espacio {
