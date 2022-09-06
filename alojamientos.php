@@ -285,7 +285,7 @@ require 'config/config.php';
         <section class="center espacio">
             <h3><i>Reserve Ahora</i></h3>
             <div>
-                <p>Para reservar una habitación, envíenos un correo electrónico a tumunanlodge@gmail.com. </p>
+                <p>Para reservar una habitación, envíenos un correo electrónico a   <a href="./formReservas.php">Click aqui</a></p>
                 <p>Qué incluye: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas (Direct TV en la casa de montañas).</p>
                 <p> Qué no está incluido: servicio de limpieza diario, limpieza, desayuno, restaurante La tarifa también Incluye: Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de basura, Sal).</p>
             </div>
