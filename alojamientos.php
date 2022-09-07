@@ -215,19 +215,19 @@ require 'config/config.php';
                             <input type="radio" name="slider" id="s10">
 
                             <label for="s6" id="slide6">
-                        <img class="carrusel" src="images/bed/Chalet/King Suite 4.jpg">
+                        <img class="carrusel" src="images/bed/chalet_parejas/1.jpeg">
                     </label>
                             <label for="s7" id="slide7">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0606.jpg">
+                                <img class="carrusel" src="images/bed/chalet_parejas/2.jpeg">
                     </label>
                             <label for="s8" id="slide8">
-                        <img src="images/bed/chalet2020/DSC_0595.jpg">
+                        <img src="images/bed/chalet_parejas/3.jpeg">
                     </label>
                             <label for="s9" id="slide9">
-                        <img class="carrusel" src="images/bed/chalet2020/DSC_0679.jpg">
+                        <img class="carrusel" src="images/bed/chalet_parejas/4.jpeg">
                     </label>
                             <label for="s10" id="slide10">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="images/bed/chalet_parejas/6.jpeg">
                     </label>
                             </p>
                         </div>
