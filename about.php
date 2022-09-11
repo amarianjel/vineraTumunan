@@ -139,7 +139,18 @@ require 'config/config.php';
 			color: #051922;
 		}	
 
-
+		@media only screen and (max-width: 959px) {
+body:before {
+content: "";
+background-image: url('your background url goes here');
+background-size: cover;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+}
 
 
 	</style>
