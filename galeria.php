@@ -149,36 +149,13 @@ require 'config/config.php';
                 <div class="image-container">
                     <!-- Alojamientos -->
                     <section class="parallax-completo">
-                        <a href="images/bed/_M8R0501.jpg" class="image alojamientos">
-                            <img src="images/bed/_M8R0501.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/FireplaceWixTitle.jpg" class="image alojamientos">
-                            <img src="images/bed/FireplaceWixTitle.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/IMG_1155.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_1155.jpg" alt="Alojamientos">
-                        </a>
                         <a href="images/bed/IMG_4291.jpg" class="image alojamientos">
                             <img src="images/bed/IMG_4291.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/IMG_4314.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_4314.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/IMG_4319.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_4319.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/IMG_4442.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_4442.jpg" alt="Alojamientos">
                         </a>
                         <a href="images/bed/IMG_5546.jpg" class="image alojamientos">
                             <img src="images/bed/IMG_5546.jpg" alt="Alojamientos">
                         </a>
-                        <a href="images/bed/IMG_5631.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_5631.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/IMG_5634.jpg" class="image alojamientos">
-                            <img src="images/bed/IMG_5634.jpg" alt="Alojamientos">
-                        </a>
+                        
                         <a href="images/bed/IMG_5637.jpg" class="image alojamientos">
                             <img src="images/bed/IMG_5637.jpg" alt="Alojamientos">
                         </a>
@@ -211,12 +188,6 @@ require 'config/config.php';
                         </a>
                         <a href="images/bed/chalet2020/DSC_0666.jpg" class="image alojamientos">
                             <img src="images/bed/chalet2020/DSC_0666.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" class="image alojamientos">
-                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" class="image alojamientos">
-                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" alt="Alojamientos">
                         </a>
                         <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" class="image alojamientos">
                             <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" alt="Alojamientos">
@@ -307,12 +278,6 @@ require 'config/config.php';
 
                     <!-- Comida y Vino -->
                     <section class="parallax-completo" id="comida_y_vinos">
-                        <a href="images/food_Wine/1.jpg" class="image comida_y_vino">
-                            <img src="images/food_Wine/1.jpg" alt="Comidas y Vino">
-                        </a>
-                        <a href="images/food_Wine/2.jpg" class="image comida_y_vino">
-                            <img src="images/food_Wine/2.jpg" alt="Comidas y Vino">
-                        </a>
                         <a href="images/food_Wine/3.jpg" class="image comida_y_vino">
                             <img src="images/food_Wine/3.jpg" alt="Comidas y Vino">
                         </a>
@@ -358,18 +323,14 @@ require 'config/config.php';
                         <a href="images/food_Wine/Dinner.jpg" class="image comida_y_vino">
                             <img src="images/food_Wine/Dinner.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="images/food_Wine/finedining1.png" class="image comida_y_vino">
-                            <img src="images/food_Wine/finedining1.png" alt="Comidas y Vino">
-                        </a>
+                        
                         <a href="images/food_Wine/finedining2.png" class="image comida_y_vino">
                             <img src="images/food_Wine/finedining2.png" alt="Comidas y Vino">
                         </a>
                         <a href="images/food_Wine/homemade pie.jpg" class="image comida_y_vino">
                             <img src="images/food_Wine/homemade pie.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="images/food_Wine/img-24121.JPG.1024x0.jpg" class="image comida_y_vino">
-                            <img src="images/food_Wine/img-24121.JPG.1024x0.jpg" alt="Comidas y Vino">
-                        </a>
+                        
                     </section>
 
                     <!-- Vinos -->
