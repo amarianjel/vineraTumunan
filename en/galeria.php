@@ -148,227 +148,188 @@ require '../config/config.php';
                 <div class="image-container">
                     <!-- Alojamientos -->
                     <section class="parallax-completo">
-                        <a href="../images/bed/_M8R0501.jpg" class="image alojamientos">
-                            <img src="../images/bed/_M8R0501.jpg" alt="Alojamientos">
+                        <a href="images/bed/IMG_4291.jpg" class="image alojamientos">
+                            <img src="images/bed/IMG_4291.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/FireplaceWixTitle.jpg" class="image alojamientos">
-                            <img src="../images/bed/FireplaceWixTitle.jpg" alt="Alojamientos">
+                        <a href="images/bed/IMG_5546.jpg" class="image alojamientos">
+                            <img src="images/bed/IMG_5546.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_1155.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_1155.jpg" alt="Alojamientos">
+                        
+                        <a href="images/bed/IMG_5637.jpg" class="image alojamientos">
+                            <img src="images/bed/IMG_5637.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_4291.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4291.jpg" alt="Alojamientos">
+                        <a href="images/bed/IMG_5639.jpg" class="image alojamientos">
+                            <img src="images/bed/IMG_5639.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_4314.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4314.jpg" alt="Alojamientos">
+                        <a href="images/bed/IMG_5676 (1).jpg" class="image alojamientos">
+                            <img src="images/bed/IMG_5676 (1).jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_4319.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4319.jpg" alt="Alojamientos">
+                        <a href="images/bed/WINE_Enhanced_IMG_0519.jpg" class="image alojamientos">
+                            <img src="images/bed/WINE_Enhanced_IMG_0519.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_4442.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4442.jpg" alt="Alojamientos">
+                        <a href="images/bed/Chalet/King Suite 3.jpg" class="image alojamientos">
+                            <img src="images/bed/Chalet/King Suite 3.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5546.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5546.jpg" alt="Alojamientos">
+                        <a href="images/bed/Chalet/King Suite 5.jpg" class="image alojamientos">
+                            <img src="images/bed/Chalet/King Suite 5.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5631.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5631.jpg" alt="Alojamientos">
+                        <a href="images/bed/Chalet/King Suite 6.jpg" class="image alojamientos">
+                            <img src="images/bed/Chalet/King Suite 6.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5634.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5634.jpg" alt="Alojamientos">
+                        <a href="images/bed/chalet2020/DSC_0595.jpg" class="image alojamientos">
+                            <img src="images/bed/chalet2020/DSC_0595.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5637.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5637.jpg" alt="Alojamientos">
+                        <a href="images/bed/chalet2020/DSC_0606.jpg" class="image alojamientos">
+                            <img src="images/bed/chalet2020/DSC_0606.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5639.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5639.jpg" alt="Alojamientos">
+                        <a href="images/bed/chalet2020/DSC_0638.jpg" class="image alojamientos">
+                            <img src="images/bed/chalet2020/DSC_0638.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5676 (1).jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5676 (1).jpg" alt="Alojamientos">
+                        <a href="images/bed/chalet2020/DSC_0666.jpg" class="image alojamientos">
+                            <img src="images/bed/chalet2020/DSC_0666.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/WINE_Enhanced_IMG_0519.jpg" class="image alojamientos">
-                            <img src="../images/bed/WINE_Enhanced_IMG_0519.jpg" alt="Alojamientos">
+                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" class="image alojamientos">
+                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 3.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 3.jpg" alt="Alojamientos">
+                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0003.jpg" class="image alojamientos">
+                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0003.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 5.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 5.jpg" alt="Alojamientos">
+                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg" class="image alojamientos">
+                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 6.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 6.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/chalet2020/DSC_0595.jpg" class="image alojamientos">
-                            <img src="../images/bed/chalet2020/DSC_0595.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/chalet2020/DSC_0606.jpg" class="image alojamientos">
-                            <img src="../images/bed/chalet2020/DSC_0606.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/chalet2020/DSC_0638.jpg" class="image alojamientos">
-                            <img src="../images/bed/chalet2020/DSC_0638.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/chalet2020/DSC_0666.jpg" class="image alojamientos">
-                            <img src="../images/bed/chalet2020/DSC_0666.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0003.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0003.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0006.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0006.jpg" alt="Alojamientos">
+                        <a href="images/bed/Rooms Website/casa/IMG-20200519-WA0006.jpg" class="image alojamientos">
+                            <img src="images/bed/Rooms Website/casa/IMG-20200519-WA0006.jpg" alt="Alojamientos">
                         </a>
                     </section>
 
                     <!-- Tours -->
                     <section class="parallax-completo">
-                        <a href="../images/activities/Wine Tours/10.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/10.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/10.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/10.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href=../"images/activities/Wine Tours/11.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/11.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/11.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/11.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/12.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/12.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/12.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/12.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/13.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/13.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/13.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/13.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/14.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/14.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/14.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/14.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/15.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/15.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/15.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/15.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/16.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/16.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/16.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/16.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/17.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/17.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/17.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/17.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/18.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/18.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/18.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/18.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/128.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/128.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/128.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/128.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/40528855.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/40528855.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/40528855.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/40528855.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/55923167.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/55923167.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/55923167.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/55923167.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="i../mages/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/Colchagua 7.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/Colchagua 7.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/Colchagua 7.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/Colchagua 7.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/image2.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/image2.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/image2.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/image2.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/IMG_5036.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/IMG_5036.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/IMG_5036.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/IMG_5036.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/IMG_5044.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/IMG_5044.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/IMG_5044.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/IMG_5044.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/IMG_5102.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/IMG_5102.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/IMG_5102.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/IMG_5102.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/riding campfire.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/riding campfire.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/riding campfire.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/riding campfire.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/Tumunan Lodge - Wine Tasting.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="../images/activities/Wine Tours/wine tasting.jpg" class="image tours">
-                            <img src="../images/activities/Wine Tours/wine tasting.jpg" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/wine tasting.jpg" class="image tours">
+                            <img src="images/activities/Wine Tours/wine tasting.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="i../mages/activities/Wine Tours/wine tasting.png" class="image tours">
-                            <img src="../images/activities/Wine Tours/wine tasting.png" alt="Tours de Vinos">
+                        <a href="images/activities/Wine Tours/wine tasting.png" class="image tours">
+                            <img src="images/activities/Wine Tours/wine tasting.png" alt="Tours de Vinos">
                         </a>
                     </section>
 
                     <!-- Comida y Vino -->
                     <section class="parallax-completo" id="comida_y_vinos">
-                        <a href="../images/food_Wine/1.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/1.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/3.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/3.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/2.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/2.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/4.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/4.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/3.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/3.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/5.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/5.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/4.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/4.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/6.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/6.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/5.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/5.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/7.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/7.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/6.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/6.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/8.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/8.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/7.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/7.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/_AAA0170.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/_AAA0170.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/8.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/8.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/steak.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/steak.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/_AAA0170.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/_AAA0170.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/asadoclose.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/asadoclose.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/steak.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/steak.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/asado-enhanced-img-2403-11.JPG.1024x0.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/asado-enhanced-img-2403-11.JPG.1024x0.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/asadoclose.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/asadoclose.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/breadclose.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/breadclose.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/asado-enhanced-img-2403-11.JPG.1024x0.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/asado-enhanced-img-2403-11.JPG.1024x0.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/Breakfast.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/Breakfast.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/breadclose.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/breadclose.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/breakfastpancakeclose.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/breakfastpancakeclose.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/Breakfast.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/Breakfast.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/cheese.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/cheese.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/breakfastpancakeclose.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/breakfastpancakeclose.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/Dinner.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/Dinner.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/cheese.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/cheese.jpg" alt="Comidas y Vino">
+                        
+                        <a href="images/food_Wine/finedining2.png" class="image comida_y_vino">
+                            <img src="images/food_Wine/finedining2.png" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/Dinner.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/Dinner.jpg" alt="Comidas y Vino">
+                        <a href="images/food_Wine/homemade pie.jpg" class="image comida_y_vino">
+                            <img src="images/food_Wine/homemade pie.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/finedining1.png" class="image comida_y_vino">
-                            <img src="../images/food_Wine/finedining1.png" alt="Comidas y Vino">
-                        </a>
-                        <a href="../images/food_Wine/finedining2.png" class="image comida_y_vino">
-                            <img src="../images/food_Wine/finedining2.png" alt="Comidas y Vino">
-                        </a>
-                        <a href="../images/food_Wine/homemade pie.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/homemade pie.jpg" alt="Comidas y Vino">
-                        </a>
-                        <a href="../images/food_Wine/img-24121.JPG.1024x0.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/img-24121.JPG.1024x0.jpg" alt="Comidas y Vino">
-                        </a>
+                        
                     </section>
 
                     <!-- Vinos -->
