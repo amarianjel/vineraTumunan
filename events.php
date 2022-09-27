@@ -10,6 +10,9 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Eventos Empresariales con Vista a la Montaña">
+	<meta name="description" content="Tumuñan es el lugar perfecto para eventos empresariales. Realiza trabajo en equipo con espectaculares vistas a montañas y bosques nativos. Póngase en contacto con nosotros hoy.">
+
     <title>Viña Tumuñan Lodge | Eventos</title>
 
     <!--Style-->
@@ -118,8 +121,27 @@ require 'config/config.php';
 	</div>
 	<!-- end header -->
 
+<style>
+
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
     <!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/events/2.jpeg);">
+	<div class="hero-area hero-bg" id="hero" style="background-image: url(images/events/2.jpeg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -140,6 +162,9 @@ require 'config/config.php';
         <section class="center espacio mx-5 my-5">
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
+				    <h2 class="titulo">Tumuñan Eventos</h2>
+				    <hr>
+				    <br>
 					<p class="displayjs" style="font-size: 19px">
 					Tumuñan Lodge es el lugar perfecto para tus eventos o reuniones de negocios, 
 					en un entorno privilegiado. Ubicado a solo 30 minutos de San Fernando en pleno pre-cordillera, 

@@ -24,6 +24,8 @@ if ($productos != null) {
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Carrito de Compras Vino Tumuñan">
+	<meta name="description" content="¿Olvidaste hacer clic en ordenar en tu carrito de compras? No te preocupes, aún estás a tiempo de pedir tus productos favoritos. Seguir comprando.">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge</title>

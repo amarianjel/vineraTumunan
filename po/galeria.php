@@ -7,6 +7,9 @@ require '../config/config.php';
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Viva a Experiência Tumuñan">
+	    <meta name="description" content="Visite nosso vinhedo e prove nossos vinhos, explore a mata nativa, rios e montanhas através de inúmeras trilhas exclusivas. Explorar agora.">
+
         <!-- favicon -->
         <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../assets/css/galeria.css">

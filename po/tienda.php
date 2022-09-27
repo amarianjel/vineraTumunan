@@ -18,6 +18,8 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Loja de vinhos de Tumuñan">
+	<meta name="description" content="Pronto para a sua próxima caixa de vinho? Já pode encomendar o seu vinho Tumuñan favorito diretamente online na nossa loja online. Encomende vinho e outros produtos locais aqui.">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Armazenar</title>

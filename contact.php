@@ -8,6 +8,8 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Tumuñán Contáctanos">
+	<meta name="description" content="¿Listo para vivir la experiencia Tumuñan? Contáctese con nosotros para mas información sobre nuestros servicios¿Listo para vivir la experiencia Tumuñan? Contáctese con nosotros para mas información sobre nuestros servicios">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Contacto</title>
@@ -49,7 +51,12 @@ require 'config/config.php';
 <style>
 	.dato{
 		padding-left: 3rem;
-	}	
+	}
+	.contenedor{
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	}
 </style>
 <body style="background-color: #f5e1ce;">
 	
@@ -129,9 +136,27 @@ require 'config/config.php';
 	</div>
 	<!-- end header -->
 	
+<style>
 
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
 	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/activities/Hiking/115.jpg);">
+	<div class="hero-area hero-bg"id="hero" style="background-image: url(images/activities/Hiking/115.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -151,9 +176,9 @@ require 'config/config.php';
     <main>
 		<h2 class="titulo" style="margin: 5rem; text-align: center;">Datos de Contacto</h2>
     <section class="center espacio mx-5 my-5">
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6" style="padding-right: 5rem;padding-left: 15rem; text-align: center;">
-					<div style="margin: 5rem; text-align: left;">
+			<div class="contenedor">
+				<div class="info col-12 col-lg-6">
+					<div>
 						<hr>
 						<h3>Nombre</h3>
 						<a href="" style="font-size: 19px">Will Evelyn </p>
@@ -168,8 +193,8 @@ require 'config/config.php';
                     	<a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" style="font-size: 19px"> I-325, Las Peñas, O'Higgins, Chile </a>	
 					</div>	
 				</div>
-				<div class="fotografia-info col-12 col-lg-4 my-6">
-					<img src="images\activities\Wine Tours\IMG_5044.JPG" style=" border: 2px solid rgb(37, 19, 52);">
+				<div class="fotografia-info col-12 col-lg-4 my-6" style="margin-top: 5rem;">
+					<img src="images\activities\Wine Tours\IMG_5044.jpg" style=" border: 2px solid rgb(37, 19, 52);">
 				</div>
 			</div>
 		</section>   

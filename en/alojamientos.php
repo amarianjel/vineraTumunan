@@ -8,6 +8,9 @@ require '../config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Disconnect in Alto Colchagua">
+	<meta name="description" content="Disconnect from the noise of the city in one of our fully equipped chalets. Explore nature, try our wines and taste our local honey. Book now. ">
+
     	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
     

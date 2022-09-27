@@ -1,5 +1,6 @@
 <?php 
 require 'config/config.php';
+$fechaActual = date('Y-m-d');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -8,6 +9,8 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Reserva tu estancia en Tumuñan">
+	<meta name="description" content="Relájate en Tumuñan en uno de nuestros Chalets completamente equipados. Disfrute de espectaculares vistas a la montaña y relájese del ruido de la ciudad. Reservar ahora.">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Reservas</title>
@@ -124,9 +127,27 @@ require 'config/config.php';
 		</div>
 	</div>
 	<!-- end header -->
-	
+	<style>
+
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
 	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(images/bg_2.jpg);">
+	<div class="breadcrumb-section breadcrumb-bg" id="hero"style="background-image: url(images/bg_2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -171,14 +192,16 @@ require 'config/config.php';
                                                 <p><input type="email" placeholder="Ej: juan@mail.com" id="email" name="email" required></p>
                                                 <p><b>Número de télefono/celular</b></p>
                                                 <p><input type="tel" placeholder="Ej: (+56) 922222222" id="fono" name="fono" required></p>
-												<p><b>Dias de alojamiento</b></p>
-                                                <p><input type="number" placeholder="Dias" id="dias" name="dias" value="1" min="1" required></p>
+                                                <p><b>Fecha de ingreso</b></p>
+                                                <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_ing" name="fecha_ing"required></p>
+                                                <p><b>Fecha de salida</b></p>
+                                                <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_sal" name="fecha_sal"required></p>
                                                 <p><b>Cantidad de personas</b></p>
                                                 <p><input type="number" placeholder="Cantidad de personas" value="1" min="1" id="c_personas" name="c_personas" required></p>
                                                 <p><b>Cantidad de adultos</b></p>
                                                 <p><input type="number" placeholder="Cantidad de adultos" value="1" min="1" id="c_adultos" name="c_adultos" required></p>
                                                 <p><b>Cantidad de niños (opcional)</b></p>
-                                                <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_niños" name="c_niños"></p>
+                                                <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_ninios" name="c_ninios"></p>
 												<input type="submit" class="boxed-btn black" value="Enviar solicitud">
                                             </form>
                                             

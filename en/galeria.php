@@ -7,11 +7,14 @@ require '../config/config.php';
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Live the Tumuñan Experience">
+	    <meta name="description" content="Tour our vineyard and taste our wines, explore the native forest, rivers and mountains via numerous exclusive trails. Explore now.">
+
         <!-- favicon -->
         <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../assets/css/galeria.css">
         
-        <title>Vineyard Tumuñan Lodge | Gallery</title>
+        <title>Vineyard Tumu���an Lodge | Gallery</title>
 
                 <!--Style-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -122,8 +125,8 @@ require '../config/config.php';
                     <div class="col-lg-9 offset-lg-2 text-center">
                         <div class="hero-text">
                             <div class="hero-text-tablecell">
-                                <p class="subtitle">Live the Tumuñan experience</p>
-                                <h1>Vineyard Tumuñan Lodge</h1>
+                                <p class="subtitle">Live the Tumu���an experience</p>
+                                <h1>Vineyard Tumu���an Lodge</h1>
                             </div>
                         </div>
                     </div>

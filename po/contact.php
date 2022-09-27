@@ -8,6 +8,8 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Tumuñan Fale Conosco">
+	<meta name="description" content="Pronto para viver a experiência Tumuñan? Contacte-nos para mais informações sobre os nossos serviços">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Contacto</title>

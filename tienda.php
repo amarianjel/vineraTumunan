@@ -18,6 +18,8 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Tienda Tumuñan">
+	<meta name="description" content="¿Listo para tu próxima caja de vino? Ya puedes pedir tu vino Tumuñan favorito directamente online en nuestra tienda online. Pide vino y otros productos locales aquí.">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Tienda</title>
@@ -134,8 +136,27 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	</div>
 	<!-- end header -->
 	
+	<style>
+
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
 	<!-- breadcrumb-section -->
-	<div class="breadcrumb-section breadcrumb-bg" style="background-image: url(images/bg_2.jpg);">
+	<div class="breadcrumb-section breadcrumb-bg" id="hero" style="background-image: url(images/bg_2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">

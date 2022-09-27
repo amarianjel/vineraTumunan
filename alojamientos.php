@@ -8,6 +8,9 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Desconexión en Alto Colchagua">
+	<meta name="description" content="Desconecta del ruido de la ciudad en uno de nuestros chalets completamente equipados. Explore la naturaleza, pruebe nuestros vinos y pruebe nuestra miel local. Reservar ahora.">
+
     	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     
@@ -49,7 +52,7 @@ require 'config/config.php';
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body>
+<body style="background-color: #f5e1ce;">
     <div class="top-header-area" id="sticker">
 		<div class="container">
 			<div class="row">
@@ -71,7 +74,7 @@ require 'config/config.php';
                                 <li><a href="./events.php">Eventos</a></li>
 								<li><a href="./galeria.php">Galeria</a>
 								<li><a href="./formReservas.php">Reservas</a>
-								<li><a href="./contact.html">Contacto</a></li>
+								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
                                 
                                 <li>
@@ -117,8 +120,27 @@ require 'config/config.php';
 	</div>
 	<!-- end header -->
 
+<style>
+
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
     	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/bed/aloja.jpg);">
+	<div class="hero-area hero-bg" id="hero" style="background-image: url(images/bed/aloja.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -139,6 +161,8 @@ require 'config/config.php';
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
                     <h2>Desconectarse en el Alto Colchagua</h2>
+                    <hr>
+                    <br>
                     <div>
                         <p class="justificar-inicio">Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas completamente equipadas.
                         </p>
