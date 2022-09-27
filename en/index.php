@@ -9,6 +9,8 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Vineyard on Colchagua Valley doorstep">
+	<meta name="description" content="Visit Tumuñan Vineyard nested in the foothills of the Andes Mountains on the doorstep of the Colchagua Valley. Learn about us here.">
 
 	<!-- title -->
 	<title>Vineyard Tumuñan Lodge | About us</title>

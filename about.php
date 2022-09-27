@@ -9,6 +9,9 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Viñedo a las puertas del Valle de Colchagua">
+	<meta name="description" content="Visite Viña Tumuñan cercana de la Cordillera de los Andes a las puertas del Valle de Colchagua. Aprende sobre nosotros aquí.">
+
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Sobre Nosotros</title>
 
@@ -139,7 +142,18 @@ require 'config/config.php';
 			color: #051922;
 		}	
 
-
+		@media only screen and (max-width: 959px) {
+body:before {
+content: "";
+background-image: url('your background url goes here');
+background-size: cover;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+}
 
 
 	</style>

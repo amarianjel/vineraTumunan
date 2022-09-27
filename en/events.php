@@ -10,6 +10,9 @@ require '../config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Business Events with a Mountain View">
+	<meta name="description" content="Tumuñan is the perfect place for business events. Conduct team building with spectacular views of mountains and native forests. Contact us today.">
+
     <title>Vineyard Tumuñan Lodge | Events</title>
 
     <!--Style-->

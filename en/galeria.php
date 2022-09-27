@@ -7,6 +7,9 @@ require '../config/config.php';
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Live the Tumuñan Experience">
+	    <meta name="description" content="Tour our vineyard and taste our wines, explore the native forest, rivers and mountains via numerous exclusive trails. Explore now.">
+
         <!-- favicon -->
         <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
         <link rel="stylesheet" href="../assets/css/galeria.css">
@@ -148,36 +151,13 @@ require '../config/config.php';
                 <div class="image-container">
                     <!-- Alojamientos -->
                     <section class="parallax-completo">
-                        <a href="../images/bed/_M8R0501.jpg" class="image alojamientos">
-                            <img src="../images/bed/_M8R0501.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/FireplaceWixTitle.jpg" class="image alojamientos">
-                            <img src="../images/bed/FireplaceWixTitle.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/IMG_1155.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_1155.jpg" alt="Alojamientos">
-                        </a>
                         <a href="../images/bed/IMG_4291.jpg" class="image alojamientos">
                             <img src="../images/bed/IMG_4291.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/IMG_4314.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4314.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/IMG_4319.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4319.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/IMG_4442.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_4442.jpg" alt="Alojamientos">
                         </a>
                         <a href="../images/bed/IMG_5546.jpg" class="image alojamientos">
                             <img src="../images/bed/IMG_5546.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/IMG_5631.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5631.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/IMG_5634.jpg" class="image alojamientos">
-                            <img src="../images/bed/IMG_5634.jpg" alt="Alojamientos">
-                        </a>
+                        
                         <a href="../images/bed/IMG_5637.jpg" class="image alojamientos">
                             <img src="../images/bed/IMG_5637.jpg" alt="Alojamientos">
                         </a>
@@ -211,12 +191,6 @@ require '../config/config.php';
                         <a href="../images/bed/chalet2020/DSC_0666.jpg" class="image alojamientos">
                             <img src="../images/bed/chalet2020/DSC_0666.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0000 - Edited.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" class="image alojamientos">
-                            <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg" alt="Alojamientos">
-                        </a>
                         <a href="../images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" class="image alojamientos">
                             <img src="../images/bed/Rooms Website/casa/IMG-20200519-WA0002.jpg" alt="Alojamientos">
                         </a>
@@ -236,7 +210,7 @@ require '../config/config.php';
                         <a href="../images/activities/Wine Tours/10.jpg" class="image tours">
                             <img src="../images/activities/Wine Tours/10.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href=../"images/activities/Wine Tours/11.jpg" class="image tours">
+                        <a href="../images/activities/Wine Tours/11.jpg" class="image tours">
                             <img src="../images/activities/Wine Tours/11.jpg" alt="Tours de Vinos">
                         </a>
                         <a href="../images/activities/Wine Tours/12.jpg" class="image tours">
@@ -272,7 +246,7 @@ require '../config/config.php';
                         <a href="../images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" class="image tours">
                             <img src="../images/activities/Wine Tours/bigstock-Vineyards-At-Sunset-37822447.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="i../mages/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" class="image tours">
+                        <a href="../images/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" class="image tours">
                             <img src="../images/activities/Wine Tours/casa-silva-winery-1.jpg.1024x0.jpg" alt="Tours de Vinos">
                         </a>
                         <a href="../images/activities/Wine Tours/Colchagua 7.jpg" class="image tours">
@@ -299,19 +273,13 @@ require '../config/config.php';
                         <a href="../images/activities/Wine Tours/wine tasting.jpg" class="image tours">
                             <img src="../images/activities/Wine Tours/wine tasting.jpg" alt="Tours de Vinos">
                         </a>
-                        <a href="i../mages/activities/Wine Tours/wine tasting.png" class="image tours">
+                        <a href="../images/activities/Wine Tours/wine tasting.png" class="image tours">
                             <img src="../images/activities/Wine Tours/wine tasting.png" alt="Tours de Vinos">
                         </a>
                     </section>
 
                     <!-- Comida y Vino -->
                     <section class="parallax-completo" id="comida_y_vinos">
-                        <a href="../images/food_Wine/1.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/1.jpg" alt="Comidas y Vino">
-                        </a>
-                        <a href="../images/food_Wine/2.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/2.jpg" alt="Comidas y Vino">
-                        </a>
                         <a href="../images/food_Wine/3.jpg" class="image comida_y_vino">
                             <img src="../images/food_Wine/3.jpg" alt="Comidas y Vino">
                         </a>
@@ -357,18 +325,14 @@ require '../config/config.php';
                         <a href="../images/food_Wine/Dinner.jpg" class="image comida_y_vino">
                             <img src="../images/food_Wine/Dinner.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/finedining1.png" class="image comida_y_vino">
-                            <img src="../images/food_Wine/finedining1.png" alt="Comidas y Vino">
-                        </a>
+                        
                         <a href="../images/food_Wine/finedining2.png" class="image comida_y_vino">
                             <img src="../images/food_Wine/finedining2.png" alt="Comidas y Vino">
                         </a>
                         <a href="../images/food_Wine/homemade pie.jpg" class="image comida_y_vino">
                             <img src="../images/food_Wine/homemade pie.jpg" alt="Comidas y Vino">
                         </a>
-                        <a href="../images/food_Wine/img-24121.JPG.1024x0.jpg" class="image comida_y_vino">
-                            <img src="../images/food_Wine/img-24121.JPG.1024x0.jpg" alt="Comidas y Vino">
-                        </a>
+                        
                     </section>
 
                     <!-- Vinos -->

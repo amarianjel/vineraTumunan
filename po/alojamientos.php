@@ -8,6 +8,9 @@ require '../config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Desconecte em Alto Colchagua">
+	<meta name="description" content="Desconecte-se do barulho da cidade em um de nossos chalés totalmente equipados. Explore a natureza, experimente os nossos vinhos e prove o nosso mel local. Agende agora.">
+
     	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
     
@@ -137,7 +140,7 @@ require '../config/config.php';
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
-                    <h2><i>Desconecte em Alto Colchagua</i></h2>
+                    <h2>Desconecte em Alto Colchagua</h2>
                     <div>
                         <p class="justificar-inicio">Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente equipadas.
                         </p>
@@ -214,19 +217,19 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s10">
 
                             <label for="s6" id="slide6">
-                        <img class="carrusel" src="../images/bed/Chalet/King Suite 4.jpg">
+                        <img class="carrusel" src="../images/bed/chalet_parejas/1.jpeg">
                     </label>
                             <label for="s7" id="slide7">
-                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0606.jpg">
+                                <img class="carrusel" src="../images/bed/chalet_parejas/2.jpeg">
                     </label>
                             <label for="s8" id="slide8">
-                        <img src="../images/bed/chalet2020/DSC_0595.jpg">
+                        <img src="../images/bed/chalet_parejas/3.jpeg">
                     </label>
                             <label for="s9" id="slide9">
-                        <img class="carrusel" src="../images/bed/chalet2020/DSC_0679.jpg">
+                        <img class="carrusel" src="../images/bed/chalet_parejas/4.jpeg">
                     </label>
                             <label for="s10" id="slide10">
-                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="../images/bed/chalet_parejas/6.jpeg">
                     </label>
                             </p>
                         </div>
@@ -282,7 +285,7 @@ require '../config/config.php';
             </div>
         </section>
         <section class="center espacio">
-            <h3><i>Reserve agora</i></h3>
+            <h3>Reserve agora</h3>
             <div>
                 <p>Para reservar um quarto, envie um email para  <a href="./formReservas.php">Clique aqui</a></p>
                 <p>O que está incluído: Acesso à piscina e jacuzzi, trilhas, Wi-Fi, lençóis e travesseiros (TV direta na casa da montanha).</p>

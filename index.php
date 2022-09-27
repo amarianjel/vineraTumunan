@@ -9,7 +9,8 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta name="title" content="Viñedo a las puertas del Valle de Colchagua">
+	<meta name="description" content="Visite Viña Tumuñan cercana de la Cordillera de los Andes a las puertas del Valle de Colchagua. Aprende sobre nosotros aquí.">
 
 	<!-- title -->
 	<title>Viña Tumuñan Lodge | Sobre Nosotros</title>
@@ -130,9 +131,27 @@ require 'config/config.php';
 	</div>
 	<!-- end header -->
 
+<style>
 
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
 	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/food_Wine/cheese.jpg);">
+	<div class="hero-area hero-bg" id="hero">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -146,13 +165,14 @@ require 'config/config.php';
 			</div>
 		</div>
 	</div>
+	
+	
 	<!-- end hero area -->
 
 	<style>/*********Sobre Nosotros***********/
 		.titulo{
 			color: #051922;
 		}	
-
 
 
 
@@ -163,7 +183,8 @@ require 'config/config.php';
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
 					<h2 class="titulo">Sobre Nosotros</h2>
-					
+					<hr>
+					<br>
 					<p class="displayjs" style="font-size: 19px">A solo 2 horas en auto al sur
 						de Santiago que lo lleva a través de viñedos y vistas espectaculares de los Andes centrales,
 						este refugio de montaña familiar atiende a aquellos que necesitan descanso y relajación, a los

@@ -8,6 +8,8 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Reserve sua estadia em Tumuñan">
+	<meta name="description" content="Relajate en Tumuñan em um de nuestros Chalets completamente construídos. Desfrute de vistas espetaculares para a montanha e relaxe o ruido da cidade. Reservar agora.">
 
 	<!-- title -->
 	<title>Vinhedo Tumuñan Lodge | Reserva</title>
@@ -169,8 +171,10 @@ require '../config/config.php';
                                                 <p><input type="email" placeholder="Ex: rafael@mail.com" id="email" name="email" required></p>
                                                 <p><b>Número do celular</b></p>
                                                 <p><input type="tel" placeholder="Ex: +5511900000000" id="fono" name="fono" required></p>
-												<p><b>Dias de hospedagem</b></p>
-                                                <p><input type="number" placeholder="Dias" id="dias" name="dias" value="1" min="1" required></p>
+												<p><b>Data de entrada</b></p>
+                                                <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_ing" name="fecha_ing"required></p>
+                                                <p><b>Data da partida</b></p>
+                                                <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_sal" name="fecha_sal"required></p>
                                                 <p><b>Quantidade de pessoas</b></p>
                                                 <p><input type="number" placeholder="Cantidad de personas" value="1" min="1" id="c_personas" name="c_personas" required></p>
                                                 <p><b>Número de Adultos</b></p>

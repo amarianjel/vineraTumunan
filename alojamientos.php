@@ -8,6 +8,9 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Desconexión en Alto Colchagua">
+	<meta name="description" content="Desconecta del ruido de la ciudad en uno de nuestros chalets completamente equipados. Explore la naturaleza, pruebe nuestros vinos y pruebe nuestra miel local. Reservar ahora.">
+
     	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     
@@ -49,7 +52,7 @@ require 'config/config.php';
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body>
+<body style="background-color: #f5e1ce;">
     <div class="top-header-area" id="sticker">
 		<div class="container">
 			<div class="row">
@@ -71,7 +74,7 @@ require 'config/config.php';
                                 <li><a href="./events.php">Eventos</a></li>
 								<li><a href="./galeria.php">Galeria</a>
 								<li><a href="./formReservas.php">Reservas</a>
-								<li><a href="./contact.html">Contacto</a></li>
+								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
                                 
                                 <li>
@@ -117,8 +120,27 @@ require 'config/config.php';
 	</div>
 	<!-- end header -->
 
+<style>
+
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(images/food_Wine/cheese.jpg);
+        }
+    }
+    
+        @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+        
+        main{
+            margin-top: 9em;
+        }
+    }
+    
+</style>
     	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(images/bed/aloja.jpg);">
+	<div class="hero-area hero-bg" id="hero" style="background-image: url(images/bed/aloja.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -138,7 +160,9 @@ require 'config/config.php';
         <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-8">
-                    <h2><i>Desconectarse en el Alto Colchagua</i></h2>
+                    <h2>Desconectarse en el Alto Colchagua</h2>
+                    <hr>
+                    <br>
                     <div>
                         <p class="justificar-inicio">Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas completamente equipadas.
                         </p>
@@ -215,19 +239,19 @@ require 'config/config.php';
                             <input type="radio" name="slider" id="s10">
 
                             <label for="s6" id="slide6">
-                        <img class="carrusel" src="images/bed/Chalet/King Suite 4.jpg">
+                        <img class="carrusel" src="images/bed/chalet_parejas/1.jpeg">
                     </label>
                             <label for="s7" id="slide7">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0606.jpg">
+                                <img class="carrusel" src="images/bed/chalet_parejas/2.jpeg">
                     </label>
                             <label for="s8" id="slide8">
-                        <img src="images/bed/chalet2020/DSC_0595.jpg">
+                        <img src="images/bed/chalet_parejas/3.jpeg">
                     </label>
                             <label for="s9" id="slide9">
-                        <img class="carrusel" src="images/bed/chalet2020/DSC_0679.jpg">
+                        <img class="carrusel" src="images/bed/chalet_parejas/4.jpeg">
                     </label>
                             <label for="s10" id="slide10">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="images/bed/chalet_parejas/6.jpeg">
                     </label>
                             </p>
                         </div>
@@ -283,7 +307,7 @@ require 'config/config.php';
             </div>
         </section>
         <section class="center espacio">
-            <h3><i>Reserve Ahora</i></h3>
+            <h3>Reserve Ahora</h3>
             <div>
                 <p>Para reservar una habitación, envíenos un correo electrónico a   <a href="./formReservas.php">Click aqui</a></p>
                 <p>Qué incluye: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas (Direct TV en la casa de montañas).</p>

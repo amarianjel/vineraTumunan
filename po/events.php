@@ -10,6 +10,9 @@ require '../config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Eventos de negócios com vista para a montanha">
+	<meta name="description" content="Tumuñan é o lugar perfeito para eventos de negócios. Conduza o team building com vistas espetaculares das montanhas e florestas nativas. Contacte-nos hoje.">
+
     <title>Vinhedo Tumuñan Lodge | Eventos</title>
 
     <!--Style-->
