@@ -34,7 +34,7 @@ input[type=radio] {
     align-items: center;
     font-weight: 400;
     background-color: black;
-    font-size: 5em;
+    font-size: 5em; 
 }
 
 .portada::after,
@@ -49,19 +49,11 @@ input[type=radio] {
     border-radius: 20%;
 }
 
-h2 {
-    text-align: center;
-    color: #000;
-    display: flex;
-    height: inherit;
-    justify-content: center;
-    padding-top: 100px;
-}
+
+
 .justificar-inicio {
     font-size: 19px;
-    text-align: justify;
-    text-indent: 50px;
-    padding: 20px 0 20px 0;
+    text-align: unset;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
@@ -98,14 +90,7 @@ h4 {
     text-indent: 50px;
 }
 
-.center {
-    font-family: 'open sans';
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    /* font-style: oblique;
-    background-color: #e4dcd7; */
-}
+
 
 .espacio {
     padding: 15px 50px 15px 50px;
@@ -129,7 +114,7 @@ h4 {
     width: 75%;
     height: 40vw;
     max-height: 600px;
-    margin: 80px auto;
+    margin: auto 10em auto 10em;
     font-family: 'Helvetica Neue', sans-serif;
     perspective: 1400px;
     transform-style: preserve-3d;
@@ -414,4 +399,15 @@ h4 {
     .titulo{
         font-size: 1.8em;
     }
+    #slider {
+        position: relative;
+        width: 75%;
+        height: 40vw;
+        max-height: 600px;
+        margin: auto auto auto auto;
+        font-family: 'Helvetica Neue', sans-serif;
+        perspective: 1400px;
+        transform-style: preserve-3d;
+    }
+
 }
