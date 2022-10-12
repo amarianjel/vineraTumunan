@@ -129,10 +129,26 @@ require '../config/config.php';
 		</div>
 	</div>
 	<!-- end header -->
+	<style>
 
+    @media only screen and (min-width: 600px) {
+        #hero{
+            background-image: url(../images/activities/Wine\ Tours/image2.jpg);
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        #hero{
+            display: none;
+        }
+
+        main{
+            margin-top: 9em;
+        }
+    }
+	</style>										
 
 	<!-- hero area -->
-	<div class="hero-area hero-bg" style="background-image: url(../images/food_Wine/cheese.jpg);">
+	<div class="hero-area hero-bg" id="hero">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
@@ -162,52 +178,54 @@ require '../config/config.php';
 		<section class="center espacio mx-5 my-5">
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">About us</h2>
+					<h2 class="titulo">Who We Are:</h2>
 					
-					<p class="displayjs" style="font-size: 19px">Just a 2 hour drive south from Santiago that takes you through vineyards and spectacular views of the central Andes, 
-                        this family-friendly mountain retreat caters to those in need of rest and relaxation,
-                        and more adventurous travelers who can enjoy unique days of hiking, horseback riding and fly fishing in the incomparable Chilean Andes.</p>
+					<p class="displayjs" style="font-size: 19px">Tumuñan Lodge and Winery were founded in 2006 by William Evelyn, an Englishman who came to explore Chile in 1988, working as a flyfishing guide in the Patagonian wilderness and surfing the central coast, falling in love with Chile, it’s outstanding scenery, charming people, culture and fine wines.</p>
 				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\activities\Wine Tours\wine tasting.jpg" alt="">
+				<div class="fotografia-info col-4 col-lg-2 my-5">
+					<img src="../images\cap1.png" alt="">
 				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\activities\Wine Tours\55923167.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Store</h2>
-					<p class="displayjs" style="font-size: 19px">Tumuñan produces world class wines from its unique mountain terroir. You can also buy our wines and honey in our online store. To access the online store <a href="./tienda.php">Click here. </a>You can buy your favorite products by going to our vineyard located in <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>where we additionally offer tours and tastings. </p>
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Reserve now</h2>
-					<p class="displayjs" style="font-size: 19px">To reserve a room, <a href="./formReservas.php">Click Here</a> and fill out the form. We will contact you shortly.</p>
-			        <p class="displayjs" style="font-size: 19px">INCLUDES: Access to pool and jacuzzi, trails, Wi-Fi, sheets and pillows, Direct TV in the house
-                        mountains, bath and hand towels (1 per person) basic kitchen products (lavalozas, bags of
-                        garbage, Salt).</p>
-			        <p class="displayjs" style="font-size: 19px">NOT INCLUDED: daily maid service, cleaning, breakfast, restaurant.</p>
-				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
+				<div class="fotografia-info col-7 col-lg-4 my-5">
+					<img src="../images\activities\Fishing\_M8R0624.jpg" alt="">
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images\Homepage Picture Roll\To Keep\55922826.jpg" alt="">
+					<img src="../images\bed\IMG_5676 (1).jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Scenery</h2>
-					<p class="displayjs" style="font-size: 19px">On our property there are 3km of self-guided hiking trails long through picturesque forests and mountain landscapes.</p>
-                    <p class="displayjs" style="font-size: 19px">To see the landscapes of the area <a href="./galeria.php">Click here.</a></p>
+					<h2 class="titulo">The Lodge:</h2>
+					<p class="displayjs" style="font-size: 19px">Located in the Andes, surrounded by beautiful forested hills and clear streams, Tumuñan Lodge offers a fully equipped house and cabin available for rental with a pool, hot tub and dining options. There are abundant trails for the guest’s exclusive use, wine tours and other activities available.<a href="./formReservas.php"> Book through Form</a> or via WhatsApp.</p>
+					<div class="fotografia-info col-3 col-lg-4 my-5">
+						<a href="https://wa.me/5698784048"><span class="text"><img src="../images\WhatsApp_icon.png"></span></a>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+			<div class="row align-items-center">
+				<div class="info col-12 col-lg-6">
+					<h2 class="titulo">The Vineyard:</h2>
+					<p class="displayjs" style="font-size: 19px">The highest known vineyard for Cabernet Sauvignon in Colchagua Valley. Nestled 720m above sea level, it is at the very limit of where grapes can be successfully produced. Organic and bio-dynamic viticultural practices are used to carefully protect the eco-system that surrounds the vineyard. The wines produced here have been internationally recognised as some of Chile’s best and can be purchased from our <a href="./tienda.php">Online Store</a>.</p>
+				</div>
+				<div class="fotografia-info col-8 col-lg-4 my-5">
+					<img src="../images\cap2.png" alt="">
+				</div>
+			</div>
+			<hr>
+
+			<div class="row align-items-center">
+				<div class="fotografia-info col-12 col-lg-6 my-5">
+					<img src="../images/activities/Hiking/ridingview.jpg" alt="">
+				</div>
+				<div class="info col-12 col-lg-6">
+					<h2 class="titulo">Horse Riding</h2>
+					<p class="displayjs" style="font-size: 19px">Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
+                    property and its surroundings. We will gladly put you in contact with the locals who can
+                    help you plan your day trip.</p>
+                    <p class="displayjs" style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
 				</div>
 			</div>
 			<hr>
@@ -222,22 +240,8 @@ require '../config/config.php';
 					<img src="../images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
 				</div>
 			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="../images/activities/Hiking/ridingview.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">To ride a horse</h2>
-					<p class="displayjs" style="font-size: 19px">Take a relaxing horseback ride to explore the beautiful views of the Tumuñan Valley from the
-                    property and its surroundings. We will gladly put you in contact with the locals who can
-                    help you plan your day trip.</p>
-                    <p class="displayjs" style="font-size: 19px">To view the image gallery <a href="./galeria.php">Click here.</a></p>
-				</div>
-			</div>
-			<hr>
 			
+
 		</section>
 		<h3 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #000000e7; color: #fff;">Location</h3>
 		<div class="mapa" style="display: flex; justify-content: center; margin:1em;">

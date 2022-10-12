@@ -135,7 +135,7 @@ require 'config/config.php';
 
     @media only screen and (min-width: 600px) {
         #hero{
-            background-image: url(images/food_Wine/cheese.jpg);
+            background-image: url(images/activities/Wine\ Tours/image2.jpg);
         }
     }
     
@@ -182,70 +182,42 @@ require 'config/config.php';
 		<section class="center espacio mx-5 my-5">
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Sobre Nosotros</h2>
+					<h2 class="titulo">Quienes somos:</h2>
 					<hr>
 					<br>
-					<p class="displayjs" style="font-size: 19px">A solo 2 horas en auto al sur
-						de Santiago que lo lleva a través de viñedos y vistas espectaculares de los Andes centrales,
-						este refugio de montaña familiar atiende a aquellos que necesitan descanso y relajación, a los
-						viajeros más aventureros que pueden disfrutar de
-						días únicos de senderismo , cabalgatas y pesca con mosca en el incomparable cordillera chileno.
+					<p class="displayjs" style="font-size: 19px">Tumuñan Lodge y Viñedo fue fundado en 2006 por William Evelyn, un inglés que vino a explorar Chile en 1988, trabajando como guía de pesca con mosca en la naturaleza patagónica y surfeando la costa central, enamorándose de Chile, sus paisajes excepcionales, gente encantadora, cultura y buenos vinos.
 					</p>
 				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\activities\Wine Tours\wine tasting.jpg" alt="">
+				<div class="fotografia-info col-4 col-lg-2 my-5">
+					<img src="images\cap1.png" alt="">
+				</div>
+				<div class="fotografia-info col-7 col-lg-4 my-5">
+					<img src="images\activities\Fishing\_M8R0624.jpg" alt="">
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\activities\Wine Tours\55923167.jpg" alt="">
+					<img src="images\bed\IMG_5676 (1).jpg" alt="">
 				</div>
 				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Tienda</h2>
-					<p class="displayjs" style="font-size: 19px">Tumuñan produce vinos de clase mundial gracias su terreno montañoso. Además puede comprar nuestros vinos y miel en nuestra tienda online. Para acceder a la tienda online <a href="./tienda.php">Pinche aquí. </a>Puede adquirir sus productos favoritos acercandose a nuestra viña ubicada en <a href="https://goo.gl/maps/NgVFDaCbyTaGf2XXA" class="dato"> I-325, Las Peñas, O'Higgins, Chile </a>donde adicionalmente ofrecemos tours y degustaciones. </p>
+					<h2 class="titulo">Lodge:</h2>
+					<p class="displayjs" style="font-size: 19px">Ubicado en los Andes, rodeado de hermosas colinas boscosas y arroyos claros, Tumuñan Lodge ofrece una casa y una cabaña totalmente equipadas disponibles para alquiler con piscina, jacuzzi y opciones gastronómicas. Hay abundantes senderos para uso exclusivo de los huéspedes, rutas del vino y otras actividades disponibles.<a href="./formReservas.php"> Reserve a través de Formulario</a> o via WhatsApp.</p>
+					<div class="fotografia-info col-3 col-lg-4 my-5">
+						<a href="https://wa.me/5698784048"><span class="text"><img src="images\WhatsApp_icon.png"></span></a>
+					</div>
 				</div>
 			</div>
 			<hr>
 
 			<div class="row align-items-center">
 				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Reserve Ahora</h2>
-					<p class="displayjs" style="font-size: 19px">Para reservar una habitación, <a href="./formReservas.php">Pinche Aquí</a> y rellene el formulario. Nos pondremos en contacto a la brevedad con usted.</p>
-					<p class="displayjs" style="font-size: 19px">SE INCLUYE: Acceso a piscina y jacuzzi, senderos, wifi, sábanas y almohadas, Direct TV en la casa de
-						montañas, Toallas de baño y manos ( 1 por persona) Productos básicos de cocina ( Lavalozas, bolsas de
-						basura, Sal).</p>
-					<p style="font-size: 19px">NO SE INCLUYE: servicio de limpieza diario, desayuno, restaurante.</p>
+					<h2 class="titulo">El Viñedo</h2>
+					<p class="displayjs" style="font-size: 19px">El viñedo más alto conocido de Cabernet Sauvignon en el Valle de Colchagua. Enclavado a 720 m sobre el nivel del mar, está en el límite mismo de donde se puede producir la uva. Se utilizan prácticas vitícolas orgánicas y biodinámicas para proteger cuidadosamente el ecosistema que rodea al viñedo. Los vinos producidos aquí han sido reconocidos internacionalmente como algunos de los mejores de Chile y se pueden comprar en nuestra <a href="./tienda.php">Tienda en linea</a>.</p>
 				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Homepage Picture Roll\To Keep\55921897.jpg" alt="">
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Homepage Picture Roll\To Keep\55922826.jpg" alt="">
-				</div>
-				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Paisaje</h2>
-					<p class="displayjs" style="font-size: 19px">En nuestra propiedad hay 3 km de rutas de senderismo autoguiadas a través de pintorescos bosques 
-						y paisajes de montaña.</p>
-					<p class="displayjs" style="font-size: 19px">Para ver los paisajes de la zona <a href="./galeria.php">Pinche Aquí.</a></p>
-				</div>
-			</div>
-			<hr>
-
-			<div class="row align-items-center">
-				<div class="info col-12 col-lg-6">
-					<h2 class="titulo">Senderismo</h2>
-					<p class="displayjs" style="font-size: 19px">En la zona hay rutas de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
-						paisajes de montaña.</p>
-					<p class="displayjs" style="font-size: 19px">Para ver la galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
-				</div>
-				<div class="fotografia-info col-12 col-lg-6 my-5">
-					<img src="images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
+				<div class="fotografia-info col-8 col-lg-4 my-5">
+					<img src="images\cap2.png" alt="">
 				</div>
 			</div>
 			<hr>
@@ -262,7 +234,20 @@ require 'config/config.php';
 					<p class="displayjs" style="font-size: 19px">Para ver las galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
 				</div>
 			</div>
-			
+			<hr>
+
+			<div class="row align-items-center">
+				<div class="info col-12 col-lg-6">
+					<h2 class="titulo">Senderismo</h2>
+					<p class="displayjs" style="font-size: 19px">En la zona hay rutas de senderismo autoguiados de 1 km a 10 km de largo a través de pintorescos
+						paisajes de montaña.</p>
+					<p class="displayjs" style="font-size: 19px">Para ver la galeria de imagenes <a href="./galeria.php">Pinche Aquí.</a></p>
+				</div>
+				<div class="fotografia-info col-12 col-lg-6 my-5">
+					<img src="images\Homepage Picture Roll\To Keep\40529940.jpg" alt="">
+				</div>
+			</div>
+
 		</section>
 		<h2 class="titulo" style="display: flex; justify-content: center; margin:1em; background-color: #000000e7; color: #fff;">Ubicación</h2>
 		<div class="mapa" style="display: flex; justify-content: center; margin:1em;">

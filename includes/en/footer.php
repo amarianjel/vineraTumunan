@@ -13,7 +13,7 @@
 						<h2 class="widget-title">Contact us</h2>
 						<ul>
 							<li><a href="https://www.google.com/maps?q=Tumu%C3%B1an+Lodge+I-325,+Las+Pe%C3%B1as,+O%27Higgins,+Chile&ll=-34.75206403,-70.77965987"><span class="text"> I-325, Las Peñas, O'Higgins, Chile</span></a></li>
-                            <li><a href="https://wa.me/56996301152"><span class="text">   +56 9 9630 1152</span></a></li>
+                            <li><a href="https://wa.me/5698784048"><span class="text">   +5698784048</span></a></li>
                             <li><a href="mailto:tumunanlodge@gmail.com"><span class="text">tumunanlodge@gmail.com</span></a></li>
 						</ul>
 					</div>
