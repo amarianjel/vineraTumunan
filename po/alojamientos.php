@@ -50,9 +50,14 @@ require '../config/config.php';
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="../assets/css/responsive.css">
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
+    <a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
     <!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
