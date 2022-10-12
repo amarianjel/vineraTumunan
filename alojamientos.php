@@ -9,18 +9,12 @@ require 'config/config.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <meta name="title" content="Desconexión en Alto Colchagua">
 	<meta name="description" content="Desconecta del ruido de la ciudad en uno de nuestros chalets completamente equipados. Explore la naturaleza, pruebe nuestros vinos y pruebe nuestra miel local. Reservar ahora.">
 
     	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     
-=======
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-
->>>>>>> mLeyton_p2
     <link rel="stylesheet" href="assets/css/alojamientos.css">
 
     <title>Viña Tumuñan Lodge | Alojamientos</title>
@@ -57,14 +51,16 @@ require 'config/config.php';
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
-<<<<<<< HEAD
-<body style="background-color: #f5e1ce;">
-=======
 
 
 <body style="background-color: #f5e1ce;">
+    <a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
 
     <!--PreLoader-->
     <!-- <div class="loader">
@@ -75,7 +71,6 @@ require 'config/config.php';
     <!--PreLoader Ends-->
 
     <!-- header -->
->>>>>>> mLeyton_p2
     <div class="top-header-area" id="sticker">
         <div class="container">
             <div class="row">
@@ -89,7 +84,6 @@ require 'config/config.php';
                         </div>
                         <!-- logo -->
 
-<<<<<<< HEAD
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
@@ -100,32 +94,7 @@ require 'config/config.php';
 								<li><a href="./formReservas.php">Reservas</a>
 								<li><a href="./contact.php">Contacto</a></li>
 								<li><a href="./tienda.php">Tienda</a></li>
-                                
-=======
-                        <!-- menu start -->
-                        <nav class="main-menu">
-                            <ul>
-                                <li><a href="./">Inicio</a></li>
-                                <li><a href="./">Sobre nosotros</a></li>
-                                <li class="current-list-item"><a href="../alojamientos.php">Alojamientos</a>
-                                <li><a href="./galeria.php">Galeria</a></li>
-                                <li><a href="./formReservas.php">Reservas</a></li>
-                                <li><a href="./contact.php">Contacto</a></li>
-                                <li><a href="./tienda.php">Tienda</a></li>
-                                <li><a href="about.php">
-                                        <img src="./images/traduccion/espana.png" class="logo-idioma">
-                                    </a>
-                                </li>
-                                <li><a href="./en/about.php">
-                                        <img src="./images/traduccion/reino-unido.png" class="logo-idioma">
-                                    </a>
-                                </li>
->>>>>>> mLeyton_p2
-                                <li>
-                                <li><a href="./po/about.php">
-                                        <img src="./images/traduccion/portugal.png" class="logo-idioma">
-                                    </a>
-                                </li>
+
                                 <li>
                                     <div class="header-icons">
                                         <a class="shopping-cart" href="checkout.php">
@@ -138,6 +107,24 @@ require 'config/config.php';
                                         </a>
                                     </div>
                                 </li>
+                                <li>
+									<div class="dropdown">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Lenguaje
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="./alojamientos.php" style="color:black;">
+												<img src="images/traduccion/espana.png" class="logo-idioma">ES
+											</a>
+											<a class="dropdown-item" href="./en/alojamientos.php" style="color:black;">
+												<img src="./images/traduccion/reino-unido.png" class="logo-idioma">EN
+											</a>
+											<a class="dropdown-item" href="./po/alojamientos.php" style="color:black;">
+												<img src="./images/traduccion/portugal.png" class="logo-idioma">PO
+											</a>
+										</div>
+									</div>
+								</li>
                             </ul>
                         </nav>
                         <div class="mobile-menu"></div>
@@ -151,7 +138,7 @@ require 'config/config.php';
 
 
     <!-- hero area -->
-    <div class="hero-area hero-bg" style="background-image: url(images/food_Wine/cheese.jpg);">
+    <div class="hero-area hero-bg" style="background-image: url(images/bed/aloja.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 offset-lg-2 text-center">
@@ -167,49 +154,11 @@ require 'config/config.php';
     </div>
     <!-- end hero area -->
 
-<<<<<<< HEAD
-<style>
-
-    @media only screen and (min-width: 600px) {
-        #hero{
-            background-image: url(images/food_Wine/cheese.jpg);
-        }
-    }
-    
-        @media only screen and (max-width: 600px) {
-        #hero{
-            display: none;
-        }
-        
-        main{
-            margin-top: 9em;
-        }
-    }
-    
-</style>
-    	<!-- hero area -->
-	<div class="hero-area hero-bg" id="hero" style="background-image: url(images/bed/aloja.jpg);">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 offset-lg-2 text-center">
-					<div class="hero-text">
-						<div class="hero-text-tablecell">
-							<p class="subtitle">Nuestras opciones de Alojamiento</p>
-							<h1>Lodge</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end hero area -->
-=======
     <style>
         /*********Alojamientos***********/
         .titulo {
             color: #051922;
         }
->>>>>>> mLeyton_p2
 
         @media only screen and (max-width: 959px) {
             body:before {
@@ -229,16 +178,9 @@ require 'config/config.php';
         <section class="center espacio mx-0 my-5">
             <hr>
             <div class="row d-flex justify-content-center">
-<<<<<<< HEAD
-                <div class="col-8">
-                    <h2>Desconectarse en el Alto Colchagua</h2>
-                    <hr>
-                    <br>
-=======
                 <div class="col-10">
                     <h2 class="titulo">Desconectarse en el Alto Colchagua</h2>
                     <br><br>
->>>>>>> mLeyton_p2
                     <div>
                         <p class="justificar-inicio">Hemos estado trabajando arduamente para reconfigurar Tumuñan Lodge para poder recibir a los huéspedes de manera higiénica y segura. Los alquileres mensuales son solo una forma de alquilar una de nuestras 3 cabañas completamente equipadas.
                         </p>
