@@ -55,21 +55,10 @@ require 'config/config.php';
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
-
-
 <body style="background-color: #f5e1ce;">
-    <a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
+    <a href="https://wa.me/56987875048" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
     </a>
-
-    <!--PreLoader-->
-    <!-- <div class="loader">
-        <div class="loader-inner">
-            <div class="circle"></div>
-        </div>
-    </div> -->
-    <!--PreLoader Ends-->
-
     <!-- header -->
     <div class="top-header-area" id="sticker">
         <div class="container">
@@ -191,49 +180,6 @@ require 'config/config.php';
             <br>
             <hr><br>
             <div class="row align-items-center">
-                <div class="info col-12 col-lg-6">
-                    <h2 class="titulo">Chalet</h2>
-
-                    <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
-                    <h4>Precio</h4>
-                    <p style="font-size: 19px">
-                        CLP$410,000 por fin de semana (2 noches/ 3 días, un degustación de vino y 1 día de uso del jacuzzi incluido).
-                    </p>
-                </div>
-                <div class="fotografia-info col-12 col-lg-6 my-5">
-                    <div class="row">
-                        <div id="slider">
-                            <input type="radio" name="slider" id="s1" checked>
-                            <input type="radio" name="slider" id="s2">
-                            <input type="radio" name="slider" id="s3">
-                            <input type="radio" name="slider" id="s4">
-                            <input type="radio" name="slider" id="s5">
-
-                            <label for="s1" id="slide1">
-                                <img class="carrusel" src="images/bed/Rooms Website/casa/IMG-20200519-WA0000.jpg">
-                            </label>
-                            <label for="s2" id="slide2">
-                                <img class="carrusel" src="images/bed/Rooms Website/casa/IMG-20200519-WA0001.jpg">
-                            </label>
-                            <label for="s3" id="slide3">
-                                <img class="carrusel" src="images/bed/Rooms Website/casa/IMG-20200519-WA0003.jpg">
-                            </label>
-                            <label for="s4" id="slide4">
-                                <img class="carrusel" src="images/bed/Rooms Website/casa/IMG-20200519-WA0005.jpg">
-                            </label>
-                            <label for="s5" id="slide5">
-                                <img class="carrusel" src="images/bed/IMG_4327.jpg">
-                            </label>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="row align-items-center">
                 <div class="fotografia-info col-12 col-lg-6 my-5">
                     <div class="row">
                         <div id="slider2">
@@ -250,7 +196,7 @@ require 'config/config.php';
                                 <img class="carrusel" src="images/bed/chalet_parejas/2.jpeg">
                             </label>
                             <label for="s8" id="slide8">
-                                <img src="images/bed/chalet_parejas/3.jpeg">
+                                <img class="carrusel" src="images/bed/chalet_parejas/3.jpeg">
                             </label>
                             <label for="s9" id="slide9">
                                 <img class="carrusel" src="images/bed/chalet_parejas/4.jpeg">
@@ -265,7 +211,7 @@ require 'config/config.php';
                 <div class="info col-12 col-lg-6">
                     <h1 class="titulo">Chalet para Parejas</h1>
                     <p style="font-size: 19px">
-                        Cabaña moderna que tiene 1 dormitorio con jardines privados, un fogon, una parrilla y una cocina pequeña. Cerca del río y con vistas a la montaña.
+                        Cabaña moderna que tiene 1 dormitorio con jardines privados, un fogon, una parrilla y una cocina pequeña. Cerca del río y con vistas a la montaña con una habitación.
                     </p>
                     <h4>Precios</h4>
                     <p style="font-size: 19px">
@@ -278,24 +224,54 @@ require 'config/config.php';
                 </div>
             </div>
             <br>
+
             <hr>
             <br>
 
             <div class="row align-items-center">
                 <div class="info col-12 col-lg-6">
-                    <h1 class="titulo">Casa de Montaña</h1>
-                    <p style="font-size: 19px">
-                        Acogedora cabaña moderna con 2 dormitorios, 2 baños, fogata, asador y pequeña cocina. Cerca del río con vistas a la montaña.
-                    </p>
+                    <h2 class="titulo">Chalet para familia</h2>
+                    <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 por fin de semana (2 noches/ 3 días, cata de vinos y 1 día de uso de jacuzzi incluidos).
-                    </p>
-                    <hr>
-                    <p style="font-size: 19px">
-                        CLP$720,000 por semana (5 noches / 6 días, tour y degustación de vinos y 2 días de uso del jacuzzi incluidos).
+                        CLP$410,000 por fin de semana (2 noches/ 3 días, un degustación de vino y 1 día de uso del jacuzzi incluido).
                     </p>
                 </div>
+                <div class="fotografia-info col-12 col-lg-6 my-5">
+                    <div class="row">
+                        <div id="slider">
+                            <input type="radio" name="slider" id="s1" checked>
+                            <input type="radio" name="slider" id="s2">
+                            <input type="radio" name="slider" id="s3">
+                            <input type="radio" name="slider" id="s4">
+                            <input type="radio" name="slider" id="s5">
+
+                            <label for="s1" id="slide1">
+                                <img class="carrusel" src="images/bed/chalet2020/DSC_0666.jpg">
+                            </label>
+                            <label for="s2" id="slide2">
+                                <img class="carrusel" src="images/bed/chalet2020/DSC_0598.jpg">
+                            </label>
+                            <label for="s3" id="slide3">
+                                <img class="carrusel" src="images/bed/chalet/King Suite 4.jpg">
+                            </label>
+                            <label for="s4" id="slide4">
+                                <img class="carrusel" src="images/bed/chalet/King Suite 6.jpg">
+                            </label>
+                            <label for="s5" id="slide5">
+                                <img class="carrusel" src="images/bed/chalet/King Suite 7.jpg">
+                            </label>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <div class="row align-items-center">
                 <div class="fotografia-info col-12 col-lg-6 my-5">
                     <div class="row">
                         <div id="slider3">
@@ -324,6 +300,20 @@ require 'config/config.php';
                         </div>
                     </div>
                 </div>
+                <div class="info col-12 col-lg-6">
+                    <h1 class="titulo">Casa de Montaña</h1>
+                    <p style="font-size: 19px">
+                        Acogedora cabaña moderna con 2 dormitorios, 2 baños, fogata, asador y pequeña cocina. Cerca del río con vistas a la montaña.
+                    </p>
+                    <h4>Precio</h4>
+                    <p style="font-size: 19px">
+                        CLP$360,000 por fin de semana (2 noches/ 3 días, cata de vinos y 1 día de uso de jacuzzi incluidos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$720,000 por semana (5 noches / 6 días, tour y degustación de vinos y 2 días de uso del jacuzzi incluidos).
+                    </p>
+                </div>
         </section>
         <hr>
         <br>
@@ -342,3 +332,5 @@ require 'config/config.php';
     <!-- end main section -->
 
     <?php include("includes/footer.php"); ?>
+</body>
+</html>

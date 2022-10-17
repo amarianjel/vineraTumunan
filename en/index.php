@@ -199,7 +199,7 @@ require '../config/config.php';
 					<h2 class="titulo">The Lodge:</h2>
 					<p class="displayjs" style="font-size: 19px">Located in the Andes, surrounded by beautiful forested hills and clear streams, Tumuñan Lodge offers a fully equipped house and cabin available for rental with a pool, hot tub and dining options. There are abundant trails for the guest’s exclusive use, wine tours and other activities available.<a href="./formReservas.php"> Book through Form</a> or via WhatsApp.</p>
 					<div class="fotografia-info col-3 col-lg-4 my-5">
-						<a href="https://wa.me/56996301152"><span class="text"><img src="../images\WhatsApp_icon.png"></span></a>
+						<a href="https://wa.me/56987875048" target="_blank"><span class="text"><img src="../images\WhatsApp_icon.png"></span></a>
 					</div>
 				</div>
 			</div>
