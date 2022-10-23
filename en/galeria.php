@@ -170,14 +170,14 @@ require '../config/config.php';
                         <a href="../images/bed/WINE_Enhanced_IMG_0519.jpg" class="image alojamientos">
                             <img src="../images/bed/WINE_Enhanced_IMG_0519.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 3.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 3.jpg" alt="Alojamientos">
+                        <a href="../images/bed/Chalet/KingSuite3.jpg" class="image alojamientos">
+                            <img src="../images/bed/Chalet/KingSuite3.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 5.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 5.jpg" alt="Alojamientos">
+                        <a href="../images/bed/Chalet/KingSuite5.jpg" class="image alojamientos">
+                            <img src="../images/bed/Chalet/KingSuite5.jpg" alt="Alojamientos">
                         </a>
-                        <a href="../images/bed/Chalet/King Suite 6.jpg" class="image alojamientos">
-                            <img src="../images/bed/Chalet/King Suite 6.jpg" alt="Alojamientos">
+                        <a href="../images/bed/Chalet/KingSuite6.jpg" class="image alojamientos">
+                            <img src="../images/bed/Chalet/KingSuite6.jpg" alt="Alojamientos">
                         </a>
                         <a href="../images/bed/chalet2020/DSC_0595.jpg" class="image alojamientos">
                             <img src="../images/bed/chalet2020/DSC_0595.jpg" alt="Alojamientos">

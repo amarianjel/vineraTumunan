@@ -204,7 +204,6 @@ require 'config/config.php';
                             <label for="s10" id="slide10">
                                 <img class="carrusel" src="images/bed/chalet_parejas/6.jpeg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -215,12 +214,12 @@ require 'config/config.php';
                     </p>
                     <h4>Precios</h4>
                     <p style="font-size: 19px">
-                        CLP$240,000 por fin de semana (2 noches/ 3 días, un degustación de vino y 1 día de uso del jacuzzi incluido).
+                        CLP$190,000 por fin de semana (2 noches/ 3 día, 1 día de uso del jacuzzi incluido).
                     </p>
-                    <hr>
+                    <!-- <hr>
                     <p style="font-size: 19px">
-                        CLP$510,000 por semana (5 noches / 6 días, un tour y degustación de vinos y 2 días de uso del jacuzzi incluido).
-                    </p>
+                        CLP$510,000 por semana (5 noches / 6 días, un tour y 2 días de uso del jacuzzi incluido).
+                    </p> -->
                 </div>
             </div>
             <br>
@@ -234,7 +233,7 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$410,000 por fin de semana (2 noches/ 3 días, un degustación de vino y 1 día de uso del jacuzzi incluido).
+                        CLP$240,000 por fin de semana (2 noches/ 3 días, 1 día de uso del jacuzzi incluido).
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -253,15 +252,14 @@ require 'config/config.php';
                                 <img class="carrusel" src="images/bed/chalet2020/DSC_0598.jpg">
                             </label>
                             <label for="s3" id="slide3">
-                                <img class="carrusel" src="images/bed/chalet/King Suite 4.jpg">
+                                <img class="carrusel" src="images/bed/chalet/KingSuite4.jpg">
                             </label>
                             <label for="s4" id="slide4">
-                                <img class="carrusel" src="images/bed/chalet/King Suite 6.jpg">
+                                <img class="carrusel" src="images/bed/chalet/KingSuite6.jpg">
                             </label>
                             <label for="s5" id="slide5">
-                                <img class="carrusel" src="images/bed/chalet/King Suite 7.jpg">
+                                <img class="carrusel" src="images/bed/IMG_4313.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -296,7 +294,6 @@ require 'config/config.php';
                             <label for="s15" id="slide15">
                                 <img class="carrusel" src="images/bed/casa_montana/5.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -309,10 +306,10 @@ require 'config/config.php';
                     <p style="font-size: 19px">
                         CLP$360,000 por fin de semana (2 noches/ 3 días, cata de vinos y 1 día de uso de jacuzzi incluidos).
                     </p>
-                    <hr>
+                    <!-- <hr>
                     <p style="font-size: 19px">
                         CLP$720,000 por semana (5 noches / 6 días, tour y degustación de vinos y 2 días de uso del jacuzzi incluidos).
-                    </p>
+                    </p> -->
                 </div>
         </section>
         <hr>

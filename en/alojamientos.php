@@ -203,7 +203,6 @@ require '../config/config.php';
                             <label for="s10" id="slide10">
                                 <img class="carrusel" src="../images/bed/chalet_parejas/6.jpeg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -214,12 +213,12 @@ require '../config/config.php';
                     </p>
                     <h4>Prices</h4>
                     <p style="font-size: 19px">
-                        CLP$240,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
+                        CLP$190,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
                     </p>
-                    <hr>
+                    <!-- <hr>
                     <p style="font-size: 19px">
                         CLP$510,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <br>
@@ -233,7 +232,7 @@ require '../config/config.php';
                     <p style="font-size: 19px"> Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$410,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
+                        CLP$240,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -246,21 +245,20 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s5">
 
                             <label for="s1" id="slide1">
-                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="images/bed/chalet2020/DSC_0666.jpg">
                             </label>
                             <label for="s2" id="slide2">
-                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0598.jpg">
+                                <img class="carrusel" src="images/bed/chalet2020/DSC_0598.jpg">
                             </label>
                             <label for="s3" id="slide3">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 4.jpg">
+                                <img class="carrusel" src="images/bed/chalet/KingSuite4.jpg">
                             </label>
                             <label for="s4" id="slide4">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 6.jpg">
+                                <img class="carrusel" src="images/bed/chalet/KingSuite6.jpg">
                             </label>
                             <label for="s5" id="slide5">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 7.jpg">
+                                <img class="carrusel" src="images/bed/IMG_4313.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -295,7 +293,6 @@ require '../config/config.php';
                             <label for="s15" id="slide15">
                                 <img class="carrusel" src="../images/bed/casa_montana/5.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -306,12 +303,12 @@ require '../config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 per weekend (2 nights/3 days, wine tasting and 1 day of use of the jacuzzi included).
+                        CLP$360,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
                     </p>
-                    <hr>
+                    <!-- <hr>
                     <p style="font-size: 19px">
                         CLP$720,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
-                    </p>
+                    </p> -->
                 </div>
         </section>
         <hr>
