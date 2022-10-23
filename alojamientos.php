@@ -214,11 +214,24 @@ require 'config/config.php';
                     </p>
                     <h4>Precios</h4>
                     <p style="font-size: 19px">
-                        CLP$190,000 por fin de semana (2 noches/ 3 día, 1 día de uso del jacuzzi incluido).
+                        CLP$120,000 por noche.
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                     <!-- <hr>
-                    <p style="font-size: 19px">
-                        CLP$510,000 por semana (5 noches / 6 días, un tour y 2 días de uso del jacuzzi incluido).
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Desayuno: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almuerzo/Cena: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustacion de Vino: </span>CLP$12,000 por persona.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de la viña con degustacion: </span>CLP$18,000 por persona.
                     </p> -->
                 </div>
             </div>
@@ -233,7 +246,11 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$240,000 por fin de semana (2 noches/ 3 días, 1 día de uso del jacuzzi incluido).
+                        CLP$135,000 por noche.
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -305,7 +322,11 @@ require 'config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 por fin de semana (2 noches/ 3 días, cata de vinos y 1 día de uso de jacuzzi incluidos).
+                        CLP$150,000 por noche.
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                     <!-- <hr>
                     <p style="font-size: 19px">

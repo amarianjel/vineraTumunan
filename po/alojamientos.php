@@ -213,12 +213,12 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                            CLP$190,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
+                        CLP$120,000 por noite.
                     </p>
-                    <!-- <hr>
+                    <hr>
                     <p style="font-size: 19px">
-                            CLP$510,000 por semana (5 noites / 6 dias, passeio e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
-                    </p> -->
+                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
+                    </p>
                 </div>
             </div>
             <br>
@@ -234,7 +234,11 @@ require '../config/config.php';
                     </p>
                     <h4>Preço</h4>
                     <p style="font-size: 19px">
-                            CLP$240,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
+                        CLP$135,000 por noite.
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -306,12 +310,12 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de utilização do jacuzzi incluídos).
+                        CLP$150,000 por noite.
                     </p>
-                    <!-- <hr>
+                    <hr>
                     <p style="font-size: 19px">
-                        CLP$720,000 por semana (5 noites / 6 dias, tour e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
-                    </p> -->
+                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
+                    </p>
                 </div>
         </section>
         <hr>

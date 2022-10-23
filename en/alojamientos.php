@@ -213,12 +213,12 @@ require '../config/config.php';
                     </p>
                     <h4>Prices</h4>
                     <p style="font-size: 19px">
-                        CLP$190,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
+                        CLP$120,000 nigth.
                     </p>
-                    <!-- <hr>
+                    <hr>
                     <p style="font-size: 19px">
-                        CLP$510,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
-                    </p> -->
+                        CLP$190,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                    </p>
                 </div>
             </div>
             <br>
@@ -232,7 +232,11 @@ require '../config/config.php';
                     <p style="font-size: 19px"> Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$240,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
+                        CLP$135,000 nigth.
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$240,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -304,12 +308,12 @@ require '../config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 per weekend (2 nights/3 days, 1 day of use of the jacuzzi included).
+                        CLP$150,000 nigth.
                     </p>
-                    <!-- <hr>
+                    <hr>
                     <p style="font-size: 19px">
-                        CLP$720,000 per week (5 nights / 6 days, tour and wine tasting and 2 days of jacuzzi use included).
-                    </p> -->
+                        CLP$270,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                    </p>
                 </div>
         </section>
         <hr>
