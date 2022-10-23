@@ -247,19 +247,20 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s5">
 
                             <label for="s1" id="slide1">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0394.jpg">
+                                
                             </label>
                             <label for="s2" id="slide2">
-                                <img class="carrusel" src="images/bed/chalet2020/DSC_0598.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0598.jpg">
                             </label>
                             <label for="s3" id="slide3">
-                                <img class="carrusel" src="images/bed/chalet/KingSuite4.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_9921.jpg">
                             </label>
                             <label for="s4" id="slide4">
-                                <img class="carrusel" src="images/bed/chalet/KingSuite6.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0666.jpg">
                             </label>
                             <label for="s5" id="slide5">
-                                <img class="carrusel" src="images/bed/IMG_4313.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0109.jpg">
                             </label>
                         </div>
                     </div>
@@ -281,7 +282,7 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s15">
 
                             <label for="s11" id="slide11">
-                                <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
+                                <img class="carrusel" src="../images/bed/casa_montana/6.jpg">
                             </label>
                             <label for="s12" id="slide12">
                                 <img class="carrusel" src="../images/bed/casa_montana/2.jpg">
@@ -293,7 +294,7 @@ require '../config/config.php';
                                 <img class="carrusel" src="../images/bed/casa_montana/4.jpg">
                             </label>
                             <label for="s15" id="slide15">
-                                <img class="carrusel" src="../images/bed/casa_montana/5.jpg">
+                                <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
                             </label>
                         </div>
                     </div>
