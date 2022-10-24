@@ -147,6 +147,9 @@ require '../config/config.php';
         .titulo {
             color: #051922;
         }
+        .otrosPrecios{
+            font-weight: 600;
+        }
 
         @media only screen and (max-width: 959px) {
             body:before {
@@ -213,11 +216,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$120,000 por noite.
+                        CLP$120,000 por noite (Café da manhã e IVA incluídos).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
+                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
             </div>
@@ -234,11 +250,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preço</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noite.
+                        CLP$135,000 por noite (Café da manhã e IVA incluídos).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
+                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -310,11 +339,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noite.
+                        CLP$150,000 por noite (Café da manhã e IVA incluídos).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
+                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
         </section>

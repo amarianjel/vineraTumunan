@@ -148,6 +148,9 @@ require 'config/config.php';
         .titulo {
             color: #051922;
         }
+        .otrosPrecios{
+            font-weight: 600;
+        }
 
         @media only screen and (max-width: 959px) {
             body:before {
@@ -214,13 +217,13 @@ require 'config/config.php';
                     </p>
                     <h4>Precios</h4>
                     <p style="font-size: 19px">
-                        CLP$120,000 por noche.
+                        CLP$120,000 por noche (Desayuno e IVA incluido).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%)(Desayuno e IVA incluido).
                     </p>
-                    <!-- <hr>
+                    <hr>
                     <p style="font-size: 15px">
                         <span class="otrosPrecios">Desayuno: </span>CLP$7,000.
                     </p>
@@ -231,8 +234,8 @@ require 'config/config.php';
                         <span class="otrosPrecios">Degustacion de Vino: </span>CLP$12,000 por persona.
                     </p>
                     <p style="font-size: 15px">
-                        <span class="otrosPrecios">Tour de la viña con degustacion: </span>CLP$18,000 por persona.
-                    </p> -->
+                        <span class="otrosPrecios">Tour de la viña con degustación: </span>CLP$18,000 por persona.
+                    </p>
                 </div>
             </div>
             <br>
@@ -246,11 +249,24 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noche.
+                        CLP$135,000 por noche (Desayuno e IVA incluido).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%) (Desayuno e IVA incluido).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Desayuno: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almuerzo/Cena: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustacion de Vino: </span>CLP$12,000 por persona.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de la viña con degustación: </span>CLP$18,000 por persona.
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -322,16 +338,25 @@ require 'config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noche.
+                        CLP$150,000 por noche (Desayuno e IVA incluido).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%) (Desayuno e IVA incluido).
                     </p>
-                    <!-- <hr>
-                    <p style="font-size: 19px">
-                        CLP$720,000 por semana (5 noches / 6 días, tour y degustación de vinos y 2 días de uso del jacuzzi incluidos).
-                    </p> -->
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Desayuno: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almuerzo/Cena: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustacion de Vino: </span>CLP$12,000 por persona.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de la viña con degustación: </span>CLP$18,000 por persona.
+                    </p>
                 </div>
         </section>
         <hr>

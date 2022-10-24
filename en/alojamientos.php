@@ -147,6 +147,9 @@ require '../config/config.php';
         .titulo {
             color: #051922;
         }
+        .otrosPrecios{
+            font-weight: 600;
+        }
 
         @media only screen and (max-width: 959px) {
             body:before {
@@ -213,11 +216,24 @@ require '../config/config.php';
                     </p>
                     <h4>Prices</h4>
                     <p style="font-size: 19px">
-                        CLP$120,000 nigth.
+                        CLP$120,000 nigth (Breakfast and IVA included).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$190,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%) (Breakfast and IVA included).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Breakfast: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Lunch/Dinner: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Wine Tasting: </span>CLP$12,000 per person.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Vineyard tour with tasting: </span>CLP$18,000 per person.
                     </p>
                 </div>
             </div>
@@ -232,11 +248,24 @@ require '../config/config.php';
                     <p style="font-size: 19px"> Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 nigth.
+                        CLP$135,000 nigth (Breakfast and IVA included).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$240,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%) (Breakfast and IVA included).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Breakfast: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Lunch/Dinner: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Wine Tasting: </span>CLP$12,000 per person.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Vineyard tour with tasting: </span>CLP$18,000 per person.
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -308,11 +337,24 @@ require '../config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 nigth.
+                        CLP$150,000 nigth (Breakfast and IVA included).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$270,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%) (Breakfast and IVA included).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Breakfast: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Lunch/Dinner: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Wine Tasting: </span>CLP$12,000 per person.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Vineyard tour with tasting: </span>CLP$18,000 per person.
                     </p>
                 </div>
         </section>
