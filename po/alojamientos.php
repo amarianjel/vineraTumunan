@@ -147,6 +147,9 @@ require '../config/config.php';
         .titulo {
             color: #051922;
         }
+        .otrosPrecios{
+            font-weight: 600;
+        }
 
         @media only screen and (max-width: 959px) {
             body:before {
@@ -203,7 +206,6 @@ require '../config/config.php';
                             <label for="s10" id="slide10">
                                 <img class="carrusel" src="../images/bed/chalet_parejas/6.jpeg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -214,11 +216,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                            CLP$240,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
+                        CLP$120,000 por noite (Café da manhã e IVA incluídos).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                            CLP$510,000 por semana (5 noites / 6 dias, passeio e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
+                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
             </div>
@@ -235,7 +250,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preço</h4>
                     <p style="font-size: 19px">
-                            CLP$410,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de uso do jacuzzi incluído).
+                        CLP$135,000 por noite (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 19px">
+                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
                 <div class="fotografia-info col-12 col-lg-6 my-5">
@@ -248,21 +280,21 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s5">
 
                             <label for="s1" id="slide1">
-                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0666.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0394.jpg">
+                                
                             </label>
                             <label for="s2" id="slide2">
                                 <img class="carrusel" src="../images/bed/chalet2020/DSC_0598.jpg">
                             </label>
                             <label for="s3" id="slide3">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 4.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_9921.jpg">
                             </label>
                             <label for="s4" id="slide4">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 6.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0666.jpg">
                             </label>
                             <label for="s5" id="slide5">
-                                <img class="carrusel" src="../images/bed/chalet/King Suite 7.jpg">
+                                <img class="carrusel" src="../images/bed/chalet2020/DSC_0109.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -283,7 +315,7 @@ require '../config/config.php';
                             <input type="radio" name="slider" id="s15">
 
                             <label for="s11" id="slide11">
-                                <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
+                                <img class="carrusel" src="../images/bed/casa_montana/6.jpg">
                             </label>
                             <label for="s12" id="slide12">
                                 <img class="carrusel" src="../images/bed/casa_montana/2.jpg">
@@ -295,9 +327,8 @@ require '../config/config.php';
                                 <img class="carrusel" src="../images/bed/casa_montana/4.jpg">
                             </label>
                             <label for="s15" id="slide15">
-                                <img class="carrusel" src="../images/bed/casa_montana/5.jpg">
+                                <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
                             </label>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -308,11 +339,24 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$360,000 por fim-de-semana (2 noites/ 3 dias, prova de vinhos e 1 dia de utilização do jacuzzi incluídos).
+                        CLP$150,000 por noite (Café da manhã e IVA incluídos).
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$720,000 por semana (5 noites / 6 dias, tour e prova de vinhos e 2 dias de uso do jacuzzi incluídos).
+                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                    </p>
+                    <hr>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Café da manhã: </span>CLP$7,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Almoço/Jantar: </span>CLP$18,000.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Degustação de vinho: </span>CLP$12,000 por pessoa.
+                    </p>
+                    <p style="font-size: 15px">
+                        <span class="otrosPrecios">Tour de vinhedos com degustação: </span>CLP$18,000 por pessoa.
                     </p>
                 </div>
         </section>
