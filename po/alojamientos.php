@@ -216,11 +216,11 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$120,000 por noite (Café da manhã e IVA incluídos).
+                        CLP$120,000 por noite.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                        CLP$190,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -250,11 +250,11 @@ require '../config/config.php';
                     </p>
                     <h4>Preço</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noite (Café da manhã e IVA incluídos).
+                        CLP$135,000 por noite.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                        CLP$240,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -324,7 +324,7 @@ require '../config/config.php';
                                 <img class="carrusel" src="../images/bed/casa_montana/3.jpg">
                             </label>
                             <label for="s14" id="slide14">
-                                <img class="carrusel" src="../images/bed/casa_montana/4.jpg">
+                                <img class="carrusel" src="images/bed/casa_montana/IMG_0631.jpg">
                             </label>
                             <label for="s15" id="slide15">
                                 <img class="carrusel" src="../images/bed/casa_montana/1.jpg">
@@ -339,11 +339,11 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noite (Café da manhã e IVA incluídos).
+                        CLP$150,000 por noite.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%) (Café da manhã e IVA incluídos).
+                        CLP$270,000  2 noites/ 3 dias, 1 dia de uso do jacuzzi incluído (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">

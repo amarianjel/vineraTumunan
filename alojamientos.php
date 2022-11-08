@@ -149,7 +149,7 @@ require 'config/config.php';
             color: #051922;
         }
         .otrosPrecios{
-            font-weight: 600;
+            font-weight: bold;
         }
 
         @media only screen and (max-width: 959px) {
@@ -217,15 +217,15 @@ require 'config/config.php';
                     </p>
                     <h4>Precios</h4>
                     <p style="font-size: 19px">
-                        CLP$120,000 por noche (Desayuno e IVA incluido).
+                        CLP$120,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%)(Desayuno e IVA incluido).
+                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
-                        <span class="otrosPrecios">Desayuno: </span>CLP$7,000.
+                        <span class="otrosPrecios" style="font-weight: 600;">Desayuno: </span>CLP$7,000.
                     </p>
                     <p style="font-size: 15px">
                         <span class="otrosPrecios">Almuerzo/Cena: </span>CLP$18,000.
@@ -249,11 +249,11 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noche (Desayuno e IVA incluido).
+                        CLP$135,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%) (Desayuno e IVA incluido).
+                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -323,7 +323,7 @@ require 'config/config.php';
                                 <img class="carrusel" src="images/bed/casa_montana/3.jpg">
                             </label>
                             <label for="s14" id="slide14">
-                                <img class="carrusel" src="images/bed/casa_montana/4.jpg">
+                                <img class="carrusel" src="images/bed/casa_montana/IMG_0631.jpg">
                             </label>
                             <label for="s15" id="slide15">
                                 <img class="carrusel" src="images/bed/casa_montana/1.jpg">
@@ -338,11 +338,11 @@ require 'config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noche (Desayuno e IVA incluido).
+                        CLP$150,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%) (Desayuno e IVA incluido).
+                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
