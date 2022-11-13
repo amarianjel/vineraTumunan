@@ -479,7 +479,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-text p {
-  color: #e4a13ee7;
+  color: #242032;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -510,7 +510,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #07212e;
+  background-color: #585C8C;
   z-index: -1;
   opacity: 0.8;
 }
@@ -626,7 +626,7 @@ ul.sub-menu li:last-child {
 }
 
 .mean-bar a.meanmenu-reveal {
-  background-color: #e4a13ee7;
+  background-color: #585c8c;
 }
 
 .main-menu-wrap {
@@ -690,11 +690,11 @@ nav.main-menu ul ul.sub-menu li a {
 }
 
 nav.main-menu ul li.current-list-item > a {
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 nav.main-menu li:hover > a {
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 nav.main-menu li a {
@@ -710,7 +710,7 @@ nav.main-menu li a {
 }
 
 .top-header-area .header-icons a:hover {
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 .sticky-wrapper {
@@ -722,7 +722,7 @@ nav.main-menu li a {
 }
 
 .sticky-wrapper.is-sticky .top-header-area {
-  background-color: #051922;
+  background-color: #585c8c;
   padding: 15px 0;
 }
 
@@ -862,7 +862,7 @@ a.mobile-show {
 }
 
 .footer-area {
-  background-color: #051922;
+  background-color: #585C8C;
   color: #fff;
   padding: 150px 0;
 }
@@ -872,7 +872,7 @@ h2.widget-title {
   font-weight: 500;
   position: relative;
   padding-bottom: 20px;
-  color: #fff;
+  color: #242032;
 }
 
 h2.widget-title:after {
@@ -881,7 +881,7 @@ h2.widget-title:after {
   bottom: 0;
   width: 20px;
   height: 2px;
-  background-color: #e4a13ee7;
+  background-color: #242032;
   content: "";
 }
 
@@ -933,7 +933,7 @@ h2.widget-title:after {
 }
 
 .copyright {
-  background-color: #051922;
+  background-color: #585C8C;
   border-top: 1px solid #232a35;
 }
 
@@ -988,7 +988,7 @@ h2.widget-title:after {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 /* -----------------------------------------------------------------------------
@@ -1393,13 +1393,13 @@ html, body {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #07212e;
+  background-color: #585c8c;
   z-index: -1;
   opacity: 0.6;
 }
 
 .hero-text p.subtitle {
-  color: #e4a13ee7;
+  color: #242032;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -1456,8 +1456,8 @@ html, body {
 }
 
 input[type="submit"] {
-  background-color: #e4a13ee7;
-  color: #051922;
+  background-color: #585c8c;
+  color: #fdfdfd;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 15px;
@@ -2388,16 +2388,16 @@ ul.social-link-team li a {
   font-weight: 700;
   font-size: 18px;
   margin: 15px;
-  border: 2px solid #051922;
-  color: #323232;
+  border: 2px solid #242032;
+  color: #585C8C;
   cursor: pointer;
   padding: 8px 20px;
   border-radius: 25px;
 }
 
 .product-filters ul li.active {
-  border: 2px solid #e4a13ee7;
-  background-color: #e4a13ee7;
+  border: 2px solid #585c8c;
+  background-color: #585c8c;
   color: #fff;
 }
 
@@ -2685,7 +2685,7 @@ tr.total-data td strong {
   font-weight: 900;
   line-height: 22px;
   margin-top: -11px;
-  color: #e4a13ee7;
+  color: #585C8C;
 }
 
 .billing-address-form form p:last-child {
