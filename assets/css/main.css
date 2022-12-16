@@ -1024,7 +1024,7 @@ a.bordered-btn {
 }
 
 a.bordered-btn:hover {
-  background-color: #e4a13ee7;
+  background-color: #242032;
   color: #fff;
 }
 
@@ -1035,7 +1035,7 @@ ul.sub-menu a {
 }
 
 ul.sub-menu li:hover a {
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 .single-tof-box {
@@ -1057,7 +1057,7 @@ a.video-play-btn {
 
 a.video-play-btn:hover {
   background-color: #333;
-  color: #e4a13ee7;
+  color: #242032;
 }
 
 .latest-news-bg {

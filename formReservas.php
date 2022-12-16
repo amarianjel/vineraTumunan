@@ -69,7 +69,7 @@ $fechaActual = date('Y-m-d');
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
