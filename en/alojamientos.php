@@ -248,7 +248,7 @@ require '../config/config.php';
                     <p style="font-size: 19px"> Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 nigth.
+                        CLP$180,000 nigth.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
@@ -337,7 +337,7 @@ require '../config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 nigth.
+                        CLP$180,000 nigth.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
