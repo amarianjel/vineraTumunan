@@ -249,7 +249,7 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noche.
+                        CLP$180,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
@@ -338,7 +338,7 @@ require 'config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noche.
+                        CLP$180,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
