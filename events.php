@@ -51,7 +51,7 @@ require 'config/config.php';
     <link rel="stylesheet" href="assets/css/events.css">
 </head>
 
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
     
     <!-- header -->
 	<div class="top-header-area" id="sticker">
@@ -62,7 +62,7 @@ require 'config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

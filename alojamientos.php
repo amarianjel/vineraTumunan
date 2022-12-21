@@ -55,7 +55,7 @@ require 'config/config.php';
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
     <a href="https://wa.me/56987875048" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
     </a>
@@ -68,7 +68,7 @@ require 'config/config.php';
                         <!-- logo -->
                         <div class="site-logo">
                             <a href="./">
-                                <img src="images/logo-svg.svg" width="120em">
+                                <img src="images/Logo.png" width="120em">
                             </a>
                         </div>
                         <!-- logo -->
@@ -249,7 +249,7 @@ require 'config/config.php';
                     <p style="font-size: 19px">Amplia casa de 4 dormitorios con una cocina completamente equipada, patio privado, jardín, un fogon, una parrilla y espectaculares vistas a las montañas.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noche.
+                        CLP$180,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
@@ -338,7 +338,7 @@ require 'config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noche.
+                        CLP$180,000 por noche.
                     </p>
                     <hr>
                     <p style="font-size: 19px">

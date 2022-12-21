@@ -67,7 +67,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -250,7 +250,7 @@ require '../config/config.php';
                     </p>
                     <h4>Preço</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 por noite.
+                        CLP$180,000 por noite.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
@@ -339,7 +339,7 @@ require '../config/config.php';
                     </p>
                     <h4>Preços</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 por noite.
+                        CLP$180,000 por noite.
                     </p>
                     <hr>
                     <p style="font-size: 19px">

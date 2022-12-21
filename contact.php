@@ -60,7 +60,7 @@ require 'config/config.php';
 	    flex-wrap: wrap;
 	}
 </style>
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
 	<a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
     </a>
@@ -82,7 +82,7 @@ require 'config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
