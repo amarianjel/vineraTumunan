@@ -221,7 +221,7 @@ require 'config/config.php';
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$192,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (incluye -20% descuento).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -253,7 +253,7 @@ require 'config/config.php';
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$288,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (incluye -20% descuento).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -342,7 +342,7 @@ require 'config/config.php';
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (-20%).
+                        CLP$288,000  2 noches/ 3 días, 1 día de uso del jacuzzi incluido (incluye -20% descuento).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
