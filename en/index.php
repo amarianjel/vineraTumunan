@@ -13,7 +13,7 @@ require '../config/config.php';
 	<meta name="description" content="Visit Tumuñan Vineyard nested in the foothills of the Andes Mountains on the doorstep of the Colchagua Valley. Learn about us here.">
 
 	<!-- title -->
-	<title>Vineyard Tumuñan Lodge | About us</title>
+	<title>Tumuñan Lodge | About us</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -155,7 +155,7 @@ require '../config/config.php';
 					<div class="hero-text">
 						<div class="hero-text-tablecell">
 							<p class="subtitle">Learn about us</p>
-							<h1>Vineyard Tumuñan Lodge</h1>
+							<h1>Tumuñan Lodge</h1>
 						</div>
 					</div>
 				</div>
