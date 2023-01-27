@@ -13,7 +13,7 @@ $fechaActual = date('Y-m-d');
 	<meta name="description" content="Relájate en Tumuñan en uno de nuestros Chalets completamente equipados. Disfrute de espectaculares vistas a la montaña y relájese del ruido de la ciudad. Reservar ahora.">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge | Reservas</title>
+	<title>Tumuñan Lodge | Reservas</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,7 +69,7 @@ $fechaActual = date('Y-m-d');
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

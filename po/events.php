@@ -13,7 +13,7 @@ require '../config/config.php';
 	<meta name="title" content="Eventos de negócios com vista para a montanha">
 	<meta name="description" content="Tumuñan é o lugar perfeito para eventos de negócios. Conduza o team building com vistas espetaculares das montanhas e florestas nativas. Contacte-nos hoje.">
 
-    <title>Vinhedo Tumuñan Lodge | Eventos</title>
+    <title>Tumuñan Lodge | Eventos</title>
 
     <!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,7 +51,7 @@ require '../config/config.php';
     <link rel="stylesheet" href="../assets/css/events.css">
 </head>
 
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
     
     <!-- header -->
 	<div class="top-header-area" id="sticker">
@@ -62,7 +62,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

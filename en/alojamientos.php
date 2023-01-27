@@ -16,7 +16,7 @@ require '../config/config.php';
     
     <link rel="stylesheet" href="../assets/css/alojamientos.css">
 
-    <title>Vineyard Tumuñan Lodge | Lodging</title>
+    <title>Tumuñan Lodge | Lodging</title>
 
     	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,7 +67,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -220,7 +220,7 @@ require '../config/config.php';
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$190,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$192,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (includes -20% discount).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -248,11 +248,11 @@ require '../config/config.php';
                     <p style="font-size: 19px"> Spacious 4 bedroom home with fully equipped kitchen, private patio, garden, fire pit, barbecue and spectacular mountain views.</p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$135,000 nigth.
+                        CLP$180,000 nigth.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$240,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$288,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (includes -20% discount).
                     </p>
                     <hr>
                     <p style="font-size: 15px">
@@ -337,11 +337,11 @@ require '../config/config.php';
                     </p>
                     <h4>Precio</h4>
                     <p style="font-size: 19px">
-                        CLP$150,000 nigth.
+                        CLP$180,000 nigth.
                     </p>
                     <hr>
                     <p style="font-size: 19px">
-                        CLP$270,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (-20%).
+                        CLP$288,000  2 nights/ 3 days, 1 day of use of the jacuzzi included (includes -20% discount).
                     </p>
                     <hr>
                     <p style="font-size: 15px">

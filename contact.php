@@ -12,7 +12,7 @@ require 'config/config.php';
 	<meta name="description" content="¿Listo para vivir la experiencia Tumuñan? Contáctese con nosotros para mas información sobre nuestros servicios¿Listo para vivir la experiencia Tumuñan? Contáctese con nosotros para mas información sobre nuestros servicios">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge | Contacto</title>
+	<title>Tumuñan Lodge | Contacto</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -60,7 +60,7 @@ require 'config/config.php';
 	    flex-wrap: wrap;
 	}
 </style>
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
 	<a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
     </a>
@@ -82,7 +82,7 @@ require 'config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -168,7 +168,7 @@ require 'config/config.php';
 					<div class="hero-text">
 						<div class="hero-text-tablecell">
 							<p class="subtitle">Contactanos para tener mayor información de nuestros servicios</p>
-							<h1>Viña Tumuñan Lodge</h1>
+							<h1>Tumuñan Lodge</h1>
 						</div>
 					</div>
 				</div>

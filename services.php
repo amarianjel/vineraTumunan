@@ -10,7 +10,7 @@ require 'config/config.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge| Reservas</title>
+	<title>Tumuñan Lodge| Reservas</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,7 +63,7 @@ require 'config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+								<img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -133,7 +133,7 @@ require 'config/config.php';
                 </div>
                 <div class="col-xl-4">
                     <div style="text-align:center;padding-top:0.5em;">
-                        <img src="images/logo-svg.svg" style="width:15vW;margin-top:9vw;">
+                        <img src="images/Logo.png" style="width:15vW;margin-top:9vw;">
                     </div>
                     <br>
                     <div>

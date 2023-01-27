@@ -28,7 +28,7 @@ if ($productos != null) {
 	<meta name="description" content="¿Olvidaste hacer clic en ordenar en tu carrito de compras? No te preocupes, aún estás a tiempo de pedir tus productos favoritos. Seguir comprando.">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge</title>
+	<title>Tumuñan Lodge</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -81,7 +81,7 @@ if ($productos != null) {
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="images/logo-svg.svg" width="120em">
+                                <img src="images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

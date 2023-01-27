@@ -9,7 +9,7 @@
 .gallery{
     padding-top: 50px;
     min-height: 100vh;
-    background-color: #f5e1ce;
+    background-color: #e7ece6;
     padding-bottom: 50px;
 } 
 
@@ -88,7 +88,7 @@
 .parallax-completo {
     width: 100%;
     /*background-image: url("../../images/bed/114\ -\ Edited.jpg");*/
-    background-color: #f5e1ce;
+    background-color: #e7ece6;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
 
 .parallax-chico {
     height: 320px;
-    background-color: #f5e1ce;
+    background-color: #e7ece6;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

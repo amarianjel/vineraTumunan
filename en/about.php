@@ -51,7 +51,7 @@ require '../config/config.php';
 
 </head>
 
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
 
 	<!--PreLoader-->
 	<!-- <div class="loader">
@@ -70,7 +70,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

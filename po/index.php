@@ -9,11 +9,11 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Vinhedo na porta do Vale de Colchagua">
-	<meta name="description" content="Visite Tumuñan Vineyard aninhado no sopé da Cordilheira dos Andes na porta do Vale de Colchagua. Saiba mais sobre nós aqui.">
+	<meta name="title" content="Lodge turístico nos contrafortes do Vale de Colchagua">
+	<meta name="description" content="Visite o Tumuñan Lodge aninhado no sopé da Cordilheira dos Andes na porta do Vale de Colchagua. Saiba mais sobre nós aqui.">
 
 	<!-- title -->
-	<title>Vinhedo Tumuñan Lodge | Sobre nós</title>
+	<title>Tumuñan Lodge | Sobre nós</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,7 +53,7 @@ require '../config/config.php';
 
 </head>
 
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
 
 	<!--PreLoader-->
 	<!-- <div class="loader">
@@ -72,7 +72,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
@@ -158,7 +158,7 @@ require '../config/config.php';
 					<div class="hero-text">
 						<div class="hero-text-tablecell">
 							<p class="subtitle">Aprenda sobre nós</p>
-							<h1>Vinhedo Tumuñan Lodge</h1>
+							<h1>Tumuñan Lodge</h1>
 						</div>
 					</div>
 				</div>

@@ -12,7 +12,7 @@ require '../config/config.php';
 	<meta name="description" content="Ready to live the Tumuñan experience? Contact us for more information about our services">
 
 	<!-- title -->
-	<title>Vineyard Tumuñan Lodge | Contact</title>
+	<title>Tumuñan Lodge | Contact</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -55,7 +55,7 @@ require '../config/config.php';
 		padding-left: 3rem;
 	}	
 </style>
-<body style="background-color: #f5e1ce;">
+<body style="background-color: #e7ece6;">
 	<a href="https://wa.me/56996301152" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
     </a>
@@ -77,7 +77,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->

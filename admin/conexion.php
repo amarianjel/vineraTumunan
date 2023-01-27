@@ -5,8 +5,8 @@ header("Content-Type: text/html; charset=utf8");
 date_default_timezone_set('America/Santiago');
 
     $host = "localhost:3306";
-    $user = "root";
-    $clave = "";
+    $user = "tumu971com_prueba";
+    $clave = "abraham1307";
     $bd = "tumu971com_prueba";
 
     // admin

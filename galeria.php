@@ -14,7 +14,7 @@ require 'config/config.php';
         <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
         <link rel="stylesheet" href="assets/css/galeria.css">
         
-        <title>Viña Tumuñan Lodge | Galeria</title>
+        <title>Tumuñan Lodge | Galeria</title>
 
                 <!--Style-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,7 +59,7 @@ require 'config/config.php';
                             <!-- logo -->
                             <div class="site-logo">
                                 <a href="./">
-                                    <img src="images/logo-svg.svg" width="120em">
+                                    <img src="images/Logo.png" width="120em">
                                 </a>
                             </div>
                             <!-- logo -->
@@ -127,7 +127,7 @@ require 'config/config.php';
                         <div class="hero-text">
                             <div class="hero-text-tablecell">
                                 <p class="subtitle">Vive la experiencia Tumuñan</p>
-                                <h1>Viña Tumuñan Lodge</h1>
+                                <h1>Tumuñan Lodge</h1>
                             </div>
                         </div>
                     </div>
@@ -170,15 +170,6 @@ require 'config/config.php';
                         </a>
                         <a href="images/bed/WINE_Enhanced_IMG_0519.jpg" class="image alojamientos">
                             <img src="images/bed/WINE_Enhanced_IMG_0519.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/Chalet/King Suite 3.jpg" class="image alojamientos">
-                            <img src="images/bed/Chalet/King Suite 3.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/Chalet/King Suite 5.jpg" class="image alojamientos">
-                            <img src="images/bed/Chalet/King Suite 5.jpg" alt="Alojamientos">
-                        </a>
-                        <a href="images/bed/Chalet/King Suite 6.jpg" class="image alojamientos">
-                            <img src="images/bed/Chalet/King Suite 6.jpg" alt="Alojamientos">
                         </a>
                         <a href="images/bed/chalet2020/DSC_0595.jpg" class="image alojamientos">
                             <img src="images/bed/chalet2020/DSC_0595.jpg" alt="Alojamientos">

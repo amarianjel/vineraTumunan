@@ -24,7 +24,7 @@ try {
     $mail->Port       = 587;                    //Puerto TCP al que conectarse, si usa 587 agregar `SMTPSecure = PHPMailer :: ENCRYPTION_STARTTLS`
 
     //Correo emisor y nombre
-    $mail->setFrom('admin@tumunan.com', 'ViñaTumuñanLodge');
+    $mail->setFrom('admin@tumunan.com', 'Ventas Tumunan Lodge');
     //Correo receptor y nombre
     $mail->addAddress($email, 'usuario');
     //Enviar copia correo

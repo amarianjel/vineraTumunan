@@ -12,7 +12,7 @@ require '../config/config.php';
 	<meta name="description" content="Relajate en Tumuñan em um de nuestros Chalets completamente construídos. Desfrute de vistas espetaculares para a montanha e relaxe o ruido da cidade. Reservar agora.">
 
 	<!-- title -->
-	<title>Vinhedo Tumuñan Lodge | Reserva</title>
+	<title>Tumuñan Lodge | Reserva</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -68,7 +68,7 @@ require '../config/config.php';
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="./">
-								<img src="../images/logo-svg.svg" width="120em">
+								<img src="../images/Logo.png" width="120em">
 							</a>
 						</div>
 						<!-- logo -->
