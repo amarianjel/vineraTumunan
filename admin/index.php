@@ -65,7 +65,7 @@ if (!empty($_SESSION['active'])) {
                         <!-- Nested Row within Card Body -->
                         <div class="row">
                             <div class="col-lg-6 mt-5 p-5 d-none d-lg-block bg ">
-                                <img width="400px" src="../images/Logo.png" alt="">
+                                <img width="400px" src="../images/logo-svg.svg" alt="">
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">

@@ -17,7 +17,7 @@ require 'config/config.php';
     
     <link rel="stylesheet" href="assets/css/alojamientos.css">
 
-    <title>Viña Tumuñan Lodge | Alojamientos</title>
+    <title>Tumuñan Lodge | Alojamientos</title>
 
     <!--Style-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

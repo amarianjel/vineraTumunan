@@ -12,7 +12,7 @@ require '../config/config.php';
 	<meta name="description" content="Ready to live the Tumuñan experience? Contact us for more information about our services">
 
 	<!-- title -->
-	<title>Vineyard Tumuñan Lodge | Contact</title>
+	<title>Tumuñan Lodge | Contact</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

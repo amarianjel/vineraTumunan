@@ -10,7 +10,7 @@ require 'config/config.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge| Reservas</title>
+	<title>Tumuñan Lodge| Reservas</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

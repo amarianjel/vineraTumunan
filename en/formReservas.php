@@ -12,7 +12,7 @@ require '../config/config.php';
 	<meta name="description" content="Relax at Tumuñan in one of our fully equipped Chalets. Enjoy spectacular mountain views and unwind from the noisy city. Reserve now.">
 
 	<!-- title -->
-	<title>Vineyard Tumuñan Lodge | Booking</title>
+	<title>Tumuñan Lodge | Booking</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -132,7 +132,7 @@ require '../config/config.php';
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Make your reservation request and come and live the Vineyard Tumuñan Lodge experience</i></p>
+						<p>Make your reservation request and come and live the Tumuñan Lodge experience</i></p>
 						<h1>Reservation request</h1>
 					</div>
 				</div>

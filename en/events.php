@@ -13,7 +13,7 @@ require '../config/config.php';
 	<meta name="title" content="Business Events with a Mountain View">
 	<meta name="description" content="Tumuñan is the perfect place for business events. Conduct team building with spectacular views of mountains and native forests. Contact us today.">
 
-    <title>Vineyard Tumuñan Lodge | Events</title>
+    <title>Tumuñan Lodge | Events</title>
 
     <!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

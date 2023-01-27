@@ -2,10 +2,10 @@
 
 class Database
 {
-    private $hostname = "localhost";
+    private $hostname = "localhost"; /* :3306*/
     private $database = "tumu971com_prueba";
-    private $username = "root";
-    private $password = "";
+    private $username = "root"; /* tumu971com_prueba*/
+    private $password = ""; /* abraham1307*/
     private $charset = "utf8";
 
     function conectar()

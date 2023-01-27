@@ -42,7 +42,7 @@ if ($id_transaccion == '') {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- title -->
-	<title>Viña Tumuñan Lodge</title>
+	<title>Tumuñan Lodge</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

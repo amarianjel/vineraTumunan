@@ -22,7 +22,7 @@ $resultadoCat = $comando->fetchAll(PDO::FETCH_ASSOC);
 	<meta name="description" content="¿Listo para tu próxima caja de vino? Ya puedes pedir tu vino Tumuñan favorito directamente online en nuestra tienda online. Pide vino y otros productos locales aquí.">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge | Tienda</title>
+	<title>Tumuñan Lodge | Tienda</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

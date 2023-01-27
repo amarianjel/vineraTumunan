@@ -44,7 +44,7 @@ $consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="productos.php">
                 <div class="sidebar-brand-icon p-4">
-                    <img class="img" src="../images/Logo.png" width="100px"alt="">
+                    <img class="img" src="../images/logo-svg.svg" width="100px"alt="">
                 </div>
                 
             </a>

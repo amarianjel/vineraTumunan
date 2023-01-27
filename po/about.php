@@ -9,11 +9,11 @@ require '../config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Vinhedo na porta do Vale de Colchagua">
+	<meta name="title" content="Lodge na porta do Vale de Colchagua">
 	<meta name="description" content="Visite Tumuñan Vineyard aninhado no sopé da Cordilheira dos Andes na porta do Vale de Colchagua. Saiba mais sobre nós aqui.">
 
 	<!-- title -->
-	<title>Vinhedo Tumuñan Lodge | Sobre nós</title>
+	<title>Tumuñan Lodge | Sobre nós</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

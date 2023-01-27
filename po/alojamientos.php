@@ -16,7 +16,7 @@ require '../config/config.php';
     
     <link rel="stylesheet" href="../assets/css/alojamientos.css">
 
-    <title>Vinhedo Tumuñan Lodge | Alojamento</title>
+    <title>Tumuñan Lodge | Alojamento</title>
 
     	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

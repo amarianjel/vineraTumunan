@@ -12,7 +12,7 @@ require '../config/config.php';
 	<meta name="description" content="Pronto para viver a experiência Tumuñan? Contacte-nos para mais informações sobre os nossos serviços">
 
 	<!-- title -->
-	<title>Vinhedo Tumuñan Lodge | Contacto</title>
+	<title>Tumuñan Lodge | Contacto</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

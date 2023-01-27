@@ -9,11 +9,11 @@ require 'config/config.php';
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Viñedo a las puertas del Valle de Colchagua">
-	<meta name="description" content="Visite Viña Tumuñan cercana de la Cordillera de los Andes a las puertas del Valle de Colchagua. Aprende sobre nosotros aquí.">
+	<meta name="title" content="Lodge puertas del Valle de Colchagua">
+	<meta name="description" content="Visite Tumuñan Lodge cercana de la Cordillera de los Andes a las puertas del Valle de Colchagua. Aprende sobre nosotros aquí.">
 
 	<!-- title -->
-	<title>Viña Tumuñan Lodge | Sobre Nosotros</title>
+	<title>Tumuñan Lodge | Sobre Nosotros</title>
 
 	<!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -128,7 +128,7 @@ require 'config/config.php';
 					<div class="hero-text">
 						<div class="hero-text-tablecell">
 							<p class="subtitle">Conoce sobre nosotros</p>
-							<h1>Viña Tumuñan Lodge</h1>
+							<h1>Tumuñan Lodge</h1>
 						</div>
 					</div>
 				</div>

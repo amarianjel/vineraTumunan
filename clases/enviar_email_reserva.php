@@ -24,12 +24,12 @@ try {
     $mail->Port       = 587;                    //Puerto TCP al que conectarse, si usa 587 agregar `SMTPSecure = PHPMailer :: ENCRYPTION_STARTTLS`
 
     //Correo emisor y nombre
-    $mail->setFrom('admin@tumunan.com', 'ViniaTumunanLodge');
+    $mail->setFrom('admin@tumunan.com', 'Reservas Tumunan Lodge');
     //Correo receptor y nombre
-    $mail->addAddress($email, 'usuario');
+    $mail->addAddress($email, 'Usuario');
     //Enviar copia correo
     $mail->addCC('tumunanlodge@gmail.com');
-
+    
     //Contenido
     $mail->isHTML(true);   //Establecer el formato de correo electrónico en HTML
     $mail->Subject = 'Detalles de su solicitud de reserva'; //Titulo del correo
@@ -42,10 +42,11 @@ try {
     $cuerpo .= '<p>Rut: <b>' . $rut . '</b></p>';
     $cuerpo .= '<p>Email: <b>' . $email . '</b></p>';
     $cuerpo .= '<p>Teléfono: <b>' . $fono . '</b></p>';
-    $cuerpo .= '<p>Cantidad de días a reservas: <b>' . $dias . '</b></p>';
+    $cuerpo .= '<p>Fecha de ingreso: <b>' . $ingreso . '</b></p>';
+    $cuerpo .= '<p>Fecha de salida: <b>' . $salida . '</b></p>';
     $cuerpo .= '<p>Cantidad de personas: <b>' . $c_personas . '</b></p>';
     $cuerpo .= '<p>Cantidad de Adultos: <b>' . $c_adultos . '</b></p>';
-    $cuerpo .= '<p>Cantidad de niños: <b>' . $c_ñiños . '</b></p>';
+    $cuerpo .= '<p>Cantidad de niños: <b>' . $c_ninios . '</b></p>';
     $cuerpo .= '<br>';
     $cuerpo .= "<h4>Nos comunicaremos lo antes posible para confirmar su reserva!!</h4>";
     //Cuerpo del correo

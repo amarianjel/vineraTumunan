@@ -13,7 +13,7 @@ require 'config/config.php';
 	<meta name="title" content="Eventos Empresariales con Vista a la Montaña">
 	<meta name="description" content="Tumuñan es el lugar perfecto para eventos empresariales. Realiza trabajo en equipo con espectaculares vistas a montañas y bosques nativos. Póngase en contacto con nosotros hoy.">
 
-    <title>Viña Tumuñan Lodge | Eventos</title>
+    <title>Tumuñan Lodge | Eventos</title>
 
     <!--Style-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

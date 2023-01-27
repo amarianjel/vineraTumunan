@@ -14,7 +14,7 @@ require 'config/config.php';
         <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
         <link rel="stylesheet" href="assets/css/galeria.css">
         
-        <title>Viña Tumuñan Lodge | Galeria</title>
+        <title>Tumuñan Lodge | Galeria</title>
 
                 <!--Style-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -127,7 +127,7 @@ require 'config/config.php';
                         <div class="hero-text">
                             <div class="hero-text-tablecell">
                                 <p class="subtitle">Vive la experiencia Tumuñan</p>
-                                <h1>Viña Tumuñan Lodge</h1>
+                                <h1>Tumuñan Lodge</h1>
                             </div>
                         </div>
                     </div>
