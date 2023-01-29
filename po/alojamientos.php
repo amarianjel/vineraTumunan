@@ -163,6 +163,70 @@ require '../config/config.php';
                 height: 100%;
             }
         }
+        .buttonR{
+            margin-top: 3em;
+            display: inline-block;
+            background: linear-gradient(#D68910, #9C640C);
+            color: white;
+            font-size: 1.25em;
+            padding: 5px;
+            padding-right: 20px;
+            text-align: center;
+            width: 250px;
+            text-decoration: none;
+            border-radius: 20%;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        .iconoR{
+            display: flex;
+            padding-left: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .buttonR:after,
+        .buttonR:before{
+        	width: 80px;
+        	height: 200px;
+        	content: '';
+        	display: block;
+        	background: rgba(255,255,255,0.5);
+        	transform: rotate(45deg);
+        	top: -60px;
+        	position: absolute;
+        	transition: none;
+        	right:-45%;
+        	cursor: pointer;
+        }
+         
+        .buttonR:before{
+        	left: -48%;
+        }
+         
+        .buttonR:hover{
+        	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+        	background:#12C987
+        }
+         
+        .buttonR:hover:after,
+        .buttonR:hover:before{
+        	transform: rotate(45deg), scaleX(130%);
+        	background: rgba(255,255,255,0.1);
+        	transition: all ease 0.5s;
+        }
+         
+        .buttonR:hover:after{
+        	right: 130%;
+        }
+         
+        .buttonR:hover:before{
+        	left: 130%;
+        }
+        .buttonRLetra{
+            color: white;
+        }
     </style>
     <!-- main section -->
     <main>
@@ -175,6 +239,36 @@ require '../config/config.php';
                     <div>
                         <p class="justificar-inicio">Temos trabalhado arduamente para reconfigurar o Tumuñan Lodge para poder receber os hóspedes de forma higiênica e segura. Aluguéis mensais são apenas uma maneira de alugar uma de nossas 3 cabines totalmente equipadas.
                         </p>
+                        <a type="button" class="buttonR" href="formReservas.php">
+                            <div class="row">
+                                <div class="col-5 iconoR">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 76.8 79" enable-background="new 0 0 76.8 79" xml:space="preserve">
+                                        <g>
+                                        <g>
+                                        <path fill="#ffffff" d="M8.7,9.7c-3.9,0-7,3.1-7,7v54.1c0,3.9,3.1,7,7,7h60.1c3.9,0,7-3.1,7-7V16.7c0-3.9-3.1-7-7-7h-2.4v4.4
+                                                    c0,3-2.4,5.4-5.4,5.4c-3,0-5.4-2.4-5.4-5.4V9.7H21.9v4.4c0,3-2.4,5.4-5.4,5.4c-3,0-5.4-2.4-5.4-5.4V9.7H8.7z M13.2,29.3h51.3
+                                                    c1.5,0,2.8,1.1,2.8,2.5v35c0,1.4-1.3,2.5-2.8,2.5H13.2c-1.5,0-2.8-1.1-2.8-2.5v-35C10.4,30.4,11.6,29.3,13.2,29.3z" id="id_128"></path>
+                                        <path fill="#ffffff" d="M14,3.4v6.3v4.4c0,1.4,1.1,2.6,2.6,2.6c1.4,0,2.6-1.1,2.6-2.6V9.7V3.4c0-1.4-1.2-2.6-2.6-2.6
+                                                    C15.1,0.9,14,2,14,3.4z" id="id_129"></path>
+                                        <path fill="#ffffff" d="M58.5,3.4v6.3v4.4c0,1.4,1.2,2.6,2.6,2.6c1.4,0,2.6-1.1,2.6-2.6V9.7V3.4c0-1.4-1.1-2.6-2.6-2.6
+                                                    C59.6,0.9,58.5,2,58.5,3.4z" id="id_130"></path>
+                                        </g>
+                                        <rect x="15.3" y="33.7" fill="#ffffff" width="13.6" height="13.9" id="id_131"></rect>
+                                        <rect x="32.3" y="33.7" fill="#ffffff" width="13.6" height="13.9" id="id_132"></rect>
+                                        <rect x="15.3" y="50.7" fill="#ffffff" width="13.6" height="13.9" id="id_133"></rect>
+                                        <rect x="32.3" y="50.7" fill="#ffffff" width="13.6" height="13.9" id="id_134"></rect>
+                                        <rect x="50.1" y="33.7" fill="#ffffff" width="13.6" height="13.9" id="id_135"></rect>
+                                        <rect x="50.1" y="50.7" fill="#ffffff" width="13.6" height="13.9" id="id_136"></rect>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-7">
+                                    <h6 class="buttonRLetra" style="margin-top: 10px; margin-bottom:15px;">Clique aqui</h6>
+                                    <h5 class="buttonRLetra" style="margin-bottom: -15px;">Reservas</h5>
+                                    <h4 class="buttonRLetra">ONLINE</h4>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <br><br>
                 </div>

@@ -162,7 +162,7 @@ $fechaActual = date('Y-m-d');
 	<!-- end breadcrumb section -->
 
     <!-- reservas section -->
-    <main>
+	<main>
         <div class="checkout-section mt-80 mb-150">
             <div class="container">
                 <div class="row">
@@ -181,18 +181,18 @@ $fechaActual = date('Y-m-d');
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="billing-address-form">
-                                            <form action="clases/captura_datos_rs.php" method="POST">
+                                            <form action="../clases/captura_datos_rs.php" method="POST">
                                                 <p><b>Nombre</b></p>
-                                                <p><input type="text" placeholder="Ej: Juan" id="nombre" name="nombre" required></p>
+                                                <p><input type="text" placeholder="Ex: Rafael" id="nombre" name="nombre" required></p>
                                                 <p><b>Apellido</b></p>
-                                                <p><input type="text" placeholder="Ej: Pérez" id="apellido" name="apellido" required></p>
+                                                <p><input type="text" placeholder="Ex: Dos Santos" id="apellido" name="apellido" required></p>
                                                 <p><b>Rut</b></p>
-                                                <p><input type="text" placeholder="Ej: 22.222.222-2" id="rut" name="rut" required></p>
+                                                <p><input type="text" placeholder="Ex: 000.000.006-00" id="" name="rut" required></p>
                                                 <p><b>Correo Electrónico</b></p>
-                                                <p><input type="email" placeholder="Ej: juan@mail.com" id="email" name="email" required></p>
-                                                <p><b>Número de télefono/celular</b></p>
-                                                <p><input type="tel" placeholder="Ej: (+56) 922222222" id="fono" name="fono" required></p>
-                                                <p><b>Fecha de ingreso</b></p>
+                                                <p><input type="email" placeholder="Ex: rafael@mail.com" id="email" name="email" required></p>
+                                                <p><b>Número de teléfono / celular</b></p>
+                                                <p><input type="tel" placeholder="Ex: +5511900000000" id="fono" name="fono" required></p>
+												<p><b>Fecha de ingreso</b></p>
                                                 <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_ing" name="fecha_ing"required></p>
                                                 <p><b>Fecha de salida</b></p>
                                                 <p><input type="date" min="<?php echo $fechaActual;?>" id="fecha_sal" name="fecha_sal"required></p>
@@ -201,8 +201,8 @@ $fechaActual = date('Y-m-d');
                                                 <p><b>Cantidad de adultos</b></p>
                                                 <p><input type="number" placeholder="Cantidad de adultos" value="1" min="1" id="c_adultos" name="c_adultos" required></p>
                                                 <p><b>Cantidad de niños (opcional)</b></p>
-                                                <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_ninios" name="c_ninios"></p>
-												<input type="submit" class="boxed-btn black" value="Enviar solicitud">
+                                                <p><input type="number" placeholder="Cantidad de niños" value="0" min="0" id="c_niños" name="c_niños"></p>
+												<input type="submit" class="boxed-btn black" value="Enviar pedido">
                                             </form>
                                             
                                         </div>
@@ -220,5 +220,8 @@ $fechaActual = date('Y-m-d');
         </div>
     </main>
 	<!-- end reservas section -->
+	<?php
+        echo "<div class='ibe' data-region='emea' data-channelcode='tumunanlodgedirect' data-query-locale='es' data-query-currency='CLP' data-widget='embed'></div>";
+    ?>
 
 <?php  include("includes/footer.php");?>
