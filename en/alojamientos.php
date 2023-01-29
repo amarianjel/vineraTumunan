@@ -239,7 +239,7 @@ require '../config/config.php';
                     <div>
                         <p class="justificar-inicio">We have been working hard to reconfigure Tumuñan Lodge to be able to welcome guests in a hygienic and safe manner. Monthly rentals are just one way to rent one of our 3 fully self-catering cabins equipped.
                         </p>
-                        <a type="button" class="buttonR" href="formReservas.php">
+                        <a type="button" class="buttonR" href="https://direct-book.com/properties/tumunanlodgedirect ">
                             <div class="row">
                                 <div class="col-5 icono">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 76.8 79" enable-background="new 0 0 76.8 79" xml:space="preserve">
